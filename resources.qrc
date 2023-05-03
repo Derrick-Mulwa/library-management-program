@@ -1,0 +1,22 @@
+<RCC>
+  <qresource prefix="images">
+    <file>images/lec.jpg</file>
+    <file>images/signup.jpg</file>
+    <file>images/background.jpg</file>
+    <file>images/login.jpg</file>
+  </qresource>
+  <qresource prefix="icons">
+    <file>icons/icons8-deadline-64.png</file>
+    <file>icons/icons8-mine-96.png</file>
+    <file>icons/icons8-stopwatch-96.png</file>
+    <file>icons/icons8-search-480.png</file>
+    <file>icons/icons8-overdue-64.png</file>
+    <file>icons/icons8-lecturer-64.png</file>
+    <file>icons/icons8-give-book-64.png</file>
+    <file>icons/icons8-return-book-100.png</file>
+    <file>icons/icons8-books-100.png</file>
+    <file>icons/books.png</file>
+    <file>icons/students.png</file>
+    <file>icons/user.png</file>
+  </qresource>
+</RCC>
