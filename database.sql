@@ -174,8 +174,8 @@ lecturers VARCHAR(2000));
 
 INSERT INTO student_details VALUES
 ('johnouko@students.jkuat.ac.ke', 'Diploma in Information Technology', 'Margeret Chebet, Pius Muiru'),
-('nyaokewinnie@students.jkuat.ac.ke', 'BSc Marine Engineering', 'Pius Muiru, Agnes Njururi, Alex Simiyu'),
-('bridgit.mwagudza@students.jkuat.ac.ke', 'Diploma in Computer Science', 'Agnes Njururi, Alex Simiyu, Margeret Chebet');
+('nyaokewinnie@students.jkuat.ac.ke', 'Diploma in Information Technology', 'Pius Muiru, Agnes Njururi, Alex Simiyu'),
+('bridgit.mwagudza@students.jkuat.ac.ke', 'BSc Mechatronics Engineering', 'Agnes Njururi, Alex Simiyu, Margeret Chebet');
 
 CREATE TABLE lecturer_details(
 email VARCHAR(100) PRIMARY KEY,
@@ -186,5 +186,68 @@ INSERT INTO lecturer_details VALUES
 ('muiru.pius@jkuat.ac.ke', 'BSc Information Technology, BSc Land Resource Planning and Management,BSc Landscape Architecture,Diploma in Information Technology,Diploma in Computer Science,Diploma in Food Science and Technology'),
 ('alex.simiyu@jkuat.ac.ke', 'BSc Manufacturing Engineering,BSc Marine Engineering,BSc Information Technology,BSc Mathematics,BSc Mechanical Engineering,Diploma in Information Technology,Diploma in Computer Science,Diploma in Food Science and Technology'),
 ('margeretchebet@jkuat.ac.ke', 'BSc Information Technology,BSc Land Resource Planning and Management,Diploma in Information Technology,Diploma in Computer Science,Diploma in Food Science and Technology');
+
+CREATE TABLE borrow_request(
+borrow_id INT PRIMARY KEY AUTO_INCREMENT,
+borrower VARCHAR(100),
+book_id INT,
+ISBN_NO VARCHAR(100),
+book_name VARCHAR(200),
+edition VARCHAR(100),
+author VARCHAR(200),
+publisher VARCHAR(200),
+date_published DATE,
+book_type VARCHAR(100), 
+borrow_or_return VARCHAR(100));
+
+CREATE TABLE return_request(
+return_id INT PRIMARY KEY AUTO_INCREMENT,
+user_email VARCHAR(100),
+issue_id INT,
+ISBN_NO VARCHAR(100),
+book_name VARCHAR(200),
+date_issued DATE,
+expected_return_date DATE,
+issue_status VARCHAR(100),
+penalty DECIMAL(8,2));
+
+
+CREATE TABLE lec_reading_list_names(
+list_ID INT PRIMARY KEY AUTO_INCREMENT,
+lec_email VARCHAR(100),
+course VARCHAR(100),
+list_name VARCHAR(100));
+
+INSERT INTO lec_reading_list_names(lec_email, course, list_name) VALUES
+('agnesnjururi@jkuat.ac.ke', 'Diploma in Information Technology', 'Master Programming'),
+('alex.simiyu@jkuat.ac.ke', 'Diploma in Information Technology', 'Understanding History'),
+('agnesnjururi@jkuat.ac.ke', 'BSc Mechatronics Engineering', 'Master Programming'),
+('muiru.pius@jkuat.ac.ke', 'Diploma in Information Technology', 'Black History'),
+('muiru.pius@jkuat.ac.ke', 'Diploma in Information Technology', 'Enhance Creativity');
+
+
+CREATE TABLE reading_list(
+list_id INT PRIMARY KEY AUTO_INCREMENT,
+course VARCHAR(100),
+list_name VARCHAR(100),
+ISBN_NO VARCHAR(30),
+book_name VARCHAR(1000),
+edition VARCHAR(100),
+author VARCHAR(200),
+lecturer_name VARCHAR(100),
+lecturer_email VARCHAR(100));
+
+INSERT INTO reading_list(course, list_name, ISBN_NO, book_name, edition, author,  lecturer_name, lecturer_email) VALUES
+('Diploma in Information Technology', 'Master Programming', '9780263263102', 'Communicating with Data', 'First Edition', 'Carl Allchin', 'Agnes Njururi', 'agnesnjururi@jkuat.ac.ke'),
+('Diploma in Information Technology', 'Master Programming', '9780262542463', 'Technology in World Civilization', 'Revised And Expanded Edition', 'Arnold Pacey and Francesca Bray', 'Agnes Njururi', 'agnesnjururi@jkuat.ac.ke'),
+('Diploma in Information Technology', 'Master Programming', '9780262539968', 'Technology & Society', 'Second Edition', 'Deborah G. Johnson and Jameson M. Wetmore', 'Agnes Njururi', 'agnesnjururi@jkuat.ac.ke'),
+('Diploma in Information Technology', 'Understanding History', '9400243670361', 'The Autobiography of Malcolm X', 'First Edition', 'Malcolm X, Alex Haley', 'Alex Simiyu', 'alex.simiyu@jkuat.ac.ke'),
+('Diploma in Information Technology', 'Understanding History', '9400243698894', 'I Am Malala: How One Girl Stood Up for Education and Changed the World', 'First Edition', 'Malala Yousafzai, Christina Lamb', 'Alex Simiyu', 'alex.simiyu@jkuat.ac.ke'),
+('BSc Mechatronics Engineering', 'Master Programming', '9780263263102', 'Communicating with Data', 'First Edition', 'Carl Allchin', 'Agnes Njururi', 'agnesnjururi@jkuat.ac.ke'),
+('BSc Mechatronics Engineering', 'Master Programming', '9780263263102', 'Communicating with Data', 'First Edition', 'Carl Allchin', 'Agnes Njururi', 'agnesnjururi@jkuat.ac.ke'),
+('Diploma in Information Technology', 'Enhance Creativity', '9780262542463', 'Technology in World Civilization', 'Revised And Expanded Edition', 'Arnold Pacey and Francesca Bray', 'Pius Muiru', 'muiru.pius@jkuat.ac.ke'),
+('Diploma in Information Technology', 'Enhance Creativity', '9780571230563', 'Tales from Firozsha Baag', 'Main Edition', 'Rohinton Mistry', 'Pius Muiru', 'muiru.pius@jkuat.ac.ke'),
+('Diploma in Information Technology', 'Black History', '9400243670361', 'The Autobiography of Malcolm X', 'First Edition', 'Malcolm X, Alex Haley', 'Pius Muiru', 'muiru.pius@jkuat.ac.ke'),
+('Diploma in Information Technology', 'Black History', '9400243698894', 'I Am Malala: How One Girl Stood Up for Education and Changed the World', 'First Edition', 'Malala Yousafzai, Christina Lamb', 'Pius Muiru', 'muiru.pius@jkuat.ac.ke');
 
 

@@ -16,18 +16,33 @@ db = mysql.connector.connect(
 
 mycursor = db.cursor()
 
-lecs = 'Agnes Njururi,Agnes Njururi,Margeret Chebet,Pius Muiru,Agnes Njururi,Margeret Chebet,'
+mycursor.execute('SELECT * FROM library.issued_books WHERE issue_id = 3;')
+data = [i for i in mycursor][0]
+user = data[3]
+state = data[-2]
 
-lecs = lecs[:-1]
+issue_id = data[0]
+isbn = data[1]
+book_name = data[2]
+issue_date = data[5]
+return_date = data[6]
+status = data[-3]
+penalty = data[-1]
 
-l = lecs.split(',')
 
-l = list(set(l))
+print(status)
 
-x = ''
-for i in l:
-    x += f'{i},'
 
-l = x[:-1]
-print(len(9781478611318))
+
+
+
+
+
+
+
+
+
+
+
+
 
