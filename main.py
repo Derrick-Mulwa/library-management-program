@@ -256,6 +256,28 @@ class Ui_Form(object):
         self.pushButton_9.setObjectName("pushButton_9")
         self.verticalLayout_6.addWidget(self.pushButton_9)
         self.verticalLayout_5.addWidget(self.frame_8)
+        self.pushButton_39 = QtWidgets.QPushButton(self.frame_5)
+        self.pushButton_39.setMinimumSize(QtCore.QSize(201, 35))
+        self.pushButton_39.setMaximumSize(QtCore.QSize(201, 35))
+        font = QtGui.QFont()
+        font.setFamily("Nova Flat")
+        font.setPointSize(10)
+        self.pushButton_39.setFont(font)
+        self.pushButton_39.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.pushButton_39.setStyleSheet("background-color: transparent;")
+        self.pushButton_39.setObjectName("pushButton_39")
+        self.verticalLayout_5.addWidget(self.pushButton_39)
+        self.pushButton_41 = QtWidgets.QPushButton(self.frame_5)
+        self.pushButton_41.setMinimumSize(QtCore.QSize(201, 35))
+        self.pushButton_41.setMaximumSize(QtCore.QSize(201, 35))
+        font = QtGui.QFont()
+        font.setFamily("Nova Flat")
+        font.setPointSize(10)
+        self.pushButton_41.setFont(font)
+        self.pushButton_41.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.pushButton_41.setStyleSheet("background-color: transparent;")
+        self.pushButton_41.setObjectName("pushButton_41")
+        self.verticalLayout_5.addWidget(self.pushButton_41)
         self.frame_9 = QtWidgets.QFrame(self.frame_5)
         self.frame_9.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.frame_9.setFrameShadow(QtWidgets.QFrame.Raised)
@@ -1034,7 +1056,7 @@ class Ui_Form(object):
         self.frame_59.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frame_59.setObjectName("frame_59")
         self.lineEdit_9 = QtWidgets.QLineEdit(self.frame_59)
-        self.lineEdit_9.setGeometry(QtCore.QRect(100, 37, 191, 31))
+        self.lineEdit_9.setGeometry(QtCore.QRect(20, 37, 271, 31))
         font = QtGui.QFont()
         font.setPointSize(9)
         self.lineEdit_9.setFont(font)
@@ -1096,7 +1118,8 @@ class Ui_Form(object):
         self.verticalLayout_28.setObjectName("verticalLayout_28")
         self.frame_63 = QtWidgets.QFrame(self.frame_62)
         self.frame_63.setMaximumSize(QtCore.QSize(16777215, 60))
-        self.frame_63.setStyleSheet("color: rgb(202, 202, 202);")
+        self.frame_63.setStyleSheet("color: rgb(202, 202, 202);\n"
+"background-color: rgb(35, 35, 35);")
         self.frame_63.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.frame_63.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frame_63.setObjectName("frame_63")
@@ -1428,6 +1451,325 @@ class Ui_Form(object):
         self.verticalLayout_33.addWidget(self.frame_83)
         self.verticalLayout_32.addWidget(self.frame_82)
         self.stackedWidget_2.addWidget(self.page_9)
+        self.page_19 = QtWidgets.QWidget()
+        self.page_19.setObjectName("page_19")
+        self.verticalLayout_65 = QtWidgets.QVBoxLayout(self.page_19)
+        self.verticalLayout_65.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout_65.setSpacing(0)
+        self.verticalLayout_65.setObjectName("verticalLayout_65")
+        self.frame_104 = QtWidgets.QFrame(self.page_19)
+        self.frame_104.setStyleSheet("background-color: rgb(85, 85, 85);")
+        self.frame_104.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_104.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_104.setObjectName("frame_104")
+        self.verticalLayout_63 = QtWidgets.QVBoxLayout(self.frame_104)
+        self.verticalLayout_63.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout_63.setSpacing(0)
+        self.verticalLayout_63.setObjectName("verticalLayout_63")
+        self.frame_105 = QtWidgets.QFrame(self.frame_104)
+        self.frame_105.setMaximumSize(QtCore.QSize(16777215, 60))
+        self.frame_105.setStyleSheet("background-color: rgb(29, 29, 29);\n"
+"color: rgb(202, 202, 202);")
+        self.frame_105.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_105.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_105.setObjectName("frame_105")
+        self.horizontalLayout_44 = QtWidgets.QHBoxLayout(self.frame_105)
+        self.horizontalLayout_44.setObjectName("horizontalLayout_44")
+        self.label_65 = QtWidgets.QLabel(self.frame_105)
+        font = QtGui.QFont()
+        font.setFamily("Nova Flat")
+        font.setPointSize(20)
+        self.label_65.setFont(font)
+        self.label_65.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_65.setObjectName("label_65")
+        self.horizontalLayout_44.addWidget(self.label_65)
+        self.verticalLayout_63.addWidget(self.frame_105)
+        self.frame_106 = QtWidgets.QFrame(self.frame_104)
+        self.frame_106.setStyleSheet("")
+        self.frame_106.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_106.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_106.setObjectName("frame_106")
+        self.verticalLayout_64 = QtWidgets.QVBoxLayout(self.frame_106)
+        self.verticalLayout_64.setObjectName("verticalLayout_64")
+        self.frame_107 = QtWidgets.QFrame(self.frame_106)
+        self.frame_107.setMinimumSize(QtCore.QSize(0, 150))
+        self.frame_107.setMaximumSize(QtCore.QSize(16777215, 150))
+        self.frame_107.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_107.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_107.setObjectName("frame_107")
+        self.horizontalLayout_45 = QtWidgets.QHBoxLayout(self.frame_107)
+        self.horizontalLayout_45.setObjectName("horizontalLayout_45")
+        self.frame_108 = QtWidgets.QFrame(self.frame_107)
+        self.frame_108.setMinimumSize(QtCore.QSize(300, 0))
+        self.frame_108.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_108.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_108.setObjectName("frame_108")
+        self.label_66 = QtWidgets.QLabel(self.frame_108)
+        self.label_66.setGeometry(QtCore.QRect(0, -2, 261, 31))
+        font = QtGui.QFont()
+        font.setFamily("Nova Flat")
+        font.setPointSize(12)
+        self.label_66.setFont(font)
+        self.label_66.setStyleSheet("border-radius:7px;\n"
+"background: none;\n"
+"")
+        self.label_66.setText("")
+        self.label_66.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_66.setObjectName("label_66")
+        self.label_67 = QtWidgets.QLabel(self.frame_108)
+        self.label_67.setGeometry(QtCore.QRect(40, 20, 241, 21))
+        font = QtGui.QFont()
+        font.setFamily("Nova Flat")
+        font.setPointSize(12)
+        self.label_67.setFont(font)
+        self.label_67.setStyleSheet("border-radius:7px;\n"
+"background: none;\n"
+"")
+        self.label_67.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_67.setObjectName("label_67")
+        self.pushButton_42 = QtWidgets.QPushButton(self.frame_108)
+        self.pushButton_42.setGeometry(QtCore.QRect(170, 90, 111, 31))
+        font = QtGui.QFont()
+        font.setPointSize(11)
+        self.pushButton_42.setFont(font)
+        self.pushButton_42.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.pushButton_42.setStyleSheet("background-color: rgb(255, 0, 0);\n"
+"border-radius:5px")
+        self.pushButton_42.setObjectName("pushButton_42")
+        self.lineEdit_34 = QtWidgets.QLineEdit(self.frame_108)
+        self.lineEdit_34.setGeometry(QtCore.QRect(50, 50, 231, 31))
+        self.lineEdit_34.setStyleSheet("border: 1.1px solid black;\n"
+"padding-left: 10 px;\n"
+"border-radius:5px\n"
+"")
+        self.lineEdit_34.setEchoMode(QtWidgets.QLineEdit.Normal)
+        self.lineEdit_34.setObjectName("lineEdit_34")
+        self.pushButton_44 = QtWidgets.QPushButton(self.frame_108)
+        self.pushButton_44.setGeometry(QtCore.QRect(50, 90, 91, 31))
+        font = QtGui.QFont()
+        font.setPointSize(11)
+        self.pushButton_44.setFont(font)
+        self.pushButton_44.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.pushButton_44.setStyleSheet("background-color: rgb(85, 170, 0);\n"
+"border-radius:5px")
+        self.pushButton_44.setObjectName("pushButton_44")
+        self.horizontalLayout_45.addWidget(self.frame_108)
+        self.frame_109 = QtWidgets.QFrame(self.frame_107)
+        self.frame_109.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_109.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_109.setObjectName("frame_109")
+        self.horizontalLayout_46 = QtWidgets.QHBoxLayout(self.frame_109)
+        self.horizontalLayout_46.setObjectName("horizontalLayout_46")
+        self.horizontalLayout_45.addWidget(self.frame_109)
+        self.frame_149 = QtWidgets.QFrame(self.frame_107)
+        self.frame_149.setMinimumSize(QtCore.QSize(350, 0))
+        self.frame_149.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_149.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_149.setObjectName("frame_149")
+        self.lineEdit_36 = QtWidgets.QLineEdit(self.frame_149)
+        self.lineEdit_36.setGeometry(QtCore.QRect(40, 57, 201, 31))
+        self.lineEdit_36.setStyleSheet("border: 1.1px solid black;\n"
+"padding-left: 10 px;\n"
+"border-radius:5px\n"
+"")
+        self.lineEdit_36.setEchoMode(QtWidgets.QLineEdit.Normal)
+        self.lineEdit_36.setObjectName("lineEdit_36")
+        self.pushButton_43 = QtWidgets.QPushButton(self.frame_149)
+        self.pushButton_43.setGeometry(QtCore.QRect(250, 50, 51, 41))
+        self.pushButton_43.setStyleSheet("background-color: transparent")
+        self.pushButton_43.setText("")
+        self.pushButton_43.setIcon(icon)
+        self.pushButton_43.setIconSize(QtCore.QSize(40, 41))
+        self.pushButton_43.setObjectName("pushButton_43")
+        self.horizontalLayout_45.addWidget(self.frame_149)
+        self.verticalLayout_64.addWidget(self.frame_107)
+        self.frame_150 = QtWidgets.QFrame(self.frame_106)
+        self.frame_150.setStyleSheet("")
+        self.frame_150.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_150.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_150.setObjectName("frame_150")
+        self.horizontalLayout_63 = QtWidgets.QHBoxLayout(self.frame_150)
+        self.horizontalLayout_63.setObjectName("horizontalLayout_63")
+        self.tableWidget_10 = QtWidgets.QTableWidget(self.frame_150)
+        self.tableWidget_10.setMaximumSize(QtCore.QSize(700, 300))
+        self.tableWidget_10.setAlternatingRowColors(True)
+        self.tableWidget_10.setRowCount(10)
+        self.tableWidget_10.setColumnCount(7)
+        self.tableWidget_10.setObjectName("tableWidget_10")
+        self.horizontalLayout_63.addWidget(self.tableWidget_10)
+        self.verticalLayout_64.addWidget(self.frame_150)
+        self.verticalLayout_63.addWidget(self.frame_106)
+        self.frame_151 = QtWidgets.QFrame(self.frame_104)
+        self.frame_151.setMaximumSize(QtCore.QSize(16777205, 50))
+        self.frame_151.setStyleSheet("background-color: rgb(115, 115, 115);")
+        self.frame_151.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_151.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_151.setObjectName("frame_151")
+        self.verticalLayout_63.addWidget(self.frame_151)
+        self.verticalLayout_65.addWidget(self.frame_104)
+        self.stackedWidget_2.addWidget(self.page_19)
+        self.page_20 = QtWidgets.QWidget()
+        self.page_20.setObjectName("page_20")
+        self.verticalLayout_68 = QtWidgets.QVBoxLayout(self.page_20)
+        self.verticalLayout_68.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout_68.setSpacing(0)
+        self.verticalLayout_68.setObjectName("verticalLayout_68")
+        self.frame_152 = QtWidgets.QFrame(self.page_20)
+        self.frame_152.setStyleSheet("background-color: rgb(85, 85, 85);")
+        self.frame_152.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_152.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_152.setObjectName("frame_152")
+        self.verticalLayout_66 = QtWidgets.QVBoxLayout(self.frame_152)
+        self.verticalLayout_66.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout_66.setSpacing(0)
+        self.verticalLayout_66.setObjectName("verticalLayout_66")
+        self.frame_153 = QtWidgets.QFrame(self.frame_152)
+        self.frame_153.setMaximumSize(QtCore.QSize(16777215, 60))
+        self.frame_153.setStyleSheet("background-color: rgb(29, 29, 29);\n"
+"color: rgb(202, 202, 202);")
+        self.frame_153.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_153.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_153.setObjectName("frame_153")
+        self.horizontalLayout_64 = QtWidgets.QHBoxLayout(self.frame_153)
+        self.horizontalLayout_64.setObjectName("horizontalLayout_64")
+        self.label_68 = QtWidgets.QLabel(self.frame_153)
+        font = QtGui.QFont()
+        font.setFamily("Nova Flat")
+        font.setPointSize(20)
+        self.label_68.setFont(font)
+        self.label_68.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_68.setObjectName("label_68")
+        self.horizontalLayout_64.addWidget(self.label_68)
+        self.verticalLayout_66.addWidget(self.frame_153)
+        self.frame_154 = QtWidgets.QFrame(self.frame_152)
+        self.frame_154.setStyleSheet("")
+        self.frame_154.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_154.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_154.setObjectName("frame_154")
+        self.verticalLayout_67 = QtWidgets.QVBoxLayout(self.frame_154)
+        self.verticalLayout_67.setObjectName("verticalLayout_67")
+        self.frame_155 = QtWidgets.QFrame(self.frame_154)
+        self.frame_155.setMinimumSize(QtCore.QSize(0, 150))
+        self.frame_155.setMaximumSize(QtCore.QSize(16777215, 150))
+        self.frame_155.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_155.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_155.setObjectName("frame_155")
+        self.horizontalLayout_65 = QtWidgets.QHBoxLayout(self.frame_155)
+        self.horizontalLayout_65.setObjectName("horizontalLayout_65")
+        self.frame_156 = QtWidgets.QFrame(self.frame_155)
+        self.frame_156.setMinimumSize(QtCore.QSize(300, 0))
+        self.frame_156.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_156.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_156.setObjectName("frame_156")
+        self.label_69 = QtWidgets.QLabel(self.frame_156)
+        self.label_69.setGeometry(QtCore.QRect(0, -2, 261, 31))
+        font = QtGui.QFont()
+        font.setFamily("Nova Flat")
+        font.setPointSize(12)
+        self.label_69.setFont(font)
+        self.label_69.setStyleSheet("border-radius:7px;\n"
+"background: none;\n"
+"")
+        self.label_69.setText("")
+        self.label_69.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_69.setObjectName("label_69")
+        self.label_70 = QtWidgets.QLabel(self.frame_156)
+        self.label_70.setGeometry(QtCore.QRect(40, 20, 241, 21))
+        font = QtGui.QFont()
+        font.setFamily("Nova Flat")
+        font.setPointSize(12)
+        self.label_70.setFont(font)
+        self.label_70.setStyleSheet("border-radius:7px;\n"
+"background: none;\n"
+"")
+        self.label_70.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_70.setObjectName("label_70")
+        self.pushButton_45 = QtWidgets.QPushButton(self.frame_156)
+        self.pushButton_45.setGeometry(QtCore.QRect(160, 90, 121, 31))
+        font = QtGui.QFont()
+        font.setFamily("Nova Flat")
+        font.setPointSize(10)
+        self.pushButton_45.setFont(font)
+        self.pushButton_45.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.pushButton_45.setStyleSheet("background-color: rgb(255, 0, 0);\n"
+"border-radius:5px")
+        self.pushButton_45.setObjectName("pushButton_45")
+        self.lineEdit_37 = QtWidgets.QLineEdit(self.frame_156)
+        self.lineEdit_37.setGeometry(QtCore.QRect(50, 50, 231, 31))
+        self.lineEdit_37.setStyleSheet("border: 1.1px solid black;\n"
+"padding-left: 10 px;\n"
+"border-radius:5px\n"
+"")
+        self.lineEdit_37.setEchoMode(QtWidgets.QLineEdit.Normal)
+        self.lineEdit_37.setObjectName("lineEdit_37")
+        self.pushButton_46 = QtWidgets.QPushButton(self.frame_156)
+        self.pushButton_46.setGeometry(QtCore.QRect(50, 90, 101, 31))
+        font = QtGui.QFont()
+        font.setFamily("Nova Flat")
+        font.setPointSize(10)
+        self.pushButton_46.setFont(font)
+        self.pushButton_46.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.pushButton_46.setStyleSheet("background-color: rgb(85, 170, 0);\n"
+"border-radius:5px")
+        self.pushButton_46.setObjectName("pushButton_46")
+        self.horizontalLayout_65.addWidget(self.frame_156)
+        self.frame_157 = QtWidgets.QFrame(self.frame_155)
+        self.frame_157.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_157.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_157.setObjectName("frame_157")
+        self.horizontalLayout_66 = QtWidgets.QHBoxLayout(self.frame_157)
+        self.horizontalLayout_66.setObjectName("horizontalLayout_66")
+        self.horizontalLayout_65.addWidget(self.frame_157)
+        self.frame_158 = QtWidgets.QFrame(self.frame_155)
+        self.frame_158.setMinimumSize(QtCore.QSize(350, 0))
+        self.frame_158.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_158.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_158.setObjectName("frame_158")
+        self.lineEdit_38 = QtWidgets.QLineEdit(self.frame_158)
+        self.lineEdit_38.setGeometry(QtCore.QRect(40, 57, 201, 31))
+        self.lineEdit_38.setStyleSheet("border: 1.1px solid black;\n"
+"padding-left: 10 px;\n"
+"border-radius:5px\n"
+"")
+        self.lineEdit_38.setEchoMode(QtWidgets.QLineEdit.Normal)
+        self.lineEdit_38.setObjectName("lineEdit_38")
+        self.pushButton_47 = QtWidgets.QPushButton(self.frame_158)
+        self.pushButton_47.setGeometry(QtCore.QRect(250, 50, 51, 41))
+        self.pushButton_47.setStyleSheet("background-color: transparent")
+        self.pushButton_47.setText("")
+        self.pushButton_47.setIcon(icon)
+        self.pushButton_47.setIconSize(QtCore.QSize(40, 41))
+        self.pushButton_47.setObjectName("pushButton_47")
+        self.horizontalLayout_65.addWidget(self.frame_158)
+        self.verticalLayout_67.addWidget(self.frame_155)
+        self.frame_159 = QtWidgets.QFrame(self.frame_154)
+        self.frame_159.setStyleSheet("")
+        self.frame_159.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_159.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_159.setObjectName("frame_159")
+        self.horizontalLayout_67 = QtWidgets.QHBoxLayout(self.frame_159)
+        self.horizontalLayout_67.setObjectName("horizontalLayout_67")
+        self.tableWidget_11 = QtWidgets.QTableWidget(self.frame_159)
+        self.tableWidget_11.setMaximumSize(QtCore.QSize(700, 300))
+        self.tableWidget_11.setAlternatingRowColors(True)
+        self.tableWidget_11.setRowCount(10)
+        self.tableWidget_11.setColumnCount(7)
+        self.tableWidget_11.setObjectName("tableWidget_11")
+        self.horizontalLayout_67.addWidget(self.tableWidget_11)
+        self.verticalLayout_67.addWidget(self.frame_159)
+        self.verticalLayout_66.addWidget(self.frame_154)
+        self.frame_160 = QtWidgets.QFrame(self.frame_152)
+        self.frame_160.setMaximumSize(QtCore.QSize(16777205, 50))
+        self.frame_160.setStyleSheet("background-color: rgb(115, 115, 115);")
+        self.frame_160.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_160.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_160.setObjectName("frame_160")
+        self.verticalLayout_66.addWidget(self.frame_160)
+        self.verticalLayout_68.addWidget(self.frame_152)
+        self.stackedWidget_2.addWidget(self.page_20)
+        self.page_21 = QtWidgets.QWidget()
+        self.page_21.setObjectName("page_21")
+        self.stackedWidget_2.addWidget(self.page_21)
         self.verticalLayout_8.addWidget(self.stackedWidget_2)
         self.horizontalLayout_2.addWidget(self.frame_6)
         self.verticalLayout_4.addWidget(self.frame_4)
@@ -2412,7 +2754,7 @@ class Ui_Form(object):
         self.frame_126.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frame_126.setObjectName("frame_126")
         self.lineEdit_30 = QtWidgets.QLineEdit(self.frame_126)
-        self.lineEdit_30.setGeometry(QtCore.QRect(80, 27, 201, 31))
+        self.lineEdit_30.setGeometry(QtCore.QRect(30, 27, 251, 31))
         self.lineEdit_30.setStyleSheet("border: 1.1px solid black;\n"
 "padding-left: 10 px;\n"
 "border-radius:5px\n"
@@ -2492,7 +2834,7 @@ class Ui_Form(object):
         self.verticalLayout_56 = QtWidgets.QVBoxLayout(self.frame_128)
         self.verticalLayout_56.setObjectName("verticalLayout_56")
         self.frame_129 = QtWidgets.QFrame(self.frame_128)
-        self.frame_129.setMinimumSize(QtCore.QSize(0, 107))
+        self.frame_129.setMinimumSize(QtCore.QSize(0, 129))
         self.frame_129.setMaximumSize(QtCore.QSize(16777215, 100))
         self.frame_129.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.frame_129.setFrameShadow(QtWidgets.QFrame.Raised)
@@ -2504,7 +2846,7 @@ class Ui_Form(object):
         self.frame_130.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frame_130.setObjectName("frame_130")
         self.lineEdit_31 = QtWidgets.QLineEdit(self.frame_130)
-        self.lineEdit_31.setGeometry(QtCore.QRect(50, 27, 201, 31))
+        self.lineEdit_31.setGeometry(QtCore.QRect(10, 30, 151, 31))
         self.lineEdit_31.setStyleSheet("border: 1.1px solid black;\n"
 "padding-left: 10 px;\n"
 "border-radius:5px\n"
@@ -2512,7 +2854,7 @@ class Ui_Form(object):
         self.lineEdit_31.setEchoMode(QtWidgets.QLineEdit.Normal)
         self.lineEdit_31.setObjectName("lineEdit_31")
         self.pushButton_36 = QtWidgets.QPushButton(self.frame_130)
-        self.pushButton_36.setGeometry(QtCore.QRect(270, 27, 121, 31))
+        self.pushButton_36.setGeometry(QtCore.QRect(130, 70, 121, 31))
         font = QtGui.QFont()
         font.setPointSize(11)
         self.pushButton_36.setFont(font)
@@ -2520,6 +2862,35 @@ class Ui_Form(object):
         self.pushButton_36.setStyleSheet("background-color: rgb(0, 166, 0);\n"
 "border-radius:5px")
         self.pushButton_36.setObjectName("pushButton_36")
+        self.dateEdit_2 = QtWidgets.QDateEdit(self.frame_130)
+        self.dateEdit_2.setGeometry(QtCore.QRect(189, 30, 161, 31))
+        font = QtGui.QFont()
+        font.setFamily("Nova Flat")
+        font.setPointSize(10)
+        font.setBold(False)
+        font.setWeight(50)
+        self.dateEdit_2.setFont(font)
+        self.dateEdit_2.setStyleSheet("border: 1.1px solid black;\n"
+"padding-left: 5 px;\n"
+"border-radius:5px\n"
+"")
+        self.dateEdit_2.setObjectName("dateEdit_2")
+        self.label_88 = QtWidgets.QLabel(self.frame_130)
+        self.label_88.setGeometry(QtCore.QRect(0, 0, 161, 31))
+        font = QtGui.QFont()
+        font.setFamily("Nova Flat")
+        font.setPointSize(10)
+        self.label_88.setFont(font)
+        self.label_88.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_88.setObjectName("label_88")
+        self.label_89 = QtWidgets.QLabel(self.frame_130)
+        self.label_89.setGeometry(QtCore.QRect(180, 0, 171, 31))
+        font = QtGui.QFont()
+        font.setFamily("Nova Flat")
+        font.setPointSize(11)
+        self.label_89.setFont(font)
+        self.label_89.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_89.setObjectName("label_89")
         self.horizontalLayout_55.addWidget(self.frame_130)
         self.frame_131 = QtWidgets.QFrame(self.frame_129)
         self.frame_131.setMinimumSize(QtCore.QSize(300, 0))
@@ -2740,7 +3111,7 @@ class Ui_Form(object):
         self.frame_147.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frame_147.setObjectName("frame_147")
         self.lineEdit_35 = QtWidgets.QLineEdit(self.frame_147)
-        self.lineEdit_35.setGeometry(QtCore.QRect(90, 37, 201, 31))
+        self.lineEdit_35.setGeometry(QtCore.QRect(10, 37, 281, 31))
         self.lineEdit_35.setStyleSheet("border: 1.1px solid black;\n"
 "padding-left: 10 px;\n"
 "border-radius:5px\n"
@@ -2780,6 +3151,848 @@ class Ui_Form(object):
         self.verticalLayout_37.addWidget(self.stackedWidget_3)
         self.horizontalLayout_38.addWidget(self.frame_92)
         self.stackedWidget.addWidget(self.page_12)
+        self.page_22 = QtWidgets.QWidget()
+        self.page_22.setObjectName("page_22")
+        self.horizontalLayout_89 = QtWidgets.QHBoxLayout(self.page_22)
+        self.horizontalLayout_89.setContentsMargins(0, 0, 0, 0)
+        self.horizontalLayout_89.setSpacing(0)
+        self.horizontalLayout_89.setObjectName("horizontalLayout_89")
+        self.frame_161 = QtWidgets.QFrame(self.page_22)
+        self.frame_161.setMaximumSize(QtCore.QSize(200, 16777215))
+        self.frame_161.setStyleSheet("background-color: rgb(29, 29, 29);\n"
+"color: rgb(231, 231, 231);")
+        self.frame_161.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_161.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_161.setObjectName("frame_161")
+        self.verticalLayout_69 = QtWidgets.QVBoxLayout(self.frame_161)
+        self.verticalLayout_69.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout_69.setSpacing(0)
+        self.verticalLayout_69.setObjectName("verticalLayout_69")
+        self.frame_162 = QtWidgets.QFrame(self.frame_161)
+        self.frame_162.setMaximumSize(QtCore.QSize(16777215, 60))
+        self.frame_162.setStyleSheet("background-color: rgb(115, 115, 115);")
+        self.frame_162.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_162.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_162.setObjectName("frame_162")
+        self.label_81 = QtWidgets.QLabel(self.frame_162)
+        self.label_81.setGeometry(QtCore.QRect(70, 0, 131, 61))
+        font = QtGui.QFont()
+        font.setFamily("Nova Flat")
+        font.setPointSize(13)
+        self.label_81.setFont(font)
+        self.label_81.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_81.setObjectName("label_81")
+        self.label_82 = QtWidgets.QLabel(self.frame_162)
+        self.label_82.setGeometry(QtCore.QRect(10, 4, 52, 51))
+        self.label_82.setText("")
+        self.label_82.setPixmap(QtGui.QPixmap(":/icons/icons/user.png"))
+        self.label_82.setScaledContents(True)
+        self.label_82.setObjectName("label_82")
+        self.verticalLayout_69.addWidget(self.frame_162)
+        self.frame_163 = QtWidgets.QFrame(self.frame_161)
+        font = QtGui.QFont()
+        font.setFamily("Nova Flat")
+        self.frame_163.setFont(font)
+        self.frame_163.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_163.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_163.setObjectName("frame_163")
+        self.verticalLayout_70 = QtWidgets.QVBoxLayout(self.frame_163)
+        self.verticalLayout_70.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout_70.setSpacing(7)
+        self.verticalLayout_70.setObjectName("verticalLayout_70")
+        self.pushButton_48 = QtWidgets.QPushButton(self.frame_163)
+        self.pushButton_48.setMinimumSize(QtCore.QSize(201, 35))
+        self.pushButton_48.setMaximumSize(QtCore.QSize(201, 35))
+        font = QtGui.QFont()
+        font.setFamily("Nova Flat")
+        font.setPointSize(10)
+        self.pushButton_48.setFont(font)
+        self.pushButton_48.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.pushButton_48.setStyleSheet("background-color: transparent;")
+        self.pushButton_48.setText("")
+        self.pushButton_48.setObjectName("pushButton_48")
+        self.verticalLayout_70.addWidget(self.pushButton_48)
+        self.pushButton_49 = QtWidgets.QPushButton(self.frame_163)
+        self.pushButton_49.setMinimumSize(QtCore.QSize(201, 35))
+        self.pushButton_49.setMaximumSize(QtCore.QSize(201, 35))
+        font = QtGui.QFont()
+        font.setFamily("Nova Flat")
+        font.setPointSize(10)
+        self.pushButton_49.setFont(font)
+        self.pushButton_49.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.pushButton_49.setStyleSheet("background-color: transparent;")
+        self.pushButton_49.setObjectName("pushButton_49")
+        self.verticalLayout_70.addWidget(self.pushButton_49)
+        self.pushButton_50 = QtWidgets.QPushButton(self.frame_163)
+        self.pushButton_50.setMinimumSize(QtCore.QSize(201, 35))
+        self.pushButton_50.setMaximumSize(QtCore.QSize(201, 35))
+        font = QtGui.QFont()
+        font.setFamily("Nova Flat")
+        font.setPointSize(10)
+        self.pushButton_50.setFont(font)
+        self.pushButton_50.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.pushButton_50.setStyleSheet("background-color: transparent;")
+        self.pushButton_50.setObjectName("pushButton_50")
+        self.verticalLayout_70.addWidget(self.pushButton_50)
+        self.pushButton_51 = QtWidgets.QPushButton(self.frame_163)
+        self.pushButton_51.setMinimumSize(QtCore.QSize(201, 35))
+        self.pushButton_51.setMaximumSize(QtCore.QSize(201, 35))
+        font = QtGui.QFont()
+        font.setFamily("Nova Flat")
+        font.setPointSize(10)
+        self.pushButton_51.setFont(font)
+        self.pushButton_51.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.pushButton_51.setStyleSheet("background-color: transparent;")
+        self.pushButton_51.setObjectName("pushButton_51")
+        self.verticalLayout_70.addWidget(self.pushButton_51)
+        self.verticalLayout_69.addWidget(self.frame_163)
+        self.frame_164 = QtWidgets.QFrame(self.frame_161)
+        self.frame_164.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_164.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_164.setObjectName("frame_164")
+        self.verticalLayout_71 = QtWidgets.QVBoxLayout(self.frame_164)
+        self.verticalLayout_71.setObjectName("verticalLayout_71")
+        self.pushButton_54 = QtWidgets.QPushButton(self.frame_164)
+        self.pushButton_54.setMinimumSize(QtCore.QSize(0, 35))
+        self.pushButton_54.setMaximumSize(QtCore.QSize(201, 35))
+        font = QtGui.QFont()
+        font.setFamily("Nova Flat")
+        font.setPointSize(10)
+        self.pushButton_54.setFont(font)
+        self.pushButton_54.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.pushButton_54.setStyleSheet("background-color: rgb(185, 0, 0);\n"
+"border-radius:4px")
+        self.pushButton_54.setObjectName("pushButton_54")
+        self.verticalLayout_71.addWidget(self.pushButton_54, 0, QtCore.Qt.AlignBottom)
+        self.verticalLayout_69.addWidget(self.frame_164, 0, QtCore.Qt.AlignBottom)
+        self.horizontalLayout_89.addWidget(self.frame_161)
+        self.frame_165 = QtWidgets.QFrame(self.page_22)
+        self.frame_165.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_165.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_165.setObjectName("frame_165")
+        self.verticalLayout_72 = QtWidgets.QVBoxLayout(self.frame_165)
+        self.verticalLayout_72.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout_72.setSpacing(0)
+        self.verticalLayout_72.setObjectName("verticalLayout_72")
+        self.stackedWidget_4 = QtWidgets.QStackedWidget(self.frame_165)
+        self.stackedWidget_4.setObjectName("stackedWidget_4")
+        self.page_23 = QtWidgets.QWidget()
+        self.page_23.setObjectName("page_23")
+        self.verticalLayout_73 = QtWidgets.QVBoxLayout(self.page_23)
+        self.verticalLayout_73.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout_73.setSpacing(0)
+        self.verticalLayout_73.setObjectName("verticalLayout_73")
+        self.frame_166 = QtWidgets.QFrame(self.page_23)
+        self.frame_166.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_166.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_166.setObjectName("frame_166")
+        self.verticalLayout_74 = QtWidgets.QVBoxLayout(self.frame_166)
+        self.verticalLayout_74.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout_74.setSpacing(0)
+        self.verticalLayout_74.setObjectName("verticalLayout_74")
+        self.frame_167 = QtWidgets.QFrame(self.frame_166)
+        self.frame_167.setMaximumSize(QtCore.QSize(16777215, 60))
+        self.frame_167.setStyleSheet("background-color: rgb(115, 115, 115);")
+        self.frame_167.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_167.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_167.setObjectName("frame_167")
+        self.horizontalLayout_68 = QtWidgets.QHBoxLayout(self.frame_167)
+        self.horizontalLayout_68.setObjectName("horizontalLayout_68")
+        self.label_83 = QtWidgets.QLabel(self.frame_167)
+        font = QtGui.QFont()
+        font.setFamily("Nova Flat")
+        font.setPointSize(20)
+        self.label_83.setFont(font)
+        self.label_83.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_83.setObjectName("label_83")
+        self.horizontalLayout_68.addWidget(self.label_83)
+        self.verticalLayout_74.addWidget(self.frame_167)
+        self.frame_168 = QtWidgets.QFrame(self.frame_166)
+        self.frame_168.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_168.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_168.setObjectName("frame_168")
+        self.verticalLayout_75 = QtWidgets.QVBoxLayout(self.frame_168)
+        self.verticalLayout_75.setObjectName("verticalLayout_75")
+        self.frame_169 = QtWidgets.QFrame(self.frame_168)
+        self.frame_169.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_169.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_169.setObjectName("frame_169")
+        self.horizontalLayout_69 = QtWidgets.QHBoxLayout(self.frame_169)
+        self.horizontalLayout_69.setObjectName("horizontalLayout_69")
+        self.frame_170 = QtWidgets.QFrame(self.frame_169)
+        self.frame_170.setMinimumSize(QtCore.QSize(261, 121))
+        self.frame_170.setMaximumSize(QtCore.QSize(400, 200))
+        self.frame_170.setStyleSheet("background-color: rgb(106, 106, 106);\n"
+"border-radius:5px")
+        self.frame_170.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_170.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_170.setObjectName("frame_170")
+        self.horizontalLayout_70 = QtWidgets.QHBoxLayout(self.frame_170)
+        self.horizontalLayout_70.setContentsMargins(0, 0, 0, 0)
+        self.horizontalLayout_70.setSpacing(0)
+        self.horizontalLayout_70.setObjectName("horizontalLayout_70")
+        self.frame_171 = QtWidgets.QFrame(self.frame_170)
+        self.frame_171.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_171.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_171.setObjectName("frame_171")
+        self.verticalLayout_76 = QtWidgets.QVBoxLayout(self.frame_171)
+        self.verticalLayout_76.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout_76.setSpacing(0)
+        self.verticalLayout_76.setObjectName("verticalLayout_76")
+        self.label_84 = QtWidgets.QLabel(self.frame_171)
+        self.label_84.setStyleSheet("padding: 4px")
+        self.label_84.setText("")
+        self.label_84.setPixmap(QtGui.QPixmap(":/icons/icons/icons8-classroom-100.png"))
+        self.label_84.setScaledContents(True)
+        self.label_84.setObjectName("label_84")
+        self.verticalLayout_76.addWidget(self.label_84)
+        self.horizontalLayout_70.addWidget(self.frame_171)
+        self.label_85 = QtWidgets.QLabel(self.frame_170)
+        font = QtGui.QFont()
+        font.setFamily("Nova Flat")
+        font.setPointSize(16)
+        self.label_85.setFont(font)
+        self.label_85.setStyleSheet("color: rgb(49, 49, 49);\n"
+"background-color: rgb(209, 209, 0);")
+        self.label_85.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_85.setObjectName("label_85")
+        self.horizontalLayout_70.addWidget(self.label_85)
+        self.horizontalLayout_69.addWidget(self.frame_170)
+        self.frame_172 = QtWidgets.QFrame(self.frame_169)
+        self.frame_172.setMinimumSize(QtCore.QSize(261, 121))
+        self.frame_172.setMaximumSize(QtCore.QSize(400, 200))
+        self.frame_172.setStyleSheet("background-color: rgb(106, 106, 106);\n"
+"border-radius:5px")
+        self.frame_172.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_172.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_172.setObjectName("frame_172")
+        self.horizontalLayout_71 = QtWidgets.QHBoxLayout(self.frame_172)
+        self.horizontalLayout_71.setContentsMargins(0, 0, 0, 0)
+        self.horizontalLayout_71.setSpacing(0)
+        self.horizontalLayout_71.setObjectName("horizontalLayout_71")
+        self.frame_173 = QtWidgets.QFrame(self.frame_172)
+        self.frame_173.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_173.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_173.setObjectName("frame_173")
+        self.verticalLayout_77 = QtWidgets.QVBoxLayout(self.frame_173)
+        self.verticalLayout_77.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout_77.setSpacing(0)
+        self.verticalLayout_77.setObjectName("verticalLayout_77")
+        self.label_86 = QtWidgets.QLabel(self.frame_173)
+        self.label_86.setText("")
+        self.label_86.setPixmap(QtGui.QPixmap(":/icons/icons/icons8-teacher-96.png"))
+        self.label_86.setScaledContents(True)
+        self.label_86.setObjectName("label_86")
+        self.verticalLayout_77.addWidget(self.label_86)
+        self.horizontalLayout_71.addWidget(self.frame_173)
+        self.label_87 = QtWidgets.QLabel(self.frame_172)
+        font = QtGui.QFont()
+        font.setFamily("Nova Flat")
+        font.setPointSize(16)
+        self.label_87.setFont(font)
+        self.label_87.setStyleSheet("background-color: rgb(21, 194, 12);\n"
+"color: rgb(14, 13, 26);")
+        self.label_87.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_87.setObjectName("label_87")
+        self.horizontalLayout_71.addWidget(self.label_87)
+        self.horizontalLayout_69.addWidget(self.frame_172)
+        self.verticalLayout_75.addWidget(self.frame_169)
+        self.frame_176 = QtWidgets.QFrame(self.frame_168)
+        self.frame_176.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_176.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_176.setObjectName("frame_176")
+        self.horizontalLayout_73 = QtWidgets.QHBoxLayout(self.frame_176)
+        self.horizontalLayout_73.setObjectName("horizontalLayout_73")
+        self.frame_177 = QtWidgets.QFrame(self.frame_176)
+        self.frame_177.setMinimumSize(QtCore.QSize(261, 121))
+        self.frame_177.setMaximumSize(QtCore.QSize(400, 200))
+        self.frame_177.setStyleSheet("background-color: rgb(106, 106, 106);\n"
+"border-radius:5px")
+        self.frame_177.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_177.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_177.setObjectName("frame_177")
+        self.horizontalLayout_74 = QtWidgets.QHBoxLayout(self.frame_177)
+        self.horizontalLayout_74.setContentsMargins(0, 0, 0, 0)
+        self.horizontalLayout_74.setSpacing(0)
+        self.horizontalLayout_74.setObjectName("horizontalLayout_74")
+        self.frame_178 = QtWidgets.QFrame(self.frame_177)
+        self.frame_178.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_178.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_178.setObjectName("frame_178")
+        self.verticalLayout_79 = QtWidgets.QVBoxLayout(self.frame_178)
+        self.verticalLayout_79.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout_79.setSpacing(0)
+        self.verticalLayout_79.setObjectName("verticalLayout_79")
+        self.label_90 = QtWidgets.QLabel(self.frame_178)
+        self.label_90.setStyleSheet("background-color: rgb(153, 153, 153);")
+        self.label_90.setText("")
+        self.label_90.setPixmap(QtGui.QPixmap(":/icons/icons/icons8-books-100.png"))
+        self.label_90.setScaledContents(True)
+        self.label_90.setObjectName("label_90")
+        self.verticalLayout_79.addWidget(self.label_90)
+        self.horizontalLayout_74.addWidget(self.frame_178)
+        self.label_91 = QtWidgets.QLabel(self.frame_177)
+        font = QtGui.QFont()
+        font.setFamily("Nova Flat")
+        font.setPointSize(16)
+        self.label_91.setFont(font)
+        self.label_91.setStyleSheet("color: rgb(49, 49, 49);\n"
+"background-color:rgb(170, 255, 127)")
+        self.label_91.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_91.setObjectName("label_91")
+        self.horizontalLayout_74.addWidget(self.label_91)
+        self.horizontalLayout_73.addWidget(self.frame_177)
+        self.frame_181 = QtWidgets.QFrame(self.frame_176)
+        self.frame_181.setMinimumSize(QtCore.QSize(261, 121))
+        self.frame_181.setMaximumSize(QtCore.QSize(400, 200))
+        self.frame_181.setStyleSheet("background-color: rgb(106, 106, 106);\n"
+"border-radius:5px")
+        self.frame_181.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_181.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_181.setObjectName("frame_181")
+        self.horizontalLayout_76 = QtWidgets.QHBoxLayout(self.frame_181)
+        self.horizontalLayout_76.setContentsMargins(0, 0, 0, 0)
+        self.horizontalLayout_76.setSpacing(0)
+        self.horizontalLayout_76.setObjectName("horizontalLayout_76")
+        self.frame_182 = QtWidgets.QFrame(self.frame_181)
+        self.frame_182.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_182.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_182.setObjectName("frame_182")
+        self.verticalLayout_81 = QtWidgets.QVBoxLayout(self.frame_182)
+        self.verticalLayout_81.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout_81.setSpacing(0)
+        self.verticalLayout_81.setObjectName("verticalLayout_81")
+        self.label_94 = QtWidgets.QLabel(self.frame_182)
+        self.label_94.setText("")
+        self.label_94.setPixmap(QtGui.QPixmap(":/icons/icons/icons8-check-book-100.png"))
+        self.label_94.setScaledContents(True)
+        self.label_94.setObjectName("label_94")
+        self.verticalLayout_81.addWidget(self.label_94)
+        self.horizontalLayout_76.addWidget(self.frame_182)
+        self.label_95 = QtWidgets.QLabel(self.frame_181)
+        font = QtGui.QFont()
+        font.setFamily("Nova Flat")
+        font.setPointSize(16)
+        self.label_95.setFont(font)
+        self.label_95.setStyleSheet("background-color: rgb(127, 63, 0);\n"
+"color: rgb(212, 212, 212);")
+        self.label_95.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_95.setObjectName("label_95")
+        self.horizontalLayout_76.addWidget(self.label_95)
+        self.horizontalLayout_73.addWidget(self.frame_181)
+        self.verticalLayout_75.addWidget(self.frame_176)
+        self.frame_183 = QtWidgets.QFrame(self.frame_168)
+        self.frame_183.setMaximumSize(QtCore.QSize(16777205, 50))
+        self.frame_183.setStyleSheet("background-color: rgb(115, 115, 115);")
+        self.frame_183.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_183.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_183.setObjectName("frame_183")
+        self.verticalLayout_75.addWidget(self.frame_183)
+        self.verticalLayout_74.addWidget(self.frame_168)
+        self.verticalLayout_73.addWidget(self.frame_166)
+        self.stackedWidget_4.addWidget(self.page_23)
+        self.page_24 = QtWidgets.QWidget()
+        self.page_24.setObjectName("page_24")
+        self.verticalLayout_82 = QtWidgets.QVBoxLayout(self.page_24)
+        self.verticalLayout_82.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout_82.setSpacing(0)
+        self.verticalLayout_82.setObjectName("verticalLayout_82")
+        self.frame_184 = QtWidgets.QFrame(self.page_24)
+        self.frame_184.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_184.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_184.setObjectName("frame_184")
+        self.verticalLayout_83 = QtWidgets.QVBoxLayout(self.frame_184)
+        self.verticalLayout_83.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout_83.setSpacing(0)
+        self.verticalLayout_83.setObjectName("verticalLayout_83")
+        self.frame_185 = QtWidgets.QFrame(self.frame_184)
+        self.frame_185.setMaximumSize(QtCore.QSize(16777215, 60))
+        self.frame_185.setStyleSheet("background-color: rgb(115, 115, 115);")
+        self.frame_185.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_185.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_185.setObjectName("frame_185")
+        self.horizontalLayout_77 = QtWidgets.QHBoxLayout(self.frame_185)
+        self.horizontalLayout_77.setObjectName("horizontalLayout_77")
+        self.label_96 = QtWidgets.QLabel(self.frame_185)
+        font = QtGui.QFont()
+        font.setFamily("Nova Flat")
+        font.setPointSize(20)
+        self.label_96.setFont(font)
+        self.label_96.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_96.setObjectName("label_96")
+        self.horizontalLayout_77.addWidget(self.label_96)
+        self.verticalLayout_83.addWidget(self.frame_185)
+        self.frame_186 = QtWidgets.QFrame(self.frame_184)
+        self.frame_186.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_186.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_186.setObjectName("frame_186")
+        self.verticalLayout_84 = QtWidgets.QVBoxLayout(self.frame_186)
+        self.verticalLayout_84.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout_84.setSpacing(0)
+        self.verticalLayout_84.setObjectName("verticalLayout_84")
+        self.frame_187 = QtWidgets.QFrame(self.frame_186)
+        self.frame_187.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_187.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_187.setObjectName("frame_187")
+        self.verticalLayout_85 = QtWidgets.QVBoxLayout(self.frame_187)
+        self.verticalLayout_85.setObjectName("verticalLayout_85")
+        self.frame_188 = QtWidgets.QFrame(self.frame_187)
+        self.frame_188.setMinimumSize(QtCore.QSize(0, 107))
+        self.frame_188.setMaximumSize(QtCore.QSize(16777215, 100))
+        self.frame_188.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_188.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_188.setObjectName("frame_188")
+        self.horizontalLayout_78 = QtWidgets.QHBoxLayout(self.frame_188)
+        self.horizontalLayout_78.setObjectName("horizontalLayout_78")
+        self.frame_189 = QtWidgets.QFrame(self.frame_188)
+        self.frame_189.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_189.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_189.setObjectName("frame_189")
+        self.horizontalLayout_78.addWidget(self.frame_189)
+        self.frame_190 = QtWidgets.QFrame(self.frame_188)
+        self.frame_190.setMinimumSize(QtCore.QSize(300, 0))
+        self.frame_190.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_190.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_190.setObjectName("frame_190")
+        self.lineEdit_39 = QtWidgets.QLineEdit(self.frame_190)
+        self.lineEdit_39.setGeometry(QtCore.QRect(30, 27, 251, 31))
+        self.lineEdit_39.setStyleSheet("border: 1.1px solid black;\n"
+"padding-left: 10 px;\n"
+"border-radius:5px\n"
+"")
+        self.lineEdit_39.setEchoMode(QtWidgets.QLineEdit.Normal)
+        self.lineEdit_39.setObjectName("lineEdit_39")
+        self.pushButton_52 = QtWidgets.QPushButton(self.frame_190)
+        self.pushButton_52.setGeometry(QtCore.QRect(280, 20, 51, 41))
+        self.pushButton_52.setStyleSheet("background-color: transparent")
+        self.pushButton_52.setText("")
+        self.pushButton_52.setIcon(icon)
+        self.pushButton_52.setIconSize(QtCore.QSize(40, 41))
+        self.pushButton_52.setObjectName("pushButton_52")
+        self.horizontalLayout_78.addWidget(self.frame_190)
+        self.verticalLayout_85.addWidget(self.frame_188)
+        self.frame_191 = QtWidgets.QFrame(self.frame_187)
+        self.frame_191.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_191.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_191.setObjectName("frame_191")
+        self.horizontalLayout_79 = QtWidgets.QHBoxLayout(self.frame_191)
+        self.horizontalLayout_79.setObjectName("horizontalLayout_79")
+        self.tableWidget_12 = QtWidgets.QTableWidget(self.frame_191)
+        self.tableWidget_12.setMaximumSize(QtCore.QSize(700, 300))
+        self.tableWidget_12.setAlternatingRowColors(True)
+        self.tableWidget_12.setRowCount(10)
+        self.tableWidget_12.setColumnCount(7)
+        self.tableWidget_12.setObjectName("tableWidget_12")
+        self.horizontalLayout_79.addWidget(self.tableWidget_12)
+        self.verticalLayout_85.addWidget(self.frame_191)
+        self.verticalLayout_84.addWidget(self.frame_187)
+        self.verticalLayout_83.addWidget(self.frame_186)
+        self.verticalLayout_82.addWidget(self.frame_184)
+        self.stackedWidget_4.addWidget(self.page_24)
+        self.page_25 = QtWidgets.QWidget()
+        self.page_25.setObjectName("page_25")
+        self.verticalLayout_86 = QtWidgets.QVBoxLayout(self.page_25)
+        self.verticalLayout_86.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout_86.setSpacing(0)
+        self.verticalLayout_86.setObjectName("verticalLayout_86")
+        self.frame_192 = QtWidgets.QFrame(self.page_25)
+        self.frame_192.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_192.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_192.setObjectName("frame_192")
+        self.verticalLayout_87 = QtWidgets.QVBoxLayout(self.frame_192)
+        self.verticalLayout_87.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout_87.setSpacing(0)
+        self.verticalLayout_87.setObjectName("verticalLayout_87")
+        self.frame_193 = QtWidgets.QFrame(self.frame_192)
+        self.frame_193.setMaximumSize(QtCore.QSize(16777215, 60))
+        self.frame_193.setStyleSheet("background-color: rgb(115, 115, 115);")
+        self.frame_193.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_193.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_193.setObjectName("frame_193")
+        self.horizontalLayout_80 = QtWidgets.QHBoxLayout(self.frame_193)
+        self.horizontalLayout_80.setObjectName("horizontalLayout_80")
+        self.label_97 = QtWidgets.QLabel(self.frame_193)
+        font = QtGui.QFont()
+        font.setFamily("Nova Flat")
+        font.setPointSize(20)
+        self.label_97.setFont(font)
+        self.label_97.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_97.setObjectName("label_97")
+        self.horizontalLayout_80.addWidget(self.label_97)
+        self.verticalLayout_87.addWidget(self.frame_193)
+        self.frame_194 = QtWidgets.QFrame(self.frame_192)
+        self.frame_194.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_194.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_194.setObjectName("frame_194")
+        self.verticalLayout_88 = QtWidgets.QVBoxLayout(self.frame_194)
+        self.verticalLayout_88.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout_88.setSpacing(0)
+        self.verticalLayout_88.setObjectName("verticalLayout_88")
+        self.frame_195 = QtWidgets.QFrame(self.frame_194)
+        self.frame_195.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_195.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_195.setObjectName("frame_195")
+        self.verticalLayout_89 = QtWidgets.QVBoxLayout(self.frame_195)
+        self.verticalLayout_89.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout_89.setSpacing(0)
+        self.verticalLayout_89.setObjectName("verticalLayout_89")
+        self.frame_196 = QtWidgets.QFrame(self.frame_195)
+        self.frame_196.setMinimumSize(QtCore.QSize(0, 171))
+        self.frame_196.setMaximumSize(QtCore.QSize(16777215, 100))
+        self.frame_196.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_196.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_196.setObjectName("frame_196")
+        self.horizontalLayout_81 = QtWidgets.QHBoxLayout(self.frame_196)
+        self.horizontalLayout_81.setObjectName("horizontalLayout_81")
+        self.frame_197 = QtWidgets.QFrame(self.frame_196)
+        self.frame_197.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_197.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_197.setObjectName("frame_197")
+        self.lineEdit_40 = QtWidgets.QLineEdit(self.frame_197)
+        self.lineEdit_40.setGeometry(QtCore.QRect(20, 30, 201, 31))
+        self.lineEdit_40.setStyleSheet("border: 1.1px solid black;\n"
+"padding-left: 10 px;\n"
+"border-radius:5px\n"
+"")
+        self.lineEdit_40.setEchoMode(QtWidgets.QLineEdit.Normal)
+        self.lineEdit_40.setObjectName("lineEdit_40")
+        self.pushButton_53 = QtWidgets.QPushButton(self.frame_197)
+        self.pushButton_53.setGeometry(QtCore.QRect(20, 110, 201, 31))
+        font = QtGui.QFont()
+        font.setPointSize(11)
+        self.pushButton_53.setFont(font)
+        self.pushButton_53.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.pushButton_53.setStyleSheet("background-color: rgb(0, 166, 0);\n"
+"border-radius:5px")
+        self.pushButton_53.setObjectName("pushButton_53")
+        self.comboBox_4 = QtWidgets.QComboBox(self.frame_197)
+        self.comboBox_4.setGeometry(QtCore.QRect(20, 70, 201, 31))
+        font = QtGui.QFont()
+        font.setPointSize(8)
+        self.comboBox_4.setFont(font)
+        self.comboBox_4.setStyleSheet("border: 1.1px solid black;\n"
+"padding-left: 10 px;\n"
+"border-radius:5px\n"
+"")
+        self.comboBox_4.setObjectName("comboBox_4")
+        self.comboBox_4.addItem("")
+        self.label_100 = QtWidgets.QLabel(self.frame_197)
+        self.label_100.setGeometry(QtCore.QRect(0, 0, 251, 31))
+        font = QtGui.QFont()
+        font.setFamily("Nova Flat")
+        font.setPointSize(14)
+        self.label_100.setFont(font)
+        self.label_100.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_100.setObjectName("label_100")
+        self.horizontalLayout_81.addWidget(self.frame_197)
+        self.frame_174 = QtWidgets.QFrame(self.frame_196)
+        self.frame_174.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_174.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_174.setObjectName("frame_174")
+        self.lineEdit_41 = QtWidgets.QLineEdit(self.frame_174)
+        self.lineEdit_41.setGeometry(QtCore.QRect(10, 70, 181, 31))
+        self.lineEdit_41.setStyleSheet("border: 1.1px solid black;\n"
+"padding-left: 10 px;\n"
+"border-radius:5px\n"
+"")
+        self.lineEdit_41.setEchoMode(QtWidgets.QLineEdit.Normal)
+        self.lineEdit_41.setObjectName("lineEdit_41")
+        self.pushButton_55 = QtWidgets.QPushButton(self.frame_174)
+        self.pushButton_55.setGeometry(QtCore.QRect(200, 70, 51, 31))
+        self.pushButton_55.setStyleSheet("background-color: transparent")
+        self.pushButton_55.setText("")
+        self.pushButton_55.setIcon(icon)
+        self.pushButton_55.setIconSize(QtCore.QSize(40, 41))
+        self.pushButton_55.setObjectName("pushButton_55")
+        self.label_102 = QtWidgets.QLabel(self.frame_174)
+        self.label_102.setGeometry(QtCore.QRect(-10, 30, 251, 21))
+        font = QtGui.QFont()
+        font.setFamily("Nova Flat")
+        font.setPointSize(14)
+        self.label_102.setFont(font)
+        self.label_102.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_102.setObjectName("label_102")
+        self.horizontalLayout_81.addWidget(self.frame_174)
+        self.frame_198 = QtWidgets.QFrame(self.frame_196)
+        self.frame_198.setMinimumSize(QtCore.QSize(300, 0))
+        self.frame_198.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_198.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_198.setObjectName("frame_198")
+        self.lineEdit_45 = QtWidgets.QLineEdit(self.frame_198)
+        self.lineEdit_45.setGeometry(QtCore.QRect(40, 30, 201, 31))
+        self.lineEdit_45.setStyleSheet("border: 1.1px solid black;\n"
+"padding-left: 10 px;\n"
+"border-radius:5px\n"
+"")
+        self.lineEdit_45.setEchoMode(QtWidgets.QLineEdit.Normal)
+        self.lineEdit_45.setObjectName("lineEdit_45")
+        self.label_101 = QtWidgets.QLabel(self.frame_198)
+        self.label_101.setGeometry(QtCore.QRect(10, 0, 251, 31))
+        font = QtGui.QFont()
+        font.setFamily("Nova Flat")
+        font.setPointSize(14)
+        self.label_101.setFont(font)
+        self.label_101.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_101.setObjectName("label_101")
+        self.comboBox_5 = QtWidgets.QComboBox(self.frame_198)
+        self.comboBox_5.setGeometry(QtCore.QRect(40, 70, 201, 31))
+        font = QtGui.QFont()
+        font.setPointSize(8)
+        self.comboBox_5.setFont(font)
+        self.comboBox_5.setStyleSheet("border: 1.1px solid black;\n"
+"padding-left: 10 px;\n"
+"border-radius:5px\n"
+"")
+        self.comboBox_5.setObjectName("comboBox_5")
+        self.comboBox_5.addItem("")
+        self.pushButton_59 = QtWidgets.QPushButton(self.frame_198)
+        self.pushButton_59.setGeometry(QtCore.QRect(20, 110, 241, 41))
+        font = QtGui.QFont()
+        font.setPointSize(11)
+        self.pushButton_59.setFont(font)
+        self.pushButton_59.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.pushButton_59.setStyleSheet("background-color: rgb(0, 166, 0);\n"
+"border-radius:5px")
+        self.pushButton_59.setObjectName("pushButton_59")
+        self.horizontalLayout_81.addWidget(self.frame_198)
+        self.verticalLayout_89.addWidget(self.frame_196)
+        self.frame_199 = QtWidgets.QFrame(self.frame_195)
+        self.frame_199.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_199.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_199.setObjectName("frame_199")
+        self.horizontalLayout_82 = QtWidgets.QHBoxLayout(self.frame_199)
+        self.horizontalLayout_82.setObjectName("horizontalLayout_82")
+        self.tableWidget_13 = QtWidgets.QTableWidget(self.frame_199)
+        self.tableWidget_13.setMaximumSize(QtCore.QSize(700, 200))
+        self.tableWidget_13.setAlternatingRowColors(True)
+        self.tableWidget_13.setRowCount(10)
+        self.tableWidget_13.setColumnCount(7)
+        self.tableWidget_13.setObjectName("tableWidget_13")
+        self.horizontalLayout_82.addWidget(self.tableWidget_13)
+        self.verticalLayout_89.addWidget(self.frame_199)
+        self.verticalLayout_88.addWidget(self.frame_195)
+        self.verticalLayout_87.addWidget(self.frame_194)
+        self.verticalLayout_86.addWidget(self.frame_192)
+        self.stackedWidget_4.addWidget(self.page_25)
+        self.page_26 = QtWidgets.QWidget()
+        self.page_26.setObjectName("page_26")
+        self.verticalLayout_90 = QtWidgets.QVBoxLayout(self.page_26)
+        self.verticalLayout_90.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout_90.setSpacing(0)
+        self.verticalLayout_90.setObjectName("verticalLayout_90")
+        self.frame_200 = QtWidgets.QFrame(self.page_26)
+        self.frame_200.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_200.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_200.setObjectName("frame_200")
+        self.verticalLayout_91 = QtWidgets.QVBoxLayout(self.frame_200)
+        self.verticalLayout_91.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout_91.setSpacing(0)
+        self.verticalLayout_91.setObjectName("verticalLayout_91")
+        self.frame_201 = QtWidgets.QFrame(self.frame_200)
+        self.frame_201.setMaximumSize(QtCore.QSize(16777215, 60))
+        self.frame_201.setStyleSheet("background-color: rgb(115, 115, 115);")
+        self.frame_201.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_201.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_201.setObjectName("frame_201")
+        self.horizontalLayout_83 = QtWidgets.QHBoxLayout(self.frame_201)
+        self.horizontalLayout_83.setObjectName("horizontalLayout_83")
+        self.label_98 = QtWidgets.QLabel(self.frame_201)
+        font = QtGui.QFont()
+        font.setFamily("Nova Flat")
+        font.setPointSize(20)
+        self.label_98.setFont(font)
+        self.label_98.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_98.setObjectName("label_98")
+        self.horizontalLayout_83.addWidget(self.label_98)
+        self.verticalLayout_91.addWidget(self.frame_201)
+        self.frame_202 = QtWidgets.QFrame(self.frame_200)
+        self.frame_202.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_202.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_202.setObjectName("frame_202")
+        self.verticalLayout_92 = QtWidgets.QVBoxLayout(self.frame_202)
+        self.verticalLayout_92.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout_92.setSpacing(0)
+        self.verticalLayout_92.setObjectName("verticalLayout_92")
+        self.frame_203 = QtWidgets.QFrame(self.frame_202)
+        self.frame_203.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_203.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_203.setObjectName("frame_203")
+        self.verticalLayout_93 = QtWidgets.QVBoxLayout(self.frame_203)
+        self.verticalLayout_93.setObjectName("verticalLayout_93")
+        self.frame_204 = QtWidgets.QFrame(self.frame_203)
+        self.frame_204.setMinimumSize(QtCore.QSize(0, 107))
+        self.frame_204.setMaximumSize(QtCore.QSize(16777215, 100))
+        self.frame_204.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_204.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_204.setObjectName("frame_204")
+        self.horizontalLayout_84 = QtWidgets.QHBoxLayout(self.frame_204)
+        self.horizontalLayout_84.setObjectName("horizontalLayout_84")
+        self.frame_205 = QtWidgets.QFrame(self.frame_204)
+        self.frame_205.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_205.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_205.setObjectName("frame_205")
+        self.lineEdit_42 = QtWidgets.QLineEdit(self.frame_205)
+        self.lineEdit_42.setGeometry(QtCore.QRect(50, 27, 171, 31))
+        self.lineEdit_42.setStyleSheet("border: 1.1px solid black;\n"
+"padding-left: 10 px;\n"
+"border-radius:5px\n"
+"")
+        self.lineEdit_42.setEchoMode(QtWidgets.QLineEdit.Normal)
+        self.lineEdit_42.setObjectName("lineEdit_42")
+        self.pushButton_56 = QtWidgets.QPushButton(self.frame_205)
+        self.pushButton_56.setGeometry(QtCore.QRect(230, 27, 121, 31))
+        font = QtGui.QFont()
+        font.setPointSize(11)
+        self.pushButton_56.setFont(font)
+        self.pushButton_56.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.pushButton_56.setStyleSheet("background-color: rgb(0, 166, 0);\n"
+"border-radius:5px")
+        self.pushButton_56.setObjectName("pushButton_56")
+        self.horizontalLayout_84.addWidget(self.frame_205)
+        self.frame_206 = QtWidgets.QFrame(self.frame_204)
+        self.frame_206.setMinimumSize(QtCore.QSize(300, 0))
+        self.frame_206.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_206.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_206.setObjectName("frame_206")
+        self.lineEdit_43 = QtWidgets.QLineEdit(self.frame_206)
+        self.lineEdit_43.setGeometry(QtCore.QRect(80, 27, 201, 31))
+        self.lineEdit_43.setStyleSheet("border: 1.1px solid black;\n"
+"padding-left: 10 px;\n"
+"border-radius:5px\n"
+"")
+        self.lineEdit_43.setEchoMode(QtWidgets.QLineEdit.Normal)
+        self.lineEdit_43.setObjectName("lineEdit_43")
+        self.pushButton_57 = QtWidgets.QPushButton(self.frame_206)
+        self.pushButton_57.setGeometry(QtCore.QRect(280, 20, 51, 41))
+        self.pushButton_57.setStyleSheet("background-color: transparent")
+        self.pushButton_57.setText("")
+        self.pushButton_57.setIcon(icon)
+        self.pushButton_57.setIconSize(QtCore.QSize(40, 41))
+        self.pushButton_57.setObjectName("pushButton_57")
+        self.horizontalLayout_84.addWidget(self.frame_206)
+        self.verticalLayout_93.addWidget(self.frame_204)
+        self.frame_207 = QtWidgets.QFrame(self.frame_203)
+        self.frame_207.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_207.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_207.setObjectName("frame_207")
+        self.horizontalLayout_85 = QtWidgets.QHBoxLayout(self.frame_207)
+        self.horizontalLayout_85.setObjectName("horizontalLayout_85")
+        self.tableWidget_14 = QtWidgets.QTableWidget(self.frame_207)
+        self.tableWidget_14.setMaximumSize(QtCore.QSize(700, 300))
+        self.tableWidget_14.setAlternatingRowColors(True)
+        self.tableWidget_14.setRowCount(10)
+        self.tableWidget_14.setColumnCount(7)
+        self.tableWidget_14.setObjectName("tableWidget_14")
+        self.horizontalLayout_85.addWidget(self.tableWidget_14)
+        self.verticalLayout_93.addWidget(self.frame_207)
+        self.verticalLayout_92.addWidget(self.frame_203)
+        self.verticalLayout_91.addWidget(self.frame_202)
+        self.verticalLayout_90.addWidget(self.frame_200)
+        self.stackedWidget_4.addWidget(self.page_26)
+        self.page_27 = QtWidgets.QWidget()
+        self.page_27.setObjectName("page_27")
+        self.verticalLayout_94 = QtWidgets.QVBoxLayout(self.page_27)
+        self.verticalLayout_94.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout_94.setSpacing(0)
+        self.verticalLayout_94.setObjectName("verticalLayout_94")
+        self.frame_208 = QtWidgets.QFrame(self.page_27)
+        self.frame_208.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_208.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_208.setObjectName("frame_208")
+        self.verticalLayout_95 = QtWidgets.QVBoxLayout(self.frame_208)
+        self.verticalLayout_95.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout_95.setSpacing(0)
+        self.verticalLayout_95.setObjectName("verticalLayout_95")
+        self.frame_209 = QtWidgets.QFrame(self.frame_208)
+        self.frame_209.setMaximumSize(QtCore.QSize(16777215, 60))
+        self.frame_209.setStyleSheet("background-color: rgb(115, 115, 115);")
+        self.frame_209.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_209.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_209.setObjectName("frame_209")
+        self.horizontalLayout_86 = QtWidgets.QHBoxLayout(self.frame_209)
+        self.horizontalLayout_86.setObjectName("horizontalLayout_86")
+        self.label_99 = QtWidgets.QLabel(self.frame_209)
+        font = QtGui.QFont()
+        font.setFamily("Nova Flat")
+        font.setPointSize(20)
+        self.label_99.setFont(font)
+        self.label_99.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_99.setObjectName("label_99")
+        self.horizontalLayout_86.addWidget(self.label_99)
+        self.verticalLayout_95.addWidget(self.frame_209)
+        self.frame_210 = QtWidgets.QFrame(self.frame_208)
+        self.frame_210.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_210.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_210.setObjectName("frame_210")
+        self.verticalLayout_96 = QtWidgets.QVBoxLayout(self.frame_210)
+        self.verticalLayout_96.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout_96.setSpacing(0)
+        self.verticalLayout_96.setObjectName("verticalLayout_96")
+        self.frame_211 = QtWidgets.QFrame(self.frame_210)
+        self.frame_211.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_211.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_211.setObjectName("frame_211")
+        self.verticalLayout_97 = QtWidgets.QVBoxLayout(self.frame_211)
+        self.verticalLayout_97.setObjectName("verticalLayout_97")
+        self.frame_212 = QtWidgets.QFrame(self.frame_211)
+        self.frame_212.setMinimumSize(QtCore.QSize(0, 107))
+        self.frame_212.setMaximumSize(QtCore.QSize(16777215, 100))
+        self.frame_212.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_212.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_212.setObjectName("frame_212")
+        self.horizontalLayout_87 = QtWidgets.QHBoxLayout(self.frame_212)
+        self.horizontalLayout_87.setObjectName("horizontalLayout_87")
+        self.frame_213 = QtWidgets.QFrame(self.frame_212)
+        self.frame_213.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_213.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_213.setObjectName("frame_213")
+        self.horizontalLayout_87.addWidget(self.frame_213)
+        self.frame_214 = QtWidgets.QFrame(self.frame_212)
+        self.frame_214.setMinimumSize(QtCore.QSize(300, 0))
+        self.frame_214.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_214.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_214.setObjectName("frame_214")
+        self.lineEdit_44 = QtWidgets.QLineEdit(self.frame_214)
+        self.lineEdit_44.setGeometry(QtCore.QRect(10, 37, 281, 31))
+        self.lineEdit_44.setStyleSheet("border: 1.1px solid black;\n"
+"padding-left: 10 px;\n"
+"border-radius:5px\n"
+"")
+        self.lineEdit_44.setEchoMode(QtWidgets.QLineEdit.Normal)
+        self.lineEdit_44.setObjectName("lineEdit_44")
+        self.pushButton_58 = QtWidgets.QPushButton(self.frame_214)
+        self.pushButton_58.setGeometry(QtCore.QRect(290, 30, 51, 41))
+        self.pushButton_58.setStyleSheet("background-color: transparent")
+        self.pushButton_58.setText("")
+        self.pushButton_58.setIcon(icon)
+        self.pushButton_58.setIconSize(QtCore.QSize(40, 41))
+        self.pushButton_58.setObjectName("pushButton_58")
+        self.horizontalLayout_87.addWidget(self.frame_214)
+        self.verticalLayout_97.addWidget(self.frame_212)
+        self.frame_215 = QtWidgets.QFrame(self.frame_211)
+        self.frame_215.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frame_215.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frame_215.setObjectName("frame_215")
+        self.horizontalLayout_88 = QtWidgets.QHBoxLayout(self.frame_215)
+        self.horizontalLayout_88.setObjectName("horizontalLayout_88")
+        self.tableWidget_15 = QtWidgets.QTableWidget(self.frame_215)
+        self.tableWidget_15.setMaximumSize(QtCore.QSize(700, 300))
+        self.tableWidget_15.setAlternatingRowColors(True)
+        self.tableWidget_15.setRowCount(10)
+        self.tableWidget_15.setColumnCount(7)
+        self.tableWidget_15.setObjectName("tableWidget_15")
+        self.horizontalLayout_88.addWidget(self.tableWidget_15)
+        self.verticalLayout_97.addWidget(self.frame_215)
+        self.verticalLayout_96.addWidget(self.frame_211)
+        self.verticalLayout_95.addWidget(self.frame_210)
+        self.verticalLayout_94.addWidget(self.frame_208)
+        self.stackedWidget_4.addWidget(self.page_27)
+        self.page_28 = QtWidgets.QWidget()
+        self.page_28.setObjectName("page_28")
+        self.stackedWidget_4.addWidget(self.page_28)
+        self.verticalLayout_72.addWidget(self.stackedWidget_4)
+        self.horizontalLayout_89.addWidget(self.frame_165)
+        self.stackedWidget.addWidget(self.page_22)
         self.verticalLayout_2.addWidget(self.stackedWidget)
         self.verticalLayout.addWidget(self.frame)
 
@@ -2787,6 +4000,7 @@ class Ui_Form(object):
         self.stackedWidget.setCurrentIndex(0)
         self.stackedWidget_2.setCurrentIndex(0)
         self.stackedWidget_3.setCurrentIndex(0)
+        self.stackedWidget_4.setCurrentIndex(0)
         QtCore.QMetaObject.connectSlotsByName(Form)
 
     def retranslateUi(self, Form):
@@ -2805,7 +4019,9 @@ class Ui_Form(object):
         self.pushButton_10.setText(_translate("Form", "Manage Books"))
         self.pushButton_5.setText(_translate("Form", "Issued books"))
         self.pushButton_6.setText(_translate("Form", "Returned books"))
-        self.pushButton_9.setText(_translate("Form", "Overdue books books"))
+        self.pushButton_9.setText(_translate("Form", "Overdue books"))
+        self.pushButton_39.setText(_translate("Form", "Authorize borrow request"))
+        self.pushButton_41.setText(_translate("Form", " Authorize book return"))
         self.pushButton_8.setText(_translate("Form", "Logout"))
         self.label_6.setText(_translate("Form", "LIBRARIAN DASHBOARD"))
         self.label_42.setText(_translate("Form", "500\n"
@@ -2853,24 +4069,45 @@ class Ui_Form(object):
         self.lineEdit_8.setPlaceholderText(_translate("Form", "Book name | Author | Stedent name"))
         self.pushButton_19.setShortcut(_translate("Form", "Return"))
         self.label_13.setText(_translate("Form", "RETURNED BOOKS"))
-        self.lineEdit_9.setPlaceholderText(_translate("Form", "Book name | Student Name"))
+        self.lineEdit_9.setPlaceholderText(_translate("Form", "ISBN NO | Book name | Issued to Name"))
         self.pushButton_20.setShortcut(_translate("Form", "Return"))
         self.label_15.setText(_translate("Form", "OVERDUE BOOKS"))
         self.label_17.setText(_translate("Form", "Mark book as returned"))
         self.pushButton_17.setText(_translate("Form", "Mark as returned"))
-        self.lineEdit_7.setPlaceholderText(_translate("Form", "Enter ID"))
-        self.lineEdit_10.setPlaceholderText(_translate("Form", "Book name | Student Name"))
+        self.lineEdit_7.setPlaceholderText(_translate("Form", "Enter Issue ID"))
+        self.lineEdit_10.setPlaceholderText(_translate("Form", "ISBN NO | Book name | Issued to Name"))
         self.pushButton_21.setShortcut(_translate("Form", "Return"))
         self.label_48.setText(_translate("Form", "ADD A BOOK"))
         self.label_49.setText(_translate("Form", "ISBN NUMBER"))
+        self.lineEdit_23.setPlaceholderText(_translate("Form", "9780263263102"))
         self.label_50.setText(_translate("Form", "BOOK TITLE"))
+        self.lineEdit_24.setPlaceholderText(_translate("Form", "Communicating with Data"))
         self.label_51.setText(_translate("Form", "EDITION"))
+        self.lineEdit_25.setPlaceholderText(_translate("Form", "First Edition"))
         self.label_52.setText(_translate("Form", "AUTHOR"))
+        self.lineEdit_26.setPlaceholderText(_translate("Form", "Carl Allchin"))
         self.label_53.setText(_translate("Form", "PUBLISHER"))
+        self.lineEdit_27.setPlaceholderText(_translate("Form", "The MIT Press"))
         self.label_54.setText(_translate("Form", "DATE PUBLISHED"))
         self.dateEdit.setDisplayFormat(_translate("Form", "yyyy-MMMM-dd"))
         self.label_55.setText(_translate("Form", "BOOK TYPE"))
+        self.lineEdit_29.setPlaceholderText(_translate("Form", "Non-Fiction"))
         self.pushButton_27.setText(_translate("Form", "ADD NEW BOOK"))
+        self.pushButton_27.setShortcut(_translate("Form", "Return"))
+        self.label_65.setText(_translate("Form", "AUTHORIZE BORROW REQUEST"))
+        self.label_67.setText(_translate("Form", "Authorize or decline request"))
+        self.pushButton_42.setText(_translate("Form", "Decline"))
+        self.lineEdit_34.setPlaceholderText(_translate("Form", "Enter borrow ID"))
+        self.pushButton_44.setText(_translate("Form", "Authorize"))
+        self.lineEdit_36.setPlaceholderText(_translate("Form", "Book name | Student Name"))
+        self.pushButton_43.setShortcut(_translate("Form", "Return"))
+        self.label_68.setText(_translate("Form", "Book Return Requests"))
+        self.label_70.setText(_translate("Form", "Authorize or decline request"))
+        self.pushButton_45.setText(_translate("Form", "Mark as Invalid"))
+        self.lineEdit_37.setPlaceholderText(_translate("Form", "Enter Return ID"))
+        self.pushButton_46.setText(_translate("Form", "Mark as valid"))
+        self.lineEdit_38.setPlaceholderText(_translate("Form", "Book name | Student Name"))
+        self.pushButton_47.setShortcut(_translate("Form", "Return"))
         self.pushButton_18.setText(_translate("Form", "Register"))
         self.label_18.setText(_translate("Form", "First name"))
         self.pushButton_22.setText(_translate("Form", "Back to login"))
@@ -2936,22 +4173,78 @@ class Ui_Form(object):
 "Overdue \n"
 "books"))
         self.label_77.setText(_translate("Form", "MY READING HISTORY"))
-        self.lineEdit_30.setPlaceholderText(_translate("Form", "name | User ID | Email address"))
+        self.lineEdit_30.setPlaceholderText(_translate("Form", "ISBN NO | Book Name | Status"))
+        self.pushButton_35.setShortcut(_translate("Form", "Return"))
         self.label_78.setText(_translate("Form", "BORROW A BOOK"))
-        self.lineEdit_31.setPlaceholderText(_translate("Form", "Enter user ID"))
+        self.lineEdit_31.setPlaceholderText(_translate("Form", "5"))
         self.pushButton_36.setText(_translate("Form", "Borrow book"))
-        self.lineEdit_32.setPlaceholderText(_translate("Form", "name | User ID | Email address"))
+        self.pushButton_36.setShortcut(_translate("Form", "Return"))
+        self.dateEdit_2.setDisplayFormat(_translate("Form", "yyyy MMMM dd"))
+        self.label_88.setText(_translate("Form", "Entar Book ID"))
+        self.label_89.setText(_translate("Form", "Expected return Date"))
+        self.lineEdit_32.setPlaceholderText(_translate("Form", "ISBN NO | Book Name | Author | Type"))
         self.label_79.setText(_translate("Form", "RETURN A BOOK"))
-        self.lineEdit_28.setPlaceholderText(_translate("Form", "Enter user ID"))
+        self.lineEdit_28.setPlaceholderText(_translate("Form", "Enter issue ID"))
         self.pushButton_34.setText(_translate("Form", "Return book"))
-        self.lineEdit_33.setPlaceholderText(_translate("Form", "name | User ID | Email address"))
+        self.pushButton_34.setShortcut(_translate("Form", "Return"))
+        self.lineEdit_33.setPlaceholderText(_translate("Form", "ISBN NO | Book Name | Status"))
         self.label_80.setText(_translate("Form", "READING LIST"))
-        self.lineEdit_35.setPlaceholderText(_translate("Form", "name | User ID | Email address"))
+        self.lineEdit_35.setPlaceholderText(_translate("Form", "Reading list name | Lecturers Name | Book name..."))
+        self.pushButton_40.setShortcut(_translate("Form", "Return"))
+        self.label_81.setText(_translate("Form", "Userx"))
+        self.pushButton_49.setText(_translate("Form", "Dashboard"))
+        self.pushButton_50.setText(_translate("Form", "My Students"))
+        self.pushButton_51.setText(_translate("Form", "Reading lists"))
+        self.pushButton_54.setText(_translate("Form", "Logout"))
+        self.label_83.setText(_translate("Form", "LECTURER DASHBOARD"))
+        self.label_85.setText(_translate("Form", "500\n"
+"\n"
+"Total\n"
+" Students \n"
+"lecturing"))
+        self.label_87.setText(_translate("Form", "500\n"
+"\n"
+"Total \n"
+" Courses \n"
+"lecturing"))
+        self.label_91.setText(_translate("Form", "500\n"
+"\n"
+"Books \n"
+"recommended"))
+        self.label_95.setText(_translate("Form", "500\n"
+"\n"
+" Total\n"
+"Reading\n"
+"lists"))
+        self.label_96.setText(_translate("Form", "MY STUDENTS"))
+        self.lineEdit_39.setPlaceholderText(_translate("Form", "Student name | Course"))
+        self.pushButton_52.setShortcut(_translate("Form", "Return"))
+        self.label_97.setText(_translate("Form", "READING LISTS"))
+        self.lineEdit_40.setPlaceholderText(_translate("Form", "Enter Reading list name"))
+        self.pushButton_53.setText(_translate("Form", "Create a new reading list"))
+        self.pushButton_53.setShortcut(_translate("Form", "Return"))
+        self.comboBox_4.setItemText(0, _translate("Form", "Selecta course for the reading list"))
+        self.label_100.setText(_translate("Form", "Create a reading list"))
+        self.lineEdit_41.setPlaceholderText(_translate("Form", "ISBN NO | Book Name | Author "))
+        self.label_102.setText(_translate("Form", "Search book"))
+        self.lineEdit_45.setPlaceholderText(_translate("Form", "Enter Book ID"))
+        self.label_101.setText(_translate("Form", "Add book to a reading list"))
+        self.comboBox_5.setItemText(0, _translate("Form", "Selecta course for the reading list"))
+        self.pushButton_59.setText(_translate("Form", "Add a book to selected reading list"))
+        self.pushButton_59.setShortcut(_translate("Form", "Return"))
+        self.label_98.setText(_translate("Form", "RETURN A BOOK"))
+        self.lineEdit_42.setPlaceholderText(_translate("Form", "Enter issue ID"))
+        self.pushButton_56.setText(_translate("Form", "Return book"))
+        self.pushButton_56.setShortcut(_translate("Form", "Return"))
+        self.lineEdit_43.setPlaceholderText(_translate("Form", "ISBN NO | Book Name | Status"))
+        self.label_99.setText(_translate("Form", "READING LIST"))
+        self.lineEdit_44.setPlaceholderText(_translate("Form", "Reading list name | Lecturers Name | Book name..."))
+        self.pushButton_58.setShortcut(_translate("Form", "Return"))
 
         self.db = mysql.connector.connect(
-            user='root',
-            host='localhost',
-            password='root'
+                user='root',
+                host='localhost',
+                password='root'
         )
 
         self.mycursor = self.db.cursor()
@@ -2979,6 +4272,12 @@ class Ui_Form(object):
         self.pushButton_3.clicked.connect(self.pushButton_3_clicked)
         self.pushButton_25.clicked.connect(self.pushButton_22_clicked)
         self.signup_lec_courses = ''
+        font = QtGui.QFont()
+        font.setFamily("Nova Flat")
+        font.setPointSize(10)
+        font.setBold(False)
+        font.setWeight(50)
+        self.dateEdit_2.setFont(font)
         self.pushButton_26.clicked.connect(self.pushButton_26_clicked)
         self.pushButton_24.clicked.connect(self.pushButton_24_cllicked)
         self.pushButton_15.clicked.connect(self.pushButton_15_clicked)
@@ -2995,7 +4294,539 @@ class Ui_Form(object):
         self.pushButton_38.clicked.connect(self.pushButton_38_clicked)
         self.pushButton_31.clicked.connect(self.pushButton_31_clicked)
         self.pushButton_40.clicked.connect(self.pushButton_40_clicked)
+        self.pushButton_54.clicked.connect(self.pushButton_8_clicked)
+        self.pushButton_49.clicked.connect(self.pushButton_49_clicked)
+        self.pushButton_50.clicked.connect(self.pushButton_50_clicked)
+        self.pushButton_51.clicked.connect(self.pushButton_51_clicked)
+        self.pushButton_55.clicked.connect(self.pushButton_55_clicked)
+        self.pushButton_53.clicked.connect(self.pushButton_53_clicked)
+        self.pushButton_59.clicked.connect(self.pushButton_59_clicked)
+        self.pushButton_39.clicked.connect(self.pushButton_3_jsjb)
+        self.pushButton_43.clicked.connect(self.pushButton_43_clicked)
+        self.pushButton_44.clicked.connect(self.pushButton_44_clicked)
+        self.dateEdit_2.setDate(QtCore.QDate.currentDate())
+        self.dateEdit_2.setMinimumDate(QtCore.QDate.currentDate())
+        self.pushButton_42.clicked.connect(self.pushButton_42_cllicked)
+        self.pushButton_41.clicked.connect(self.pushButton_41_clicked)
+        self.pushButton_46.clicked.connect(self.pushButton_46_clicked)
+        self.pushButton_45.clicked.connect(self.pushButton_45_clicked)
 
+
+
+    def pushButton_45_clicked(self):
+            id = self.lineEdit_37.text()
+            try:
+                    querry1 = 'SELECT * FROM library.return_request WHERE return_id = %s;'
+                    querry2 = 'UPDATE  library.issued_books SET returned = "YES", actual_return_date = %s WHERE issue_id = %s'
+                    querry3 = 'DELETE FROM library.return_request WHERE return_id = %s;'
+                    now = datetime.now().date()
+
+                    self.mycursor.execute(querry1, (id,))
+                    request_details = [i for i in self.mycursor][0]
+                    issue_id = request_details[2]
+                    book = request_details[4]
+
+                    # self.mycursor.execute(querry2, (now, issue_id))
+                    # self.db.commit()
+                    self.mycursor.execute(querry3, (id,))
+                    self.db.commit()
+
+                    warning = QMessageBox()
+                    warning.setWindowTitle("Success")
+                    warning.setIcon(QMessageBox.Information)
+                    warning.setText(f"Return request for {book} has been declined successfully")
+                    x = warning.exec_()
+
+                    self.lineEdit_37.clear()
+                    self.pushButton_41_clicked()
+
+            except:
+
+                    warning = QMessageBox()
+                    warning.setWindowTitle("Error")
+                    warning.setIcon(QMessageBox.Warning)
+                    warning.setText(f"Provide a valid ID")
+                    x = warning.exec_()
+
+    def pushButton_46_clicked(self):
+        id = self.lineEdit_37.text()
+        try:
+                querry1 = 'SELECT * FROM library.return_request WHERE return_id = %s;'
+                querry2 = 'UPDATE  library.issued_books SET returned = "YES", actual_return_date = %s WHERE issue_id = %s'
+                querry3 = 'DELETE FROM library.return_request WHERE return_id = %s;'
+                now = datetime.now().date()
+
+                self.mycursor.execute(querry1, (id,))
+                request_details = [i for i in self.mycursor][0]
+                issue_id = request_details[2]
+                book = request_details[4]
+
+                self.mycursor.execute(querry2, (now, issue_id))
+                self.db.commit()
+                self.mycursor.execute(querry3, (id,))
+                self.db.commit()
+
+                warning = QMessageBox()
+                warning.setWindowTitle("Success")
+                warning.setIcon(QMessageBox.Information)
+                warning.setText(f"{book} has been returned successfully")
+                x = warning.exec_()
+
+                self.lineEdit_37.clear()
+
+                self.pushButton_41_clicked()
+        except:
+
+                warning = QMessageBox()
+                warning.setWindowTitle("Error")
+                warning.setIcon(QMessageBox.Warning)
+                warning.setText(f"Provide a valid ID")
+                x = warning.exec_()
+
+
+    def pushButton_41_clicked(self):
+
+            self.tableWidget_11.setColumnCount(9)
+            header_labels = ['Return ID', 'Email', 'ISSUE ID', 'ISBN NO', 'BOOK NAME', 'DATE ISSUED',
+                             'EXPECTED RETURN DATE', 'ISSUE STATUS', 'PENALTY FEE']
+            self.tableWidget_11.setHorizontalHeaderLabels(header_labels)
+            self.tableWidget_11.verticalHeader().setVisible(False)
+            self.tableWidget_11.setRowCount(0)
+
+            self.mycursor.execute('SELECT * FROM library.return_request;')
+
+            for row_number, row_data in enumerate(self.mycursor):
+                    self.tableWidget_11.insertRow(row_number)
+                    for column_number, data in enumerate(row_data):
+                            self.tableWidget_11.setItem(row_number, column_number,
+                                                        QtWidgets.QTableWidgetItem(str(data)))
+
+            self.tableWidget_11.resizeColumnToContents(0)
+            self.tableWidget_11.resizeColumnToContents(1)
+            self.tableWidget_11.resizeColumnToContents(2)
+            self.tableWidget_11.resizeColumnToContents(3)
+            self.tableWidget_11.resizeColumnToContents(4)
+            self.tableWidget_11.resizeColumnToContents(5)
+            self.tableWidget_11.resizeColumnToContents(6)
+            self.tableWidget_11.resizeColumnToContents(7)
+            self.tableWidget_11.resizeColumnToContents(8)
+            # self.tableWidget_10.resizeColumnToContents(9)
+            # self.tableWidget_10.resizeColumnToContents(10)
+
+            self.stackedWidget_2.setCurrentWidget(self.page_20)
+
+    def pushButton_42_cllicked(self):
+            id = self.lineEdit_34.text()
+            if id != '':
+                    try:
+                            self.mycursor.execute('SELECT * FROM library.borrow_request WHERE borrow_id = %s;', (id,))
+                            request_details = [i for i in self.mycursor][0]
+
+                            issued_to_id = request_details[1]
+                            isbn_no = request_details[3]
+                            book_name = request_details[4]
+                            date_issued = datetime.now().date()
+                            expected_return_date = request_details[-1]
+                            issue_status = 'STILL VALID'
+                            returned = 'NO'
+                            penalty = '0'
+
+                            self.mycursor.execute('SELECT * FROM library.users WHERE email_address = %s;',
+                                                  (issued_to_id,))
+                            details = [i for i in self.mycursor][0]
+                            issued_to_name = f'{details[1]} {details[2]}'
+
+
+
+                            self.mycursor.execute('DELETE FROM library.borrow_request WHERE borrow_id = %s;', (id,))
+                            # self.db.cmmit()
+
+                            warning = QMessageBox()
+                            warning.setWindowTitle("Success")
+                            warning.setIcon(QMessageBox.Information)
+                            warning.setText(f"Request for {book_name} by {issued_to_name} has been declined successfully")
+                            x = warning.exec_()
+
+                            self.pushButton_3_jsjb()
+                            self.lineEdit_34.clear()
+
+                    except:
+                            warning = QMessageBox()
+                            warning.setWindowTitle("Error")
+                            warning.setIcon(QMessageBox.Warning)
+                            warning.setText(f"Please provide a valid borrow ID")
+                            x = warning.exec_()
+
+            else:
+                    warning = QMessageBox()
+                    warning.setWindowTitle("Error")
+                    warning.setIcon(QMessageBox.Warning)
+                    warning.setText(f"Please provide a valid borrow ID")
+                    x = warning.exec_()
+
+    def pushButton_44_clicked(self):
+        id = self.lineEdit_34.text()
+        if id != '':
+                try:
+                        self.mycursor.execute('SELECT * FROM library.borrow_request WHERE borrow_id = %s;', (id,))
+                        request_details = [i for i in self.mycursor][0]
+
+                        issued_to_id = request_details[1]
+                        isbn_no = request_details[3]
+                        book_name = request_details[4]
+                        date_issued = datetime.now().date()
+                        expected_return_date = request_details[-1]
+                        issue_status = 'STILL VALID'
+                        returned = 'NO'
+                        penalty = '0'
+
+                        self.mycursor.execute('SELECT * FROM library.users WHERE email_address = %s;', (issued_to_id,))
+                        details = [i for i in self.mycursor][0]
+                        issued_to_name = f'{details[1]} {details[2]}'
+
+                        self.mycursor.execute('INSERT INTO library.issued_books(ISBN_NO, book_name, issued_to_id, '
+                                              'issued_to_name, date_issued, expected_return_date, issue_status, '
+                                              'returned, penalty) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s);',
+                                              (isbn_no, book_name, issued_to_id, issued_to_name, date_issued,
+                                               expected_return_date, issue_status, returned, penalty))
+
+                        self.db.commit()
+
+                        self.mycursor.execute('DELETE FROM library.borrow_request WHERE borrow_id = %s;', (id,))
+                        # self.db.cmmit()
+
+                        warning = QMessageBox()
+                        warning.setWindowTitle("Success")
+                        warning.setIcon(QMessageBox.Information)
+                        warning.setText(f"{book_name} has successfully been issued to {issued_to_name}")
+                        x = warning.exec_()
+
+                        self.pushButton_3_jsjb()
+                        self.lineEdit_34.clear()
+
+                except:
+                        warning = QMessageBox()
+                        warning.setWindowTitle("Error")
+                        warning.setIcon(QMessageBox.Warning)
+                        warning.setText(f"Please provide a valid borrow ID")
+                        x = warning.exec_()
+
+        else:
+                warning = QMessageBox()
+                warning.setWindowTitle("Error")
+                warning.setIcon(QMessageBox.Warning)
+                warning.setText(f"Please provide a valid borrow ID")
+                x = warning.exec_()
+
+
+    def pushButton_43_clicked(self):
+            search = self.lineEdit_36.text()
+            if search == '':
+                    search = '.'
+
+            self.tableWidget_10.setColumnCount(11)
+            header_labels = ['Borrow Request ID', 'Borrower\'s Email', 'Book ID', 'ISBN NO', 'BOOK NAME', 'EDITION',
+                             'AUTHOR', 'PUBLISHER', 'DATE PUBLISHED', 'BOOK TYPE', 'EXPECTED RETURN DATE']
+            self.tableWidget_10.setHorizontalHeaderLabels(header_labels)
+            self.tableWidget_10.verticalHeader().setVisible(False)
+            self.tableWidget_10.setRowCount(0)
+
+            self.mycursor.execute(
+                    'SELECT borrow_id, borrower, book_id, ISBN_NO, book_name, edition, author, publisher, '
+                    'date_published, book_type, expected_return_date FROM library.borrow_request WHERE borrower REGEXP %s or book_id REGEXP %s'
+                    ' or ISBN_NO REGEXP %s or book_name REGEXP %s or edition REGEXP %s or author REGEXP %s or '
+                    'publisher REGEXP %s or book_type REGEXP %s;',
+                    (search, search, search, search, search, search, search,
+                     search))
+
+            for row_number, row_data in enumerate(self.mycursor):
+                    self.tableWidget_10.insertRow(row_number)
+                    for column_number, data in enumerate(row_data):
+                            self.tableWidget_10.setItem(row_number, column_number,
+                                                        QtWidgets.QTableWidgetItem(str(data)))
+
+            self.tableWidget_10.resizeColumnToContents(0)
+            self.tableWidget_10.resizeColumnToContents(1)
+            self.tableWidget_10.resizeColumnToContents(2)
+            self.tableWidget_10.resizeColumnToContents(3)
+            self.tableWidget_10.resizeColumnToContents(4)
+            self.tableWidget_10.resizeColumnToContents(5)
+            self.tableWidget_10.resizeColumnToContents(6)
+            self.tableWidget_10.resizeColumnToContents(7)
+            self.tableWidget_10.resizeColumnToContents(8)
+            self.tableWidget_10.resizeColumnToContents(9)
+            self.tableWidget_10.resizeColumnToContents(10)
+
+
+            self.stackedWidget_2.setCurrentWidget(self.page_19)
+
+    def pushButton_3_jsjb(self):
+            self.tableWidget_10.setColumnCount(11)
+            header_labels = ['Borrow Request ID', 'Borrower\'s Email', 'Book ID', 'ISBN NO', 'BOOK NAME', 'EDITION',
+                             'AUTHOR', 'PUBLISHER', 'DATE PUBLISHED', 'BOOK TYPE', 'EXPECTED RETURN DATE']
+            self.tableWidget_10.setHorizontalHeaderLabels(header_labels)
+            self.tableWidget_10.verticalHeader().setVisible(False)
+            self.tableWidget_10.setRowCount(0)
+
+            self.mycursor.execute(
+                    'SELECT borrow_id, borrower, book_id, ISBN_NO, book_name, edition, author, publisher, '
+                    'date_published, book_type, expected_return_date FROM library.borrow_request;')
+
+            for row_number, row_data in enumerate(self.mycursor):
+                    self.tableWidget_10.insertRow(row_number)
+                    for column_number, data in enumerate(row_data):
+                            self.tableWidget_10.setItem(row_number, column_number,
+                                                        QtWidgets.QTableWidgetItem(str(data)))
+
+            self.tableWidget_10.resizeColumnToContents(0)
+            self.tableWidget_10.resizeColumnToContents(1)
+            self.tableWidget_10.resizeColumnToContents(2)
+            self.tableWidget_10.resizeColumnToContents(3)
+            self.tableWidget_10.resizeColumnToContents(4)
+            self.tableWidget_10.resizeColumnToContents(5)
+            self.tableWidget_10.resizeColumnToContents(6)
+            self.tableWidget_10.resizeColumnToContents(7)
+            self.tableWidget_10.resizeColumnToContents(8)
+            self.tableWidget_10.resizeColumnToContents(9)
+            self.tableWidget_10.resizeColumnToContents(10)
+
+
+            self.stackedWidget_2.setCurrentWidget(self.page_19)
+
+    def pushButton_59_clicked(self):
+            book_id = self.lineEdit_45.text()
+            try:
+                    self.mycursor.execute('SELECT * FROM library.books WHERE book_id = %s;', (book_id,))
+                    book = [i for i in self.mycursor][0]
+
+                    isn_no = book[1]
+                    book_name = book[2]
+                    edition = book[3]
+                    otha = book[4]
+
+                    book_details_done = True
+
+            except:
+                    book_details_done = True
+
+            self.mycursor.execute('SELECT * FROM library.users WHERE email_address = %s;',
+                                  (self.current_session_email,))
+            details = [i for i in self.mycursor][0]
+
+            name = f'{details[1]} {details[2]}'
+
+            v = self.comboBox_5.currentText()
+            if v != 'Select reading list to add book':
+                    lists = v.split(': ')
+                    list_name = lists[0]
+                    course = lists[1]
+                    combo_done = True
+
+            else:
+                    combo_done = False
+
+            if (book_details_done is True) and (combo_done is True):
+                    try:
+                            print((course, list_name, isn_no, book_name, edition, otha, name,
+                                   self.current_session_email))
+                            self.mycursor.execute(
+                                    "INSERT INTO library.reading_list(course, list_name, ISBN_NO, book_name, "
+                                    "edition, author, lecturer_name, lecturer_email) VALUES "
+                                    "(%s, %s, %s, %s,%s, %s,%s, %s);",
+                                    (course, list_name, isn_no, book_name, edition, otha, name,
+                                     self.current_session_email))
+                            self.db.commit()
+
+                            warning = QMessageBox()
+                            warning.setWindowTitle("Book added to list successfully")
+                            warning.setIcon(QMessageBox.Information)
+                            warning.setText(f"{book_name} added to {list_name} successfully")
+                            x = warning.exec_()
+
+                    except:
+
+                            warning = QMessageBox()
+                            warning.setWindowTitle("Error")
+                            warning.setIcon(QMessageBox.Warning)
+                            warning.setText(f"An unexpected error occurred")
+                            x = warning.exec_()
+
+            elif book_details_done is False:
+                    warning = QMessageBox()
+                    warning.setWindowTitle("Error")
+                    warning.setIcon(QMessageBox.Warning)
+                    warning.setText(f"Provide a valid book ID")
+                    x = warning.exec_()
+
+            elif combo_done is False:
+                    warning = QMessageBox()
+                    warning.setWindowTitle("Error")
+                    warning.setIcon(QMessageBox.Warning)
+                    warning.setText(f"Please select a reading list in which the book is to be added")
+                    x = warning.exec_()
+
+    def pushButton_53_clicked(self):
+            name = self.lineEdit_40.text()
+            course = self.comboBox_4.currentText()
+            if (course != 'Select course for the reading list') and (name != ''):
+                    try:
+                            self.mycursor.execute(
+                                    'INSERT INTO library.lec_reading_list_names(lec_email, course, list_name) '
+                                    'VALUES(%s,%s,%s);', (self.current_session_email, course, name))
+                            self.db.commit()
+
+                            warning = QMessageBox()
+                            warning.setWindowTitle("List name added successfully")
+                            warning.setIcon(QMessageBox.Information)
+                            warning.setText(f"{name} reading list name added successfully")
+                            x = warning.exec_()
+
+                            self.mycursor.execute(
+                                    'SELECT list_name, course FROM library.lec_reading_list_names WHERE lec_email = %s;',
+                                    (self.current_session_email,))
+                            lists = [f'{i[0]}: {i[1]}' for i in self.mycursor]
+                            self.comboBox_5.clear()
+                            self.comboBox_5.addItem('Select reading list to add book')
+                            self.comboBox_5.addItems(lists)
+
+                            self.lineEdit_40.clear()
+                            self.comboBox_4.setCurrentIndex(0)
+                    except:
+                            warning = QMessageBox()
+                            warning.setWindowTitle("Error")
+                            warning.setIcon(QMessageBox.Warning)
+                            warning.setText(f"Please provide correct details")
+                            x = warning.exec_()
+            elif course == 'Select course for the reading list':
+                    warning = QMessageBox()
+                    warning.setWindowTitle("Error")
+                    warning.setIcon(QMessageBox.Warning)
+                    warning.setText(f"Please select a course")
+                    x = warning.exec_()
+            elif name == '':
+                    warning = QMessageBox()
+                    warning.setWindowTitle("Error")
+                    warning.setIcon(QMessageBox.Warning)
+                    warning.setText(f"Please provide a valid name")
+                    x = warning.exec_()
+
+    def pushButton_55_clicked(self):
+            search = self.lineEdit_41.text()
+            if search == '':
+                    search = '.'
+
+            self.tableWidget_13.setColumnCount(8)
+            header_labels = ['BOOK ID', 'ISBN NO', 'BOOK NAME', 'EDITION', 'AUTHOR', 'PUBLISHER', 'DATE PUBLISHED',
+                             'BOOK TYPE']
+            self.tableWidget_13.setHorizontalHeaderLabels(header_labels)
+            self.tableWidget_13.verticalHeader().setVisible(False)
+            self.tableWidget_13.setRowCount(0)
+
+            self.mycursor.execute('SELECT * FROM library.books WHERE ISBN_NO REGEXP %s or book_name REGEXP %s or '
+                                  'author REGEXP %s or publisher REGEXP %s or book_type REGEXP %s;',
+                                  (search, search, search, search, search))
+
+            for row_number, row_data in enumerate(self.mycursor):
+                    self.tableWidget_13.insertRow(row_number)
+                    for column_number, data in enumerate(row_data):
+                            self.tableWidget_13.setItem(row_number, column_number,
+                                                        QtWidgets.QTableWidgetItem(str(data)))
+
+            self.tableWidget_13.resizeColumnToContents(2)
+            self.tableWidget_13.resizeColumnToContents(3)
+            self.tableWidget_13.resizeColumnToContents(4)
+            self.tableWidget_13.resizeColumnToContents(5)
+            self.tableWidget_13.resizeColumnToContents(6)
+            self.tableWidget_13.resizeColumnToContents(7)
+
+    def pushButton_51_clicked(self):
+            self.mycursor.execute('SELECT courses FROM library.lecturer_details WHERE email = %s;',
+                                  (self.current_session_email,))
+            data = [i for i in self.mycursor][0][0]
+            data = data.split(',')
+
+            self.comboBox_4.clear()
+            self.comboBox_4.addItem('Select course for the reading list')
+            self.comboBox_4.addItems(data)
+
+            self.mycursor.execute('SELECT list_name, course FROM library.lec_reading_list_names WHERE lec_email = %s;',
+                                  (self.current_session_email,))
+            lists = [f'{i[0]}: {i[1]}' for i in self.mycursor]
+            self.comboBox_5.clear()
+            self.comboBox_5.addItem('Select reading list to add book')
+            self.comboBox_5.addItems(lists)
+
+            self.tableWidget_13.setColumnCount(8)
+            header_labels = ['BOOK ID', 'ISBN NO', 'BOOK NAME', 'EDITION', 'AUTHOR', 'PUBLISHER', 'DATE PUBLISHED',
+                             'BOOK TYPE']
+            self.tableWidget_13.setHorizontalHeaderLabels(header_labels)
+            self.tableWidget_13.verticalHeader().setVisible(False)
+            self.tableWidget_13.setRowCount(0)
+
+            self.mycursor.execute('SELECT * FROM library.books;')
+
+            for row_number, row_data in enumerate(self.mycursor):
+                    self.tableWidget_13.insertRow(row_number)
+                    for column_number, data in enumerate(row_data):
+                            self.tableWidget_13.setItem(row_number, column_number,
+                                                        QtWidgets.QTableWidgetItem(str(data)))
+
+            self.tableWidget_13.resizeColumnToContents(2)
+            self.tableWidget_13.resizeColumnToContents(3)
+            self.tableWidget_13.resizeColumnToContents(4)
+            self.tableWidget_13.resizeColumnToContents(5)
+            self.tableWidget_13.resizeColumnToContents(6)
+            self.tableWidget_13.resizeColumnToContents(7)
+
+            self.stackedWidget_4.setCurrentWidget(self.page_25)
+
+    def pushButton_50_clicked(self):
+
+            self.mycursor.execute('SELECT courses FROM library.lecturer_details WHERE email = %s;',
+                                  (self.current_session_email,))
+            data = [i for i in self.mycursor][0][0]
+            data = data.split(',')
+
+            querry = "SELECT first_name, last_name, b.course, date_joined, email_address, total_books_borrowed, on_date_return " \
+                     "FROM library.users a " \
+                     "LEFT JOIN library.student_details b " \
+                     "ON (a.email_address = b.student_email) " \
+                     "WHERE user_type = 'Student';"
+
+            self.mycursor.execute(querry)
+            students = [i for i in self.mycursor]
+
+            your_students = []
+            num = 1
+            for i in students:
+                    if i[2] in data:
+                            x = list(i)
+                            x.insert(0, num)
+                            your_students.append(x)
+                            num += 1
+
+            self.tableWidget_12.setColumnCount(8)
+            header_labels = ['NUMBER', 'FIRST NAME', 'LAST NAME', 'COURSE', 'DATE JOINED', 'EMAIL ADDRESS',
+                             'TOTAL BOOKS BORROWED', 'ON DATE RETURN']
+            self.tableWidget_12.setHorizontalHeaderLabels(header_labels)
+            self.tableWidget_12.verticalHeader().setVisible(False)
+            self.tableWidget_12.setRowCount(0)
+
+            for row_number, row_data in enumerate(your_students):
+                    self.tableWidget_12.insertRow(row_number)
+                    for column_number, data in enumerate(row_data):
+                            self.tableWidget_12.setItem(row_number, column_number,
+                                                        QtWidgets.QTableWidgetItem(str(data)))
+
+            self.tableWidget_12.resizeColumnToContents(0)
+            self.tableWidget_12.resizeColumnToContents(1)
+            self.tableWidget_12.resizeColumnToContents(5)
+            self.tableWidget_12.resizeColumnToContents(2)
+            self.tableWidget_12.resizeColumnToContents(3)
+            self.tableWidget_12.resizeColumnToContents(4)
+            self.tableWidget_12.resizeColumnToContents(6)
+
+            self.stackedWidget_4.setCurrentWidget(self.page_24)
 
     def pushButton_40_clicked(self):
             search = self.lineEdit_35.text()
@@ -3007,7 +4838,7 @@ class Ui_Form(object):
             course = [i for i in self.mycursor][0][0]
 
             self.tableWidget_9.setColumnCount(6)
-            header_labels = ['READING LIST NAME', 'ISBN NO', 'BOOK NAME', 'EDITION', 'AUTHOR', 'LECTUROR\'S NAME']
+            header_labels = ['READING LIST NAME', 'ISBN NO', 'BOOK NAME', 'EDITION', 'AUTHOR', "LECTUROR'S NAME"]
             self.tableWidget_9.setHorizontalHeaderLabels(header_labels)
             self.tableWidget_9.verticalHeader().setVisible(False)
             self.tableWidget_9.setRowCount(0)
@@ -3016,7 +4847,7 @@ class Ui_Form(object):
                     'SELECT list_name,ISBN_NO, book_name, edition, author, lecturer_name FROM library.reading_list '
                     'WHERE course = %s AND (list_name REGEXP %s or ISBN_NO REGEXP %s or book_name REGEXP %s or '
                     'edition REGEXP %s or author REGEXP %s or lecturer_name REGEXP %s);',
-                    (course, search, search,search,search,search, search))
+                    (course, search, search, search, search, search, search))
 
             for row_number, row_data in enumerate(self.mycursor):
                     self.tableWidget_9.insertRow(row_number)
@@ -3032,34 +4863,34 @@ class Ui_Form(object):
             self.tableWidget_9.resizeColumnToContents(4)
 
     def pushButton_31_clicked(self):
-        self.mycursor.execute('SELECT course FROM library.student_details WHERE student_email = %s;', (self.current_session_email,))
-        course = [i for i in self.mycursor][0][0]
+            self.mycursor.execute('SELECT course FROM library.student_details WHERE student_email = %s;',
+                                  (self.current_session_email,))
+            course = [i for i in self.mycursor][0][0]
 
+            self.tableWidget_9.setColumnCount(6)
+            header_labels = ['READING LIST NAME', 'ISBN NO', 'BOOK NAME', 'EDITION', 'AUTHOR', 'LECTUROR\'S NAME']
+            self.tableWidget_9.setHorizontalHeaderLabels(header_labels)
+            self.tableWidget_9.verticalHeader().setVisible(False)
+            self.tableWidget_9.setRowCount(0)
 
-        self.tableWidget_9.setColumnCount(6)
-        header_labels = ['READING LIST NAME', 'ISBN NO', 'BOOK NAME', 'EDITION', 'AUTHOR','LECTUROR\'S NAME']
-        self.tableWidget_9.setHorizontalHeaderLabels(header_labels)
-        self.tableWidget_9.verticalHeader().setVisible(False)
-        self.tableWidget_9.setRowCount(0)
+            self.mycursor.execute(
+                    'SELECT list_name,ISBN_NO, book_name, edition, author, lecturer_name FROM library.reading_list '
+                    'WHERE course = %s;', (course,))
 
-        self.mycursor.execute('SELECT list_name,ISBN_NO, book_name, edition, author, lecturer_name FROM library.reading_list '
-                              'WHERE course = %s;', (course,))
+            for row_number, row_data in enumerate(self.mycursor):
+                    self.tableWidget_9.insertRow(row_number)
+                    for column_number, data in enumerate(row_data):
+                            self.tableWidget_9.setItem(row_number, column_number,
+                                                       QtWidgets.QTableWidgetItem(str(data)))
 
-        for row_number, row_data in enumerate(self.mycursor):
-            self.tableWidget_9.insertRow(row_number)
-            for column_number, data in enumerate(row_data):
-                self.tableWidget_9.setItem(row_number, column_number,
-                                           QtWidgets.QTableWidgetItem(str(data)))
+            self.tableWidget_9.resizeColumnToContents(0)
+            self.tableWidget_9.resizeColumnToContents(1)
+            self.tableWidget_9.resizeColumnToContents(5)
+            self.tableWidget_9.resizeColumnToContents(2)
+            self.tableWidget_9.resizeColumnToContents(3)
+            self.tableWidget_9.resizeColumnToContents(4)
 
-
-        self.tableWidget_9.resizeColumnToContents(0)
-        self.tableWidget_9.resizeColumnToContents(1)
-        self.tableWidget_9.resizeColumnToContents(5)
-        self.tableWidget_9.resizeColumnToContents(2)
-        self.tableWidget_9.resizeColumnToContents(3)
-        self.tableWidget_9.resizeColumnToContents(4)
-
-        self.stackedWidget_3.setCurrentWidget(self.page_18)
+            self.stackedWidget_3.setCurrentWidget(self.page_18)
 
     def pushButton_38_clicked(self):
             search = self.lineEdit_33.text()
@@ -3090,53 +4921,51 @@ class Ui_Form(object):
             self.tableWidget_8.resizeColumnToContents(4)
 
     def pushButton_34_clicked(self):
-        id = self.lineEdit_28.text()
-        try:
-                self.mycursor.execute('SELECT * FROM library.issued_books WHERE issue_id = %s;', (id,))
-                data = [i for i in self.mycursor][0]
-                user = data[3]
-                state = data[-2]
+            id = self.lineEdit_28.text()
+            try:
+                    self.mycursor.execute('SELECT * FROM library.issued_books WHERE issue_id = %s;', (id,))
+                    data = [i for i in self.mycursor][0]
+                    user = data[3]
+                    state = data[-2]
 
-                issue_id = data[0]
-                isbn = data[1]
-                book_name = data[2]
-                issue_date = data[5]
-                return_date = data[6]
-                status = data[-3]
-                penalty = data[-1]
+                    issue_id = data[0]
+                    isbn = data[1]
+                    book_name = data[2]
+                    issue_date = data[5]
+                    return_date = data[6]
+                    status = data[-3]
+                    penalty = data[-1]
 
-                print(f'{user}\n{self.current_session_email}\n{state}')
+                    print(f'{user}\n{self.current_session_email}\n{state}')
 
-                if user == self.current_session_email and state == 'NO':
-                        self.mycursor.execute('INSERT INTO library.return_request(user_email, issue_id, '
-                                              'ISBN_NO, book_name, date_issued, expected_return_date, issue_status, '
-                                              'penalty) VALUES (%s, %s, %s, %s,%s, %s,%s,%s);',
-                                              (self.current_session_email, issue_id, isbn, book_name, issue_date,
-                                               return_date, status, penalty))
-                        self.db.commit()
+                    if user == self.current_session_email and state == 'NO':
+                            self.mycursor.execute('INSERT INTO library.return_request(user_email, issue_id, '
+                                                  'ISBN_NO, book_name, date_issued, expected_return_date, issue_status, '
+                                                  'penalty) VALUES (%s, %s, %s, %s,%s, %s,%s,%s);',
+                                                  (self.current_session_email, issue_id, isbn, book_name, issue_date,
+                                                   return_date, status, penalty))
+                            self.db.commit()
 
+                            warning = QMessageBox()
+                            warning.setWindowTitle("Request submitted successfully")
+                            warning.setIcon(QMessageBox.Information)
+                            warning.setText("Return request has been submitted successfully\n"
+                                            "It will be reviewed by the librarian soon.")
+                            x = warning.exec_()
 
+                    else:
+                            warning = QMessageBox()
+                            warning.setWindowTitle("Invalid ID")
+                            warning.setIcon(QMessageBox.Warning)
+                            warning.setText("Please provide a valid  ID")
+                            x = warning.exec_()
 
-                        warning = QMessageBox()
-                        warning.setWindowTitle("Request submitted successfully")
-                        warning.setIcon(QMessageBox.Information)
-                        warning.setText("Return request has been submitted successfully\n"
-                                        "It will be reviewed by the librarian soon.")
-                        x = warning.exec_()
-
-                else:
-                        warning = QMessageBox()
-                        warning.setWindowTitle("Invalid ID")
-                        warning.setIcon(QMessageBox.Warning)
-                        warning.setText("Please provide a valid  ID")
-                        x = warning.exec_()
-
-        except:
-                warning = QMessageBox()
-                warning.setWindowTitle("Invalid ID")
-                warning.setIcon(QMessageBox.Warning)
-                warning.setText("Please provide a valid issue ID")
-                x = warning.exec_()
+            except:
+                    warning = QMessageBox()
+                    warning.setWindowTitle("Invalid ID")
+                    warning.setIcon(QMessageBox.Warning)
+                    warning.setText("Please provide a valid issue ID")
+                    x = warning.exec_()
 
     def pushButton_29_clicked(self):
             self.tableWidget_8.setColumnCount(7)
@@ -3146,9 +4975,10 @@ class Ui_Form(object):
             self.tableWidget_8.verticalHeader().setVisible(False)
             self.tableWidget_8.setRowCount(0)
 
-            self.mycursor.execute('SELECT issue_id, ISBN_NO, book_name, date_issued, expected_return_date, issue_status,'
-                                  ' penalty FROM library.issued_books WHERE issued_to_id = %s AND returned = "NO";',
-                                  (self.current_session_email,))
+            self.mycursor.execute(
+                    'SELECT issue_id, ISBN_NO, book_name, date_issued, expected_return_date, issue_status,'
+                    ' penalty FROM library.issued_books WHERE issued_to_id = %s AND returned = "NO";',
+                    (self.current_session_email,))
 
             for row_number, row_data in enumerate(self.mycursor):
                     self.tableWidget_8.insertRow(row_number)
@@ -3163,115 +4993,120 @@ class Ui_Form(object):
             self.stackedWidget_3.setCurrentWidget(self.page_17)
 
     def pushButton_36_clicked(self):
-        id = self.lineEdit_31.text()
-        try:
-            self.mycursor.execute('SELECT * FROM library.books WHERE book_id = %s;', (id,))
-            details = [i for i in self.mycursor][0]
-            self.mycursor.execute('INSERT INTO library.borrow_request(borrower, book_id, ISBN_NO, book_name, edition, '
-                                  'author, publisher, date_published, book_type, borrow_or_return) VALUES (%s,%s, %s, %s, %s, %s, %s, %s, %s, %s)',
-                                  (self.current_session_email, details[0], details[1], details[2], details[3],
-                                   details[4],details[5], details[6], details[7], 'BORROW'))
-            self.db.commit()
+            id = self.lineEdit_31.text()
+            date = self.dateEdit_2.date().toString('yyyy-MM-dd')
+            try:
+                    self.mycursor.execute('SELECT * FROM library.books WHERE book_id = %s;', (id,))
+                    details = [i for i in self.mycursor][0]
+                    self.mycursor.execute(
+                            'INSERT INTO library.borrow_request(borrower, book_id, ISBN_NO, book_name, edition, '
+                            'author, publisher, date_published, book_type, expected_return_date) VALUES (%s,%s, %s, %s, %s, %s, %s, %s, %s, %s)',
+                            (self.current_session_email, details[0], details[1], details[2], details[3],
+                             details[4], details[5], details[6], details[7], date))
+                    self.db.commit()
 
-            warning = QMessageBox()
-            warning.setWindowTitle("Request submitted success")
-            warning.setIcon(QMessageBox.Information)
-            warning.setText("Borrow request has been submitted successfully\n"
-                            "It will be reviewed by the librarian soon.")
-            x = warning.exec_()
+                    warning = QMessageBox()
+                    warning.setWindowTitle("Request submitted success")
+                    warning.setIcon(QMessageBox.Information)
+                    warning.setText("Borrow request has been submitted successfully\n"
+                                    "It will be reviewed by the librarian soon.")
+                    x = warning.exec_()
 
-            self.lineEdit_31.clear()
+                    self.lineEdit_31.clear()
+                    self.dateEdit_2.setDate(QtCore.QDate.currentDate())
 
-        except:
-            warning = QMessageBox()
-            warning.setWindowTitle("Invalid book id")
-            warning.setIcon(QMessageBox.Warning)
-            warning.setText("Invalid book ID.\n"
-                            "Please enter a valid book ID")
-            x = warning.exec_()
+            except:
+                    warning = QMessageBox()
+                    warning.setWindowTitle("Invalid book id")
+                    warning.setIcon(QMessageBox.Warning)
+                    warning.setText("Invalid book ID.\n"
+                                    "Please enter a valid book ID")
+                    x = warning.exec_()
 
     def pushButton_37_clicked(self):
-        search = self.lineEdit_32.text()
-        if search == '':
-            search = '.'
+            search = self.lineEdit_32.text()
+            if search == '':
+                    search = '.'
 
+            self.tableWidget_7.setColumnCount(8)
+            header_labels = ['BOOK ID', 'ISBN NO', 'BOOK NAME', 'EDITION', 'AUTHOR', 'PUBLISHER', 'DATE PUBLISHED',
+                             'BOOK TYPE']
+            self.tableWidget_7.setHorizontalHeaderLabels(header_labels)
+            self.tableWidget_7.verticalHeader().setVisible(False)
+            self.tableWidget_7.setRowCount(0)
 
-        self.tableWidget_7.setColumnCount(8)
-        header_labels = ['BOOK ID', 'ISBN NO', 'BOOK NAME', 'EDITION', 'AUTHOR', 'PUBLISHER', 'DATE PUBLISHED',
-                         'BOOK TYPE']
-        self.tableWidget_7.setHorizontalHeaderLabels(header_labels)
-        self.tableWidget_7.verticalHeader().setVisible(False)
-        self.tableWidget_7.setRowCount(0)
+            self.mycursor.execute('SELECT * FROM library.books WHERE ISBN_NO REGEXP %s or book_name REGEXP %s or '
+                                  'author REGEXP %s or publisher REGEXP %s or book_type REGEXP %s;',
+                                  (search, search, search, search, search))
 
-        self.mycursor.execute('SELECT * FROM library.books WHERE ISBN_NO REGEXP %s or book_name REGEXP %s or '
-                              'author REGEXP %s or publisher REGEXP %s or book_type REGEXP %s;',
-                              (search, search, search, search, search))
+            for row_number, row_data in enumerate(self.mycursor):
+                    self.tableWidget_7.insertRow(row_number)
+                    for column_number, data in enumerate(row_data):
+                            self.tableWidget_7.setItem(row_number, column_number,
+                                                       QtWidgets.QTableWidgetItem(str(data)))
 
-        for row_number, row_data in enumerate(self.mycursor):
-            self.tableWidget_7.insertRow(row_number)
-            for column_number, data in enumerate(row_data):
-                self.tableWidget_7.setItem(row_number, column_number,
-                                           QtWidgets.QTableWidgetItem(str(data)))
+            self.tableWidget_7.resizeColumnToContents(2)
+            self.tableWidget_7.resizeColumnToContents(3)
+            self.tableWidget_7.resizeColumnToContents(4)
+            self.tableWidget_7.resizeColumnToContents(5)
+            self.tableWidget_7.resizeColumnToContents(6)
+            self.tableWidget_7.resizeColumnToContents(7)
 
-        self.tableWidget_7.resizeColumnToContents(2)
-        self.tableWidget_7.resizeColumnToContents(3)
-        self.tableWidget_7.resizeColumnToContents(4)
-        self.tableWidget_7.resizeColumnToContents(5)
-        self.tableWidget_7.resizeColumnToContents(6)
-        self.tableWidget_7.resizeColumnToContents(7)
     def pushButton_28_clicked(self):
-        self.tableWidget_7.setColumnCount(8)
-        header_labels = ['BOOK ID', 'ISBN NO', 'BOOK NAME', 'EDITION', 'AUTHOR', 'PUBLISHER', 'DATE PUBLISHED',
-                         'BOOK TYPE']
-        self.tableWidget_7.setHorizontalHeaderLabels(header_labels)
-        self.tableWidget_7.verticalHeader().setVisible(False)
-        self.tableWidget_7.setRowCount(0)
+            self.tableWidget_7.setColumnCount(8)
+            header_labels = ['BOOK ID', 'ISBN NO', 'BOOK NAME', 'EDITION', 'AUTHOR', 'PUBLISHER', 'DATE PUBLISHED',
+                             'BOOK TYPE']
+            self.tableWidget_7.setHorizontalHeaderLabels(header_labels)
+            self.tableWidget_7.verticalHeader().setVisible(False)
+            self.tableWidget_7.setRowCount(0)
 
-        self.mycursor.execute('SELECT * FROM library.books;')
+            self.mycursor.execute('SELECT * FROM library.books;')
 
-        for row_number, row_data in enumerate(self.mycursor):
-            self.tableWidget_7.insertRow(row_number)
-            for column_number, data in enumerate(row_data):
-                self.tableWidget_7.setItem(row_number, column_number,
-                                           QtWidgets.QTableWidgetItem(str(data)))
+            for row_number, row_data in enumerate(self.mycursor):
+                    self.tableWidget_7.insertRow(row_number)
+                    for column_number, data in enumerate(row_data):
+                            self.tableWidget_7.setItem(row_number, column_number,
+                                                       QtWidgets.QTableWidgetItem(str(data)))
 
-        self.tableWidget_7.resizeColumnToContents(2)
-        self.tableWidget_7.resizeColumnToContents(3)
-        self.tableWidget_7.resizeColumnToContents(4)
-        self.tableWidget_7.resizeColumnToContents(5)
-        self.tableWidget_7.resizeColumnToContents(6)
-        self.tableWidget_7.resizeColumnToContents(7)
+            self.tableWidget_7.resizeColumnToContents(2)
+            self.tableWidget_7.resizeColumnToContents(3)
+            self.tableWidget_7.resizeColumnToContents(4)
+            self.tableWidget_7.resizeColumnToContents(5)
+            self.tableWidget_7.resizeColumnToContents(6)
+            self.tableWidget_7.resizeColumnToContents(7)
 
-        self.stackedWidget_3.setCurrentWidget(self.page_15)
+            self.stackedWidget_3.setCurrentWidget(self.page_15)
 
     def pushButton_35_clicked(self):
-        search = self.lineEdit_30.text()
-        if search == '':
-            search = '.'
+            search = self.lineEdit_30.text()
+            if search == '':
+                    search = '.'
 
-        self.tableWidget_6.setColumnCount(8)
-        header_labels = ['ISBN NO', 'BOOK NAME', 'DATE ISSUED', 'EXPECTED RETURN DATE', 'ACTUAL RETURN DATE', 'STATUS',
-                         'RETURNED', 'PENALTY']
-        self.tableWidget_6.setHorizontalHeaderLabels(header_labels)
-        self.tableWidget_6.verticalHeader().setVisible(False)
-        self.tableWidget_6.setRowCount(0)
+            self.tableWidget_6.setColumnCount(8)
+            header_labels = ['ISBN NO', 'BOOK NAME', 'DATE ISSUED', 'EXPECTED RETURN DATE', 'ACTUAL RETURN DATE',
+                             'STATUS',
+                             'RETURNED', 'PENALTY']
+            self.tableWidget_6.setHorizontalHeaderLabels(header_labels)
+            self.tableWidget_6.verticalHeader().setVisible(False)
+            self.tableWidget_6.setRowCount(0)
 
-        self.mycursor.execute('SELECT ISBN_NO, book_name, date_issued, expected_return_date, actual_return_date, '
-                              'issue_status, returned, penalty FROM library.issued_books WHERE issued_to_id = %s and ('
-                              '(ISBN_NO REGEXP %s) or (book_name REGEXP %s) or (issue_status REGEXP %s)) ORDER BY date_issued DESC',
-                              (self.current_session_email, search, search, search))
+            self.mycursor.execute('SELECT ISBN_NO, book_name, date_issued, expected_return_date, actual_return_date, '
+                                  'issue_status, returned, penalty FROM library.issued_books WHERE issued_to_id = %s and ('
+                                  '(ISBN_NO REGEXP %s) or (book_name REGEXP %s) or (issue_status REGEXP %s)) ORDER BY date_issued DESC',
+                                  (self.current_session_email, search, search, search))
 
-        for row_number, row_data in enumerate(self.mycursor):
-            self.tableWidget_6.insertRow(row_number)
-            for column_number, data in enumerate(row_data):
-                self.tableWidget_6.setItem(row_number, column_number,
-                                           QtWidgets.QTableWidgetItem(str(data)))
+            for row_number, row_data in enumerate(self.mycursor):
+                    self.tableWidget_6.insertRow(row_number)
+                    for column_number, data in enumerate(row_data):
+                            self.tableWidget_6.setItem(row_number, column_number,
+                                                       QtWidgets.QTableWidgetItem(str(data)))
 
     def pushButton_30_clicked(self):
             self.tableWidget_6.setColumnCount(8)
-            header_labels = ['ISBN NO', 'BOOK NAME','DATE ISSUED', 'EXPECTED RETURN DATE', 'ACTUAL RETURN DATE', 'STATUS', 'RETURNED', 'PENALTY']
+            header_labels = ['ISBN NO', 'BOOK NAME', 'DATE ISSUED', 'EXPECTED RETURN DATE', 'ACTUAL RETURN DATE',
+                             'STATUS', 'RETURNED', 'PENALTY']
             self.tableWidget_6.setHorizontalHeaderLabels(header_labels)
-            self.tableWidget_6.verticalHeader().setVisible(False)
+            self.tableWidget_6.verticalHeader().setVisible(True)
             self.tableWidget_6.setRowCount(0)
 
             self.mycursor.execute('SELECT ISBN_NO, book_name, date_issued, expected_return_date, actual_return_date, '
@@ -3294,1007 +5129,1057 @@ class Ui_Form(object):
 
             self.stackedWidget_3.setCurrentWidget(self.page_14)
 
-
     def pushButton_11_clicked(self):
-        self.update_student_homepage(self.current_session_email)
-        self.stackedWidget_3.setCurrentWidget(self.page_13)
+            self.update_student_homepage(self.current_session_email)
+            self.stackedWidget_3.setCurrentWidget(self.page_13)
 
     def pushButton_27_clicked(self):
-        isbn = self.lineEdit_23.text()
-        if isbn == "":
-                isbn_done = False
-        else:
-                if len(str(isbn)) == 13:
-                        try:
-                                int(isbn)
-                                isbn_done = True
-                        except:
-                                isbn_done = False
-                else:
-                        isbn_done = False
+            isbn = self.lineEdit_23.text()
+            if isbn == "":
+                    isbn_done = False
+            else:
+                    if len(str(isbn)) == 13:
+                            try:
+                                    int(isbn)
+                                    isbn_done = True
+                            except:
+                                    isbn_done = False
+                    else:
+                            isbn_done = False
 
-        title = self.lineEdit_24.text()
-        if title == '':
-                title_done = False
-        else:
-                title_done = True
+            title = self.lineEdit_24.text()
+            if title == '':
+                    title_done = False
+            else:
+                    title_done = True
 
-        edition = self.lineEdit_25.text()
-        if edition == '':
-                edition_done = False
-        else:
-                edition_done = True
+            edition = self.lineEdit_25.text()
+            if edition == '':
+                    edition_done = False
+            else:
+                    edition_done = True
 
-        author = self.lineEdit_26.text()
-        if author == '':
-                author_done = False
-        else:
-                author_done = True
+            author = self.lineEdit_26.text()
+            if author == '':
+                    author_done = False
+            else:
+                    author_done = True
 
-        publisher = self.lineEdit_27.text()
-        if publisher == '':
-                publisher_done = False
-        else:
-                publisher_done = True
+            publisher = self.lineEdit_27.text()
+            if publisher == '':
+                    publisher_done = False
+            else:
+                    publisher_done = True
 
-        book_type = self.lineEdit_29.text()
-        if book_type == '':
-                book_type_done = False
-        else:
-                book_type_done = True
+            book_type = self.lineEdit_29.text()
+            if book_type == '':
+                    book_type_done = False
+            else:
+                    book_type_done = True
 
+            date_published = self.dateEdit.date().toString('yyyy-MM-dd')
 
-        date_published = self.dateEdit.date().toString('yyyy-MM-dd')
+            if (isbn_done is True) and (title_done is True) and (edition_done is True) and (author_done is True) and (
+                    publisher_done is True) and (book_type_done is True):
+                    try:
+                            self.mycursor.execute(
+                                    'INSERT INTO library.books(ISBN_NO, book_name, edition, author, publisher, date_published, book_type) '
+                                    'VALUES (%s, %s, %s, %s, %s, %s, %s);',
+                                    (isbn, title, edition, author, publisher, date_published, book_type))
+                            self.db.commit()
 
-        if (isbn_done is True) and (title_done is True) and (edition_done is True) and (author_done is True) and (publisher_done is True) and (book_type_done is True):
-                try:
-                        self.mycursor.execute('INSERT INTO library.books(ISBN_NO, book_name, edition, author, publisher, date_published, book_type) '
-                                              'VALUES (%s, %s, %s, %s, %s, %s, %s);', (isbn, title, edition, author, publisher, date_published, book_type))
-                        self.db.commit()
+                            warning = QMessageBox()
+                            warning.setWindowTitle("Success")
+                            warning.setIcon(QMessageBox.Information)
+                            warning.setText("Book added successfully.")
+                            x = warning.exec_()
 
-                        warning = QMessageBox()
-                        warning.setWindowTitle("Success")
-                        warning.setIcon(QMessageBox.Information)
-                        warning.setText("Book added successfully.")
-                        x = warning.exec_()
-
-                        self.lineEdit_23.clear()
-                        self.lineEdit_24.clear()
-                        self.lineEdit_25.clear()
-                        self.lineEdit_26.clear()
-                        self.lineEdit_27.clear()
-                        self.lineEdit_29.clear()
-
-
-
-                except:
-
-                        warning = QMessageBox()
-                        warning.setWindowTitle("Unexpected")
-                        warning.setIcon(QMessageBox.Warning)
-                        warning.setText("An unexpected issue occurred")
-                        x = warning.exec_()
+                            self.lineEdit_23.clear()
+                            self.lineEdit_24.clear()
+                            self.lineEdit_25.clear()
+                            self.lineEdit_26.clear()
+                            self.lineEdit_27.clear()
+                            self.lineEdit_29.clear()
 
 
-        elif isbn_done is False:
-                warning = QMessageBox()
-                warning.setWindowTitle("ISBN NUMBER")
-                warning.setIcon(QMessageBox.Warning)
-                warning.setText("Blank or invalid ISBN Number")
-                x = warning.exec_()
 
-        elif title_done is False:
-                warning = QMessageBox()
-                warning.setWindowTitle("Book title")
-                warning.setIcon(QMessageBox.Warning)
-                warning.setText("Book title/name should not be blank")
-                x = warning.exec_()
+                    except:
 
-        elif edition_done is False:
-                warning = QMessageBox()
-                warning.setWindowTitle("Edition")
-                warning.setIcon(QMessageBox.Warning)
-                warning.setText("Edition should not be blank")
-                x = warning.exec_()
-        elif author_done is False:
-                warning = QMessageBox()
-                warning.setWindowTitle("Author")
-                warning.setIcon(QMessageBox.Warning)
-                warning.setText("Author should not be blank")
-                x = warning.exec_()
-        elif publisher_done is False:
-                warning = QMessageBox()
-                warning.setWindowTitle("Publisher")
-                warning.setIcon(QMessageBox.Warning)
-                warning.setText("Publisher should not be blank")
-                x = warning.exec_()
-        elif book_type_done is False:
-                warning = QMessageBox()
-                warning.setWindowTitle("Book type")
-                warning.setIcon(QMessageBox.Warning)
-                warning.setText("Book type should not be blank")
-                x = warning.exec_()
+                            warning = QMessageBox()
+                            warning.setWindowTitle("Unexpected")
+                            warning.setIcon(QMessageBox.Warning)
+                            warning.setText("An unexpected issue occurred")
+                            x = warning.exec_()
+
+
+            elif isbn_done is False:
+                    warning = QMessageBox()
+                    warning.setWindowTitle("ISBN NUMBER")
+                    warning.setIcon(QMessageBox.Warning)
+                    warning.setText("Blank or invalid ISBN Number")
+                    x = warning.exec_()
+
+            elif title_done is False:
+                    warning = QMessageBox()
+                    warning.setWindowTitle("Book title")
+                    warning.setIcon(QMessageBox.Warning)
+                    warning.setText("Book title/name should not be blank")
+                    x = warning.exec_()
+
+            elif edition_done is False:
+                    warning = QMessageBox()
+                    warning.setWindowTitle("Edition")
+                    warning.setIcon(QMessageBox.Warning)
+                    warning.setText("Edition should not be blank")
+                    x = warning.exec_()
+            elif author_done is False:
+                    warning = QMessageBox()
+                    warning.setWindowTitle("Author")
+                    warning.setIcon(QMessageBox.Warning)
+                    warning.setText("Author should not be blank")
+                    x = warning.exec_()
+            elif publisher_done is False:
+                    warning = QMessageBox()
+                    warning.setWindowTitle("Publisher")
+                    warning.setIcon(QMessageBox.Warning)
+                    warning.setText("Publisher should not be blank")
+                    x = warning.exec_()
+            elif book_type_done is False:
+                    warning = QMessageBox()
+                    warning.setWindowTitle("Book type")
+                    warning.setIcon(QMessageBox.Warning)
+                    warning.setText("Book type should not be blank")
+                    x = warning.exec_()
 
     def pushButton_15_clicked(self):
-        self.stackedWidget_2.setCurrentWidget(self.page_9)
-        self.dateEdit.setDate(QtCore.QDate.currentDate())
-        self.dateEdit.setMaximumDate(QtCore.QDate.currentDate())
+            self.stackedWidget_2.setCurrentWidget(self.page_9)
+            self.dateEdit.setDate(QtCore.QDate.currentDate())
+            self.dateEdit.setMaximumDate(QtCore.QDate.currentDate())
 
-        # date = self.date_pageReport_a_complaint_date_of_incedence.date().toString('yyyy-MM-dd')
+            # date = self.date_pageReport_a_complaint_date_of_incedence.date().toString('yyyy-MM-dd')
 
     def pushButton_24_cllicked(self):
-        fname = self.lineEdit_15.text()
-        if fname == '':
-            fname_done = False
-        else:
-            fname_done = True
-
-        lname = self.lineEdit_16.text()
-        if lname == '':
-            lname_done = False
-        else:
-            lname_done = True
-
-        phone = self.lineEdit_18.text()
-        if len(phone) >= 10 and len(phone) <= 12:
-            try:
-                int(phone)
-                phone_done = True
-            except:
-                phone_done = False
-
-        else:
-            phone_done = False
-
-        email = self.lineEdit_17.text()
-        email_done = self.is_valid_email(email)
-
-        if self.signup_lec_courses == '':
-            lecs_done = False
-        else:
-            lecs_done = True
-            lecs = self.signup_lec_courses[:-1]
-            l = lecs.split(',')
-            l = list(set(l))
-            x = ''
-            for i in l:
-                x += f'{i},'
-
-            self.signup_students_lecs = x[:-1]
-
-        password = self.lineEdit_22.text()
-        if len(password) > 7:
-            if password == self.lineEdit_21.text():
-                password_done = True
+            fname = self.lineEdit_15.text()
+            if fname == '':
+                    fname_done = False
             else:
-                password_done = False
-        else:
-            password_done = False
+                    fname_done = True
 
-        if (fname_done is True) and (lname_done is True) and (phone_done is True) and (email_done is True) \
-                and (lecs_done is True) and (password_done is True):
+            lname = self.lineEdit_16.text()
+            if lname == '':
+                    lname_done = False
+            else:
+                    lname_done = True
 
-            try:
-                self.mycursor.execute('INSERT INTO library.lecturer_details VALUES (%s, %s);',
-                                      (email, self.signup_students_lecs))
-                self.db.commit()
+            phone = self.lineEdit_18.text()
+            if len(phone) >= 10 and len(phone) <= 12:
+                    try:
+                            int(phone)
+                            phone_done = True
+                    except:
+                            phone_done = False
 
-                self.mycursor.execute(
-                    'INSERT INTO library.users(first_name, last_name, user_type, date_joined, '
-                    'phone_number, email_address) VALUES (%s, %s,%s,%s,%s,%s);',
-                    (fname, lname, 'Lecturer', datetime.now().date(), phone, email))
-                self.db.commit()
+            else:
+                    phone_done = False
 
-                self.mycursor.execute(
-                    'INSERT INTO library.login_details(phone_number, email, pass) VALUES (%s, %s, %s)',
-                    (phone, email, password))
-                self.db.commit()
+            email = self.lineEdit_17.text()
+            email_done = self.is_valid_email(email)
 
-                warning = QMessageBox()
-                warning.setWindowTitle("Success")
-                warning.setIcon(QMessageBox.Information)
-                warning.setText("Account created successfully. \n"
-                                "Login to enjoy features")
-                x = warning.exec_()
+            if self.signup_lec_courses == '':
+                    lecs_done = False
+            else:
+                    lecs_done = True
+                    lecs = self.signup_lec_courses[:-1]
+                    l = lecs.split(',')
+                    l = list(set(l))
+                    x = ''
+                    for i in l:
+                            x += f'{i},'
 
-                self.stackedWidget.setCurrentWidget(self.page)
-                self.lineEdit_15.clear()
-                self.lineEdit_16.clear()
-                self.lineEdit_17.clear()
-                self.lineEdit_18.clear()
-                self.lineEdit_21.clear()
-                self.lineEdit_22.clear()
+                    self.signup_students_lecs = x[:-1]
+
+            password = self.lineEdit_22.text()
+            if len(password) > 7:
+                    if password == self.lineEdit_21.text():
+                            password_done = True
+                    else:
+                            password_done = False
+            else:
+                    password_done = False
+
+            if (fname_done is True) and (lname_done is True) and (phone_done is True) and (email_done is True) \
+                    and (lecs_done is True) and (password_done is True):
+
+                    try:
+                            self.mycursor.execute('INSERT INTO library.lecturer_details VALUES (%s, %s);',
+                                                  (email, self.signup_students_lecs))
+                            self.db.commit()
+
+                            self.mycursor.execute(
+                                    'INSERT INTO library.users(first_name, last_name, user_type, date_joined, '
+                                    'phone_number, email_address) VALUES (%s, %s,%s,%s,%s,%s);',
+                                    (fname, lname, 'Lecturer', datetime.now().date(), phone, email))
+                            self.db.commit()
+
+                            self.mycursor.execute(
+                                    'INSERT INTO library.login_details(phone_number, email, pass) VALUES (%s, %s, %s)',
+                                    (phone, email, password))
+                            self.db.commit()
+
+                            warning = QMessageBox()
+                            warning.setWindowTitle("Success")
+                            warning.setIcon(QMessageBox.Information)
+                            warning.setText("Account created successfully. \n"
+                                            "Login to enjoy features")
+                            x = warning.exec_()
+
+                            self.stackedWidget.setCurrentWidget(self.page)
+                            self.lineEdit_15.clear()
+                            self.lineEdit_16.clear()
+                            self.lineEdit_17.clear()
+                            self.lineEdit_18.clear()
+                            self.lineEdit_21.clear()
+                            self.lineEdit_22.clear()
 
 
-            except:
-                warning = QMessageBox()
-                warning.setWindowTitle("Duplicate")
-                warning.setIcon(QMessageBox.Warning)
-                warning.setText("Email address or phone number is already linked with an account")
-                x = warning.exec_()
+                    except:
+                            warning = QMessageBox()
+                            warning.setWindowTitle("Duplicate")
+                            warning.setIcon(QMessageBox.Warning)
+                            warning.setText("Email address or phone number is already linked with an account")
+                            x = warning.exec_()
 
-        elif fname_done is False:
-            warning = QMessageBox()
-            warning.setWindowTitle("First Name")
-            warning.setIcon(QMessageBox.Warning)
-            warning.setText("First name cannot be blank")
-            x = warning.exec_()
-        elif lname_done is False:
-            warning = QMessageBox()
-            warning.setWindowTitle("Last Name")
-            warning.setIcon(QMessageBox.Warning)
-            warning.setText("Last name cannot be blank")
-            x = warning.exec_()
+            elif fname_done is False:
+                    warning = QMessageBox()
+                    warning.setWindowTitle("First Name")
+                    warning.setIcon(QMessageBox.Warning)
+                    warning.setText("First name cannot be blank")
+                    x = warning.exec_()
+            elif lname_done is False:
+                    warning = QMessageBox()
+                    warning.setWindowTitle("Last Name")
+                    warning.setIcon(QMessageBox.Warning)
+                    warning.setText("Last name cannot be blank")
+                    x = warning.exec_()
 
-        elif phone_done is False:
-            warning = QMessageBox()
-            warning.setWindowTitle("Phone Number")
-            warning.setIcon(QMessageBox.Warning)
-            warning.setText("Phone number is invalid or blank")
-            x = warning.exec_()
+            elif phone_done is False:
+                    warning = QMessageBox()
+                    warning.setWindowTitle("Phone Number")
+                    warning.setIcon(QMessageBox.Warning)
+                    warning.setText("Phone number is invalid or blank")
+                    x = warning.exec_()
 
-        elif email_done is False:
-            warning = QMessageBox()
-            warning.setWindowTitle("Email address")
-            warning.setIcon(QMessageBox.Warning)
-            warning.setText("Invalid or blank email address")
-            x = warning.exec_()
+            elif email_done is False:
+                    warning = QMessageBox()
+                    warning.setWindowTitle("Email address")
+                    warning.setIcon(QMessageBox.Warning)
+                    warning.setText("Invalid or blank email address")
+                    x = warning.exec_()
 
 
-        elif lecs_done is False:
-            warning = QMessageBox()
-            warning.setWindowTitle("Courses")
-            warning.setIcon(QMessageBox.Warning)
-            warning.setText("Please select the courses you teach")
-            x = warning.exec_()
+            elif lecs_done is False:
+                    warning = QMessageBox()
+                    warning.setWindowTitle("Courses")
+                    warning.setIcon(QMessageBox.Warning)
+                    warning.setText("Please select the courses you teach")
+                    x = warning.exec_()
 
-        elif password_done is False:
-            warning = QMessageBox()
-            warning.setWindowTitle("Passwords")
-            warning.setIcon(QMessageBox.Warning)
-            warning.setText("Password is short or they do not match")
-            x = warning.exec_()
+            elif password_done is False:
+                    warning = QMessageBox()
+                    warning.setWindowTitle("Passwords")
+                    warning.setIcon(QMessageBox.Warning)
+                    warning.setText("Password is short or they do not match")
+                    x = warning.exec_()
 
     def pushButton_26_clicked(self):
-        course = self.comboBox_3.currentText()
-        if course == 'Select Course':
-            warning = QMessageBox()
-            warning.setWindowTitle("Select course")
-            warning.setIcon(QMessageBox.Warning)
-            warning.setText("Please select a course")
-            x = warning.exec_()
-        else:
+            course = self.comboBox_3.currentText()
+            if course == 'Select Course':
+                    warning = QMessageBox()
+                    warning.setWindowTitle("Select course")
+                    warning.setIcon(QMessageBox.Warning)
+                    warning.setText("Please select a course")
+                    x = warning.exec_()
+            else:
 
-            self.signup_lec_courses += f'{course},'
+                    self.signup_lec_courses += f'{course},'
 
-            warning = QMessageBox()
-            warning.setWindowTitle("Added")
-            warning.setIcon(QMessageBox.Information)
-            warning.setText("Course added to the ones you teach")
-            x = warning.exec_()
+                    warning = QMessageBox()
+                    warning.setWindowTitle("Added")
+                    warning.setIcon(QMessageBox.Information)
+                    warning.setText("Course added to the ones you teach")
+                    x = warning.exec_()
 
     def pushButton_3_clicked(self):
-        self.mycursor.execute("SELECT course FROM library.courses ORDER BY course;")
-        courses = [i[0] for i in self.mycursor]
-        courses.insert(0, "Select Course")
+            self.mycursor.execute("SELECT course FROM library.courses ORDER BY course;")
+            courses = [i[0] for i in self.mycursor]
+            courses.insert(0, "Select Course")
 
-        self.comboBox_3.clear()
-        self.comboBox_3.addItems(courses)
+            self.comboBox_3.clear()
+            self.comboBox_3.addItems(courses)
 
-        self.stackedWidget.setCurrentWidget(self.page_11)
+            self.stackedWidget.setCurrentWidget(self.page_11)
 
     def is_valid_email(self, email_to_validate):
-        if not email_to_validate:
-            return False
+            if not email_to_validate:
+                    return False
 
-        pattern = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
+            pattern = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
 
-        if re.match(pattern, email_to_validate):
-            return True
-        else:
-            return False
+            if re.match(pattern, email_to_validate):
+                    return True
+            else:
+                    return False
 
     def pushButton_18_clicked(self):
-        fname = self.lineEdit_11.text()
-        if fname == '':
-            fname_done = False
-        else:
-            fname_done = True
-
-        lname = self.lineEdit_12.text()
-        if lname == '':
-            lname_done = False
-        else:
-            lname_done = True
-
-        phone = self.lineEdit_14.text()
-        if len(phone) >= 10 and len(phone) <= 12:
-            try:
-                int(phone)
-                phone_done = True
-            except:
-                phone_done = False
-
-        else:
-            phone_done = False
-
-        email = self.lineEdit_13.text()
-        email_done = self.is_valid_email(email)
-
-        course = self.comboBox_2.currentText()
-        if course == 'Select Course':
-            course_done = False
-        else:
-            course_done = True
-
-        if self.signup_students_lecs == '':
-            lecs_done = False
-        else:
-
-            lecs_done = True
-            lecs = self.signup_students_lecs[:-1]
-            l = lecs.split(',')
-            l = list(set(l))
-            x = ''
-            for i in l:
-                x += f'{i},'
-
-            self.signup_students_lecs = x[:-1]
-
-        password = self.lineEdit_19.text()
-        if len(password) > 7:
-            if password == self.lineEdit_20.text():
-                password_done = True
+            fname = self.lineEdit_11.text()
+            if fname == '':
+                    fname_done = False
             else:
-                password_done = False
-        else:
-            password_done = False
+                    fname_done = True
 
-        if (fname_done is True) and (lname_done is True) and (phone_done is True) and (email_done is True) and (
-                course_done is True) and (lecs_done is True) and (password_done is True):
+            lname = self.lineEdit_12.text()
+            if lname == '':
+                    lname_done = False
+            else:
+                    lname_done = True
 
-            try:
-                self.mycursor.execute('INSERT INTO library.student_details VALUES (%s, %s, %s);',
-                                      (email, course, self.signup_students_lecs))
-                self.db.commit()
+            phone = self.lineEdit_14.text()
+            if len(phone) >= 10 and len(phone) <= 12:
+                    try:
+                            int(phone)
+                            phone_done = True
+                    except:
+                            phone_done = False
 
-                self.mycursor.execute('INSERT INTO library.users(first_name, last_name, user_type, date_joined, '
-                                      'phone_number, email_address) VALUES (%s, %s,%s,%s,%s,%s);',
-                                      (fname, lname, 'Student', datetime.now().date(), phone, email))
-                self.db.commit()
+            else:
+                    phone_done = False
 
-                self.mycursor.execute(
-                    'INSERT INTO library.login_details(phone_number, email, pass) VALUES (%s, %s, %s)',
-                    (phone, email, password))
-                self.db.commit()
+            email = self.lineEdit_13.text()
+            email_done = self.is_valid_email(email)
 
-                warning = QMessageBox()
-                warning.setWindowTitle("Account created successfully")
-                warning.setIcon(QMessageBox.Information)
-                warning.setText("Account created successfully. \n"
-                                "Login to enjoy features")
-                x = warning.exec_()
+            course = self.comboBox_2.currentText()
+            if course == 'Select Course':
+                    course_done = False
+            else:
+                    course_done = True
 
-                self.stackedWidget.setCurrentWidget(self.page)
-                self.lineEdit_11.clear()
-                self.lineEdit_12.clear()
-                self.lineEdit_13.clear()
-                self.lineEdit_14.clear()
-                self.lineEdit_19.clear()
-                self.lineEdit_20.clear()
+            if self.signup_students_lecs == '':
+                    lecs_done = False
+            else:
+
+                    lecs_done = True
+                    lecs = self.signup_students_lecs[:-1]
+                    l = lecs.split(',')
+                    l = list(set(l))
+                    x = ''
+                    for i in l:
+                            x += f'{i},'
+
+                    self.signup_students_lecs = x[:-1]
+
+            password = self.lineEdit_19.text()
+            if len(password) > 7:
+                    if password == self.lineEdit_20.text():
+                            password_done = True
+                    else:
+                            password_done = False
+            else:
+                    password_done = False
+
+            if (fname_done is True) and (lname_done is True) and (phone_done is True) and (email_done is True) and (
+                    course_done is True) and (lecs_done is True) and (password_done is True):
+
+                    try:
+                            self.mycursor.execute('INSERT INTO library.student_details VALUES (%s, %s, %s);',
+                                                  (email, course, self.signup_students_lecs))
+                            self.db.commit()
+
+                            self.mycursor.execute(
+                                    'INSERT INTO library.users(first_name, last_name, user_type, date_joined, '
+                                    'phone_number, email_address) VALUES (%s, %s,%s,%s,%s,%s);',
+                                    (fname, lname, 'Student', datetime.now().date(), phone, email))
+                            self.db.commit()
+
+                            self.mycursor.execute(
+                                    'INSERT INTO library.login_details(phone_number, email, pass) VALUES (%s, %s, %s)',
+                                    (phone, email, password))
+                            self.db.commit()
+
+                            warning = QMessageBox()
+                            warning.setWindowTitle("Account created successfully")
+                            warning.setIcon(QMessageBox.Information)
+                            warning.setText("Account created successfully. \n"
+                                            "Login to enjoy features")
+                            x = warning.exec_()
+
+                            self.stackedWidget.setCurrentWidget(self.page)
+                            self.lineEdit_11.clear()
+                            self.lineEdit_12.clear()
+                            self.lineEdit_13.clear()
+                            self.lineEdit_14.clear()
+                            self.lineEdit_19.clear()
+                            self.lineEdit_20.clear()
 
 
-            except:
-                warning = QMessageBox()
-                warning.setWindowTitle("Duplicate")
-                warning.setIcon(QMessageBox.Warning)
-                warning.setText("Email address or phone number is already linked with an account")
-                x = warning.exec_()
+                    except:
+                            warning = QMessageBox()
+                            warning.setWindowTitle("Duplicate")
+                            warning.setIcon(QMessageBox.Warning)
+                            warning.setText("Email address or phone number is already linked with an account")
+                            x = warning.exec_()
 
-        elif fname_done is False:
-            warning = QMessageBox()
-            warning.setWindowTitle("First Name")
-            warning.setIcon(QMessageBox.Warning)
-            warning.setText("First name cannot be blank")
-            x = warning.exec_()
-        elif lname_done is False:
-            warning = QMessageBox()
-            warning.setWindowTitle("Last Name")
-            warning.setIcon(QMessageBox.Warning)
-            warning.setText("Last name cannot be blank")
-            x = warning.exec_()
+            elif fname_done is False:
+                    warning = QMessageBox()
+                    warning.setWindowTitle("First Name")
+                    warning.setIcon(QMessageBox.Warning)
+                    warning.setText("First name cannot be blank")
+                    x = warning.exec_()
+            elif lname_done is False:
+                    warning = QMessageBox()
+                    warning.setWindowTitle("Last Name")
+                    warning.setIcon(QMessageBox.Warning)
+                    warning.setText("Last name cannot be blank")
+                    x = warning.exec_()
 
-        elif phone_done is False:
-            warning = QMessageBox()
-            warning.setWindowTitle("Phone Number")
-            warning.setIcon(QMessageBox.Warning)
-            warning.setText("Phone number is invalid or blank")
-            x = warning.exec_()
+            elif phone_done is False:
+                    warning = QMessageBox()
+                    warning.setWindowTitle("Phone Number")
+                    warning.setIcon(QMessageBox.Warning)
+                    warning.setText("Phone number is invalid or blank")
+                    x = warning.exec_()
 
-        elif email_done is False:
-            warning = QMessageBox()
-            warning.setWindowTitle("Email address")
-            warning.setIcon(QMessageBox.Warning)
-            warning.setText("Invalid or blank email address")
-            x = warning.exec_()
+            elif email_done is False:
+                    warning = QMessageBox()
+                    warning.setWindowTitle("Email address")
+                    warning.setIcon(QMessageBox.Warning)
+                    warning.setText("Invalid or blank email address")
+                    x = warning.exec_()
 
-        elif course_done is False:
-            warning = QMessageBox()
-            warning.setWindowTitle("Course")
-            warning.setIcon(QMessageBox.Warning)
-            warning.setText("Please select your current course")
-            x = warning.exec_()
+            elif course_done is False:
+                    warning = QMessageBox()
+                    warning.setWindowTitle("Course")
+                    warning.setIcon(QMessageBox.Warning)
+                    warning.setText("Please select your current course")
+                    x = warning.exec_()
 
-        elif lecs_done is False:
-            warning = QMessageBox()
-            warning.setWindowTitle("Lecturers")
-            warning.setIcon(QMessageBox.Warning)
-            warning.setText("Please select your available lecturers")
-            x = warning.exec_()
-        elif password_done is False:
-            warning = QMessageBox()
-            warning.setWindowTitle("Passwords")
-            warning.setIcon(QMessageBox.Warning)
-            warning.setText("Password is short or they do not match")
-            x = warning.exec_()
+            elif lecs_done is False:
+                    warning = QMessageBox()
+                    warning.setWindowTitle("Lecturers")
+                    warning.setIcon(QMessageBox.Warning)
+                    warning.setText("Please select your available lecturers")
+                    x = warning.exec_()
+            elif password_done is False:
+                    warning = QMessageBox()
+                    warning.setWindowTitle("Passwords")
+                    warning.setIcon(QMessageBox.Warning)
+                    warning.setText("Password is short or they do not match")
+                    x = warning.exec_()
 
     def pushButton_23_clicked(self):
-        lec = self.comboBox.currentText()
-        if lec == 'Select Lecturer':
-            warning = QMessageBox()
-            warning.setWindowTitle("Select Lec")
-            warning.setIcon(QMessageBox.Warning)
-            warning.setText("Please select a lecturer from the dropdown list")
-            x = warning.exec_()
-        else:
-            self.signup_students_lecs += f'{lec},'
-            warning = QMessageBox()
-            warning.setWindowTitle("Added")
-            warning.setIcon(QMessageBox.Information)
-            warning.setText("Lecturer has been added to your lecturers' list")
-            x = warning.exec_()
+            lec = self.comboBox.currentText()
+            if lec == 'Select Lecturer':
+                    warning = QMessageBox()
+                    warning.setWindowTitle("Select Lec")
+                    warning.setIcon(QMessageBox.Warning)
+                    warning.setText("Please select a lecturer from the dropdown list")
+                    x = warning.exec_()
+            else:
+                    self.signup_students_lecs += f'{lec},'
+                    warning = QMessageBox()
+                    warning.setWindowTitle("Added")
+                    warning.setIcon(QMessageBox.Information)
+                    warning.setText("Lecturer has been added to your lecturers' list")
+                    x = warning.exec_()
 
     def pushButton_22_clicked(self):
-        self.stackedWidget.setCurrentWidget(self.page)
+            self.stackedWidget.setCurrentWidget(self.page)
 
     def pushButton_2_clicked(self):
-        df = pd.read_sql('SELECT * FROM library.users;', self.db)
+            df = pd.read_sql('SELECT * FROM library.users;', self.db)
 
-        arr = np.array(df)
+            arr = np.array(df)
 
-        lec_names = []
-        for i in arr:
-            if i[3] == 'Lecturer':
-                name = f'{i[1]} {i[2]}'
-                lec_names.append(name)
+            lec_names = []
+            for i in arr:
+                    if i[3] == 'Lecturer':
+                            name = f'{i[1]} {i[2]}'
+                            lec_names.append(name)
 
-        lec_names.sort()
-        self.comboBox.clear()
-        self.comboBox.addItem('Select Lecturer')
-        self.comboBox.addItems(lec_names)
+            lec_names.sort()
+            self.comboBox.clear()
+            self.comboBox.addItem('Select Lecturer')
+            self.comboBox.addItems(lec_names)
 
-        self.mycursor.execute("SELECT course FROM library.courses ORDER BY course;")
-        courses = [i[0] for i in self.mycursor]
-        courses.insert(0, "Select Course")
+            self.mycursor.execute("SELECT course FROM library.courses ORDER BY course;")
+            courses = [i[0] for i in self.mycursor]
+            courses.insert(0, "Select Course")
 
-        self.comboBox_2.clear()
-        self.comboBox_2.addItems(courses)
+            self.comboBox_2.clear()
+            self.comboBox_2.addItems(courses)
 
-        self.stackedWidget.setCurrentWidget(self.page_10)
+            self.stackedWidget.setCurrentWidget(self.page_10)
 
     def update_stats(self):
-        df = pd.read_sql('SELECT * FROM library.users;', self.db)
+            df = pd.read_sql('SELECT * FROM library.users;', self.db)
 
-        arr = np.array(df)
+            arr = np.array(df)
 
-        for i in arr:
-            email = i[6]
-            df1 = pd.read_sql(f'SELECT * FROM library.issued_books WHERE issued_to_id = "{email}";', self.db)
+            for i in arr:
+                    email = i[6]
+                    df1 = pd.read_sql(f'SELECT * FROM library.issued_books WHERE issued_to_id = "{email}";', self.db)
 
-            try:
-                total = df1.shape[0]
-                overdue = df1[df1.issue_status == 'OVERDUE'].shape[0]
+                    try:
+                            total = df1.shape[0]
+                            overdue = df1[df1.issue_status == 'OVERDUE'].shape[0]
 
-                try:
-                    percentage = 100 - (overdue * 100 / total)
-                    percentage = round(percentage, 2)
-                except:
-                    percentage = 100
+                            try:
+                                    percentage = 100 - (overdue * 100 / total)
+                                    percentage = round(percentage, 2)
+                            except:
+                                    percentage = 100
 
-                self.mycursor.execute(
-                    "UPDATE library.users SET on_date_return = %s, total_books_borrowed = %s WHERE email_address = %s",
-                    (percentage, total, email))
-                self.db.commit()
+                            self.mycursor.execute(
+                                    "UPDATE library.users SET on_date_return = %s, total_books_borrowed = %s WHERE email_address = %s",
+                                    (percentage, total, email))
+                            self.db.commit()
 
-            except:
-                csdcasdc = 0
+                    except:
+                            csdcasdc = 0
 
     def update_overdue(self):
-        df = pd.read_sql(
-            'SELECT issue_id, expected_return_date, actual_return_date, issue_status, penalty FROM library.issued_books;',
-            self.db)
+            df = pd.read_sql(
+                    'SELECT issue_id, expected_return_date, actual_return_date, issue_status, penalty FROM library.issued_books;',
+                    self.db)
 
-        arr = np.array(df)
+            arr = np.array(df)
 
-        for i in arr:
-            if datetime.now().date() > i[1]:
-                if i[2] == None:
-                    self.mycursor.execute(
-                        f"UPDATE library.issued_books SET issue_status = 'OVERDUE' WHERE issue_id = %s;",
-                        (i[0],))
-                    self.db.commit()
+            for i in arr:
+                    if datetime.now().date() > i[1]:
+                            if i[2] == None:
+                                    self.mycursor.execute(
+                                            f"UPDATE library.issued_books SET issue_status = 'OVERDUE' WHERE issue_id = %s;",
+                                            (i[0],))
+                                    self.db.commit()
 
     def update_penaty(self):
-        df = pd.read_sql(
-            'SELECT issue_id, expected_return_date, actual_return_date, issue_status, penalty FROM library.issued_books;',
-            self.db)
+            df = pd.read_sql(
+                    'SELECT issue_id, expected_return_date, actual_return_date, issue_status, penalty FROM library.issued_books;',
+                    self.db)
 
-        arr = np.array(df)
+            arr = np.array(df)
 
-        for i in arr:
-            if i[2] == None:
-                print(f'{i[0]} : {(datetime.now().date()) > i[1]}')
-                if (datetime.now().date()) > i[1]:
-                    pen = float(((pd.Timestamp(datetime.now().date()) - pd.Timestamp(i[1])).days) * 100)
-                    self.mycursor.execute(
-                        f"UPDATE library.issued_books SET penalty = %s WHERE issue_id = %s;",
-                        (pen, i[0]))
-                    self.db.commit()
+            for i in arr:
+                    if i[2] == None:
+                            if (datetime.now().date()) > i[1]:
+                                    pen = float(((pd.Timestamp(datetime.now().date()) - pd.Timestamp(i[1])).days) * 100)
+                                    self.mycursor.execute(
+                                            f"UPDATE library.issued_books SET penalty = %s WHERE issue_id = %s;",
+                                            (pen, i[0]))
+                                    self.db.commit()
 
     def pushButton_17_clicked(self):
-        id = self.lineEdit_7.text()
-        try:
-            self.mycursor.execute("SELECT actual_return_date FROM library.issued_books WHERE issue_id = %s", (id,))
-            is_null = [i for i in self.mycursor][0][0]
-            if is_null == None:
-                self.mycursor.execute(f"UPDATE library.issued_books SET actual_return_date = %s WHERE issue_id = %s;",
-                                      (datetime.now().date(), id))
-                warning = QMessageBox()
-                warning.setWindowTitle("Success")
-                warning.setIcon(QMessageBox.Information)
-                warning.setText("Record has been marked as returned today")
-                x = warning.exec_()
+            id = self.lineEdit_7.text()
+            try:
+                    self.mycursor.execute("SELECT actual_return_date FROM library.issued_books WHERE issue_id = %s",
+                                          (id,))
+                    is_null = [i for i in self.mycursor][0][0]
+                    if is_null == None:
+                            self.mycursor.execute(
+                                    f"UPDATE library.issued_books SET actual_return_date = %s WHERE issue_id = %s;",
+                                    (datetime.now().date(), id))
+                            warning = QMessageBox()
+                            warning.setWindowTitle("Success")
+                            warning.setIcon(QMessageBox.Information)
+                            warning.setText("Record has been marked as returned today")
+                            x = warning.exec_()
 
-                self.pushButton_9_clicked()
-                self.lineEdit_7.clear()
+                            self.pushButton_9_clicked()
+                            self.lineEdit_7.clear()
 
-            else:
-                warning = QMessageBox()
-                warning.setWindowTitle("Success")
-                warning.setIcon(QMessageBox.Warning)
-                warning.setText("This book was already returned")
-                x = warning.exec_()
-        except:
-            warning = QMessageBox()
-            warning.setWindowTitle("Incorrect ID")
-            warning.setIcon(QMessageBox.Warning)
-            warning.setText("Incorrect Issue ID")
-            x = warning.exec_()
+                    else:
+                            warning = QMessageBox()
+                            warning.setWindowTitle("Success")
+                            warning.setIcon(QMessageBox.Warning)
+                            warning.setText("This book was already returned")
+                            x = warning.exec_()
+            except:
+                    warning = QMessageBox()
+                    warning.setWindowTitle("Incorrect ID")
+                    warning.setIcon(QMessageBox.Warning)
+                    warning.setText("Incorrect Issue ID")
+                    x = warning.exec_()
 
     def pushButton_9_clicked(self):
-        self.tableWidget_5.setColumnCount(9)
-        header_labels = ['ISSUE ID', 'ISBN NO', 'BOOK NAME', 'ISSUED TO NAME', 'ISSUED TO ID', 'DATE ISSUED',
-                         'EXPECTED RETURN DATE', 'ACTUAL RETURN DATE', 'PENALTY']
-        self.tableWidget_5.setHorizontalHeaderLabels(header_labels)
-        self.tableWidget_5.verticalHeader().setVisible(False)
-        self.tableWidget_5.setRowCount(0)
+            self.tableWidget_5.setColumnCount(9)
+            header_labels = ['ISSUE ID', 'ISBN NO', 'BOOK NAME', 'ISSUED TO NAME', 'ISSUED TO ID', 'DATE ISSUED',
+                             'EXPECTED RETURN DATE', 'ACTUAL RETURN DATE', 'PENALTY']
+            self.tableWidget_5.setHorizontalHeaderLabels(header_labels)
+            self.tableWidget_5.verticalHeader().setVisible(False)
+            self.tableWidget_5.setRowCount(0)
 
-        self.mycursor.execute(
-            "SELECT issue_id, ISBN_NO, book_name,issued_to_name, issued_to_id,  date_issued, expected_return_date, actual_return_date, penalty FROM library.issued_books WHERE issue_status = 'OVERDUE' ORDER BY expected_return_date DESC;")
+            self.mycursor.execute(
+                    "SELECT issue_id, ISBN_NO, book_name,issued_to_name, issued_to_id,  date_issued, expected_return_date, actual_return_date, penalty FROM library.issued_books WHERE issue_status = 'OVERDUE' ORDER BY expected_return_date DESC;")
 
-        for row_number, row_data in enumerate(self.mycursor):
-            self.tableWidget_5.insertRow(row_number)
-            for column_number, data in enumerate(row_data):
-                self.tableWidget_5.setItem(row_number, column_number,
-                                           QtWidgets.QTableWidgetItem(str(data)))
+            for row_number, row_data in enumerate(self.mycursor):
+                    self.tableWidget_5.insertRow(row_number)
+                    for column_number, data in enumerate(row_data):
+                            self.tableWidget_5.setItem(row_number, column_number,
+                                                       QtWidgets.QTableWidgetItem(str(data)))
 
-        self.tableWidget_5.resizeColumnToContents(2)
-        self.tableWidget_5.resizeColumnToContents(3)
-        self.tableWidget_5.resizeColumnToContents(4)
-        self.tableWidget_5.resizeColumnToContents(5)
-        self.tableWidget_5.resizeColumnToContents(6)
-        self.tableWidget_5.resizeColumnToContents(7)
-        self.tableWidget_5.resizeColumnToContents(8)
+            self.tableWidget_5.resizeColumnToContents(2)
+            self.tableWidget_5.resizeColumnToContents(3)
+            self.tableWidget_5.resizeColumnToContents(4)
+            self.tableWidget_5.resizeColumnToContents(5)
+            self.tableWidget_5.resizeColumnToContents(6)
+            self.tableWidget_5.resizeColumnToContents(7)
+            self.tableWidget_5.resizeColumnToContents(8)
 
-        self.stackedWidget_2.setCurrentWidget(self.page_8)
+            self.stackedWidget_2.setCurrentWidget(self.page_8)
 
     def pushButton_20_clicked(self):
-        search = self.lineEdit_9.text()
-        if search == '':
-            search = '.'
+            search = self.lineEdit_9.text()
+            if search == '':
+                    search = '.'
 
-        self.tableWidget_4.setColumnCount(10)
-        header_labels = ['ISSUE ID', 'ISBN NO', 'BOOK NAME', 'ISSUED TO NAME', 'ISSUED TO ID', 'DATE ISSUED',
-                         'EXPECTED RETURN DATE', 'ACTUAL RETURN DATE', 'RETURNED STATUS', 'PENALTY']
-        self.tableWidget_4.setHorizontalHeaderLabels(header_labels)
-        self.tableWidget_4.verticalHeader().setVisible(False)
-        self.tableWidget_4.setRowCount(0)
+            self.tableWidget_4.setColumnCount(10)
+            header_labels = ['ISSUE ID', 'ISBN NO', 'BOOK NAME', 'ISSUED TO NAME', 'ISSUED TO ID', 'DATE ISSUED',
+                             'EXPECTED RETURN DATE', 'ACTUAL RETURN DATE', 'RETURNED STATUS', 'PENALTY']
+            self.tableWidget_4.setHorizontalHeaderLabels(header_labels)
+            self.tableWidget_4.verticalHeader().setVisible(False)
+            self.tableWidget_4.setRowCount(0)
 
-        self.mycursor.execute('SELECT issue_id, ISBN_NO, book_name,issued_to_name, issued_to_id,  date_issued, '
-                              'expected_return_date, actual_return_date, issue_status, penalty FROM '
-                              'library.issued_books WHERE returned = "YES" AND '
-                              '(ISBN_NO REGEXP %s or book_name REGEXP %s or issued_to_name REGEXP %s OR issued_to_id REGEXP %s) '
-                              'ORDER BY actual_return_date DESC;', (search, search, search, search))
+            self.mycursor.execute('SELECT issue_id, ISBN_NO, book_name,issued_to_name, issued_to_id,  date_issued, '
+                                  'expected_return_date, actual_return_date, issue_status, penalty FROM '
+                                  'library.issued_books WHERE returned = "YES" AND '
+                                  '(ISBN_NO REGEXP %s or book_name REGEXP %s or issued_to_name REGEXP %s OR issued_to_id REGEXP %s) '
+                                  'ORDER BY actual_return_date DESC;', (search, search, search, search))
 
-        for row_number, row_data in enumerate(self.mycursor):
-            self.tableWidget_4.insertRow(row_number)
-            for column_number, data in enumerate(row_data):
-                self.tableWidget_4.setItem(row_number, column_number,
-                                           QtWidgets.QTableWidgetItem(str(data)))
+            for row_number, row_data in enumerate(self.mycursor):
+                    self.tableWidget_4.insertRow(row_number)
+                    for column_number, data in enumerate(row_data):
+                            self.tableWidget_4.setItem(row_number, column_number,
+                                                       QtWidgets.QTableWidgetItem(str(data)))
 
-        self.tableWidget_4.resizeColumnToContents(2)
-        self.tableWidget_4.resizeColumnToContents(3)
-        self.tableWidget_4.resizeColumnToContents(4)
-        self.tableWidget_4.resizeColumnToContents(5)
-        self.tableWidget_4.resizeColumnToContents(6)
+            self.tableWidget_4.resizeColumnToContents(2)
+            self.tableWidget_4.resizeColumnToContents(3)
+            self.tableWidget_4.resizeColumnToContents(4)
+            self.tableWidget_4.resizeColumnToContents(5)
+            self.tableWidget_4.resizeColumnToContents(6)
 
-        self.tableWidget_4.resizeColumnToContents(7)
-        self.tableWidget_4.resizeColumnToContents(8)
-        self.tableWidget_4.resizeColumnToContents(9)
+            self.tableWidget_4.resizeColumnToContents(7)
+            self.tableWidget_4.resizeColumnToContents(8)
+            self.tableWidget_4.resizeColumnToContents(9)
 
-        self.stackedWidget_2.setCurrentWidget(self.page_7)
+            self.stackedWidget_2.setCurrentWidget(self.page_7)
 
     def pushButton_6_clicked(self):
-        self.tableWidget_4.setColumnCount(10)
-        header_labels = ['ISSUE ID', 'ISBN NO', 'BOOK NAME', 'ISSUED TO NAME', 'ISSUED TO ID', 'DATE ISSUED',
-                         'EXPECTED RETURN DATE', 'ACTUAL RETURN DATE', 'RETURNED STATUS', 'PENALTY']
-        self.tableWidget_4.setHorizontalHeaderLabels(header_labels)
-        self.tableWidget_4.verticalHeader().setVisible(False)
-        self.tableWidget_4.setRowCount(0)
+            self.tableWidget_4.setColumnCount(10)
+            header_labels = ['ISSUE ID', 'ISBN NO', 'BOOK NAME', 'ISSUED TO NAME', 'ISSUED TO ID', 'DATE ISSUED',
+                             'EXPECTED RETURN DATE', 'ACTUAL RETURN DATE', 'RETURNED STATUS', 'PENALTY']
+            self.tableWidget_4.setHorizontalHeaderLabels(header_labels)
+            self.tableWidget_4.verticalHeader().setVisible(False)
+            self.tableWidget_4.setRowCount(0)
 
-        self.mycursor.execute('SELECT issue_id, ISBN_NO, book_name,issued_to_name, issued_to_id,  date_issued, '
-                              'expected_return_date, actual_return_date, issue_status, penalty FROM '
-                              'library.issued_books WHERE returned = "YES" ORDER BY actual_return_date DESC;')
+            self.mycursor.execute('SELECT issue_id, ISBN_NO, book_name,issued_to_name, issued_to_id,  date_issued, '
+                                  'expected_return_date, actual_return_date, issue_status, penalty FROM '
+                                  'library.issued_books WHERE returned = "YES" ORDER BY actual_return_date DESC;')
 
-        for row_number, row_data in enumerate(self.mycursor):
-            self.tableWidget_4.insertRow(row_number)
-            for column_number, data in enumerate(row_data):
-                self.tableWidget_4.setItem(row_number, column_number,
-                                           QtWidgets.QTableWidgetItem(str(data)))
+            for row_number, row_data in enumerate(self.mycursor):
+                    self.tableWidget_4.insertRow(row_number)
+                    for column_number, data in enumerate(row_data):
+                            self.tableWidget_4.setItem(row_number, column_number,
+                                                       QtWidgets.QTableWidgetItem(str(data)))
 
-        self.tableWidget_4.resizeColumnToContents(2)
-        self.tableWidget_4.resizeColumnToContents(3)
-        self.tableWidget_4.resizeColumnToContents(4)
-        self.tableWidget_4.resizeColumnToContents(5)
-        self.tableWidget_4.resizeColumnToContents(6)
+            self.tableWidget_4.resizeColumnToContents(2)
+            self.tableWidget_4.resizeColumnToContents(3)
+            self.tableWidget_4.resizeColumnToContents(4)
+            self.tableWidget_4.resizeColumnToContents(5)
+            self.tableWidget_4.resizeColumnToContents(6)
 
-        self.tableWidget_4.resizeColumnToContents(7)
-        self.tableWidget_4.resizeColumnToContents(8)
-        self.tableWidget_4.resizeColumnToContents(9)
+            self.tableWidget_4.resizeColumnToContents(7)
+            self.tableWidget_4.resizeColumnToContents(8)
+            self.tableWidget_4.resizeColumnToContents(9)
 
-        self.stackedWidget_2.setCurrentWidget(self.page_7)
+            self.stackedWidget_2.setCurrentWidget(self.page_7)
 
     def pushButton_19_clicked(self):
-        search = self.lineEdit_8.text()
-        if search == '':
-            search = '.'
+            search = self.lineEdit_8.text()
+            if search == '':
+                    search = '.'
 
-        self.tableWidget_3.setColumnCount(7)
-        header_labels = ['ISSUE ID', 'ISBN NO', 'BOOK NAME', 'ISSUED TO NAME', 'ISSUED TO ID', 'DATE ISSUED',
-                         'EXPECTED RETURN DATE']
-        self.tableWidget_3.setHorizontalHeaderLabels(header_labels)
-        self.tableWidget_3.verticalHeader().setVisible(False)
-        self.tableWidget_3.setRowCount(0)
+            self.tableWidget_3.setColumnCount(7)
+            header_labels = ['ISSUE ID', 'ISBN NO', 'BOOK NAME', 'ISSUED TO NAME', 'ISSUED TO ID', 'DATE ISSUED',
+                             'EXPECTED RETURN DATE']
+            self.tableWidget_3.setHorizontalHeaderLabels(header_labels)
+            self.tableWidget_3.verticalHeader().setVisible(False)
+            self.tableWidget_3.setRowCount(0)
 
-        self.mycursor.execute('SELECT issue_id, ISBN_NO, book_name, issued_to_name, issued_to_id, date_issued, '
-                              'expected_return_date FROM library.issued_books WHERE ISBN_NO REGEXP %s or book_name '
-                              'REGEXP %s or issued_to_name REGEXP %s or issued_to_id REGEXP %s '
-                              ' ORDER BY date_issued DESC, issue_id DESC;', (search, search, search, search))
+            self.mycursor.execute('SELECT issue_id, ISBN_NO, book_name, issued_to_name, issued_to_id, date_issued, '
+                                  'expected_return_date FROM library.issued_books WHERE ISBN_NO REGEXP %s or book_name '
+                                  'REGEXP %s or issued_to_name REGEXP %s or issued_to_id REGEXP %s '
+                                  ' ORDER BY date_issued DESC, issue_id DESC;', (search, search, search, search))
 
-        for row_number, row_data in enumerate(self.mycursor):
-            self.tableWidget_3.insertRow(row_number)
-            for column_number, data in enumerate(row_data):
-                self.tableWidget_3.setItem(row_number, column_number,
-                                           QtWidgets.QTableWidgetItem(str(data)))
+            for row_number, row_data in enumerate(self.mycursor):
+                    self.tableWidget_3.insertRow(row_number)
+                    for column_number, data in enumerate(row_data):
+                            self.tableWidget_3.setItem(row_number, column_number,
+                                                       QtWidgets.QTableWidgetItem(str(data)))
 
-        self.tableWidget_3.resizeColumnToContents(2)
-        self.tableWidget_3.resizeColumnToContents(3)
-        self.tableWidget_3.resizeColumnToContents(4)
-        self.tableWidget_3.resizeColumnToContents(5)
-        self.tableWidget_3.resizeColumnToContents(6)
+            self.tableWidget_3.resizeColumnToContents(2)
+            self.tableWidget_3.resizeColumnToContents(3)
+            self.tableWidget_3.resizeColumnToContents(4)
+            self.tableWidget_3.resizeColumnToContents(5)
+            self.tableWidget_3.resizeColumnToContents(6)
 
-        self.stackedWidget_2.setCurrentWidget(self.page_6)
+            self.stackedWidget_2.setCurrentWidget(self.page_6)
 
     def pushButton_5_clicked(self):
-        self.tableWidget_3.setColumnCount(7)
-        header_labels = ['ISSUE ID', 'ISBN NO', 'BOOK NAME', 'ISSUED TO NAME', 'ISSUED TO ID', 'DATE ISSUED',
-                         'EXPECTED RETURN DATE']
-        self.tableWidget_3.setHorizontalHeaderLabels(header_labels)
-        self.tableWidget_3.verticalHeader().setVisible(False)
-        self.tableWidget_3.setRowCount(0)
+            self.tableWidget_3.setColumnCount(7)
+            header_labels = ['ISSUE ID', 'ISBN NO', 'BOOK NAME', 'ISSUED TO NAME', 'ISSUED TO ID', 'DATE ISSUED',
+                             'EXPECTED RETURN DATE']
+            self.tableWidget_3.setHorizontalHeaderLabels(header_labels)
+            self.tableWidget_3.verticalHeader().setVisible(False)
+            self.tableWidget_3.setRowCount(0)
 
-        self.mycursor.execute('SELECT issue_id, ISBN_NO, book_name, issued_to_name, issued_to_id, date_issued, '
-                              'expected_return_date FROM library.issued_books ORDER BY date_issued DESC, issue_id DESC;')
+            self.mycursor.execute('SELECT issue_id, ISBN_NO, book_name, issued_to_name, issued_to_id, date_issued, '
+                                  'expected_return_date FROM library.issued_books ORDER BY date_issued DESC, issue_id DESC;')
 
-        for row_number, row_data in enumerate(self.mycursor):
-            self.tableWidget_3.insertRow(row_number)
-            for column_number, data in enumerate(row_data):
-                self.tableWidget_3.setItem(row_number, column_number,
-                                           QtWidgets.QTableWidgetItem(str(data)))
+            for row_number, row_data in enumerate(self.mycursor):
+                    self.tableWidget_3.insertRow(row_number)
+                    for column_number, data in enumerate(row_data):
+                            self.tableWidget_3.setItem(row_number, column_number,
+                                                       QtWidgets.QTableWidgetItem(str(data)))
 
-        self.tableWidget_3.resizeColumnToContents(2)
-        self.tableWidget_3.resizeColumnToContents(3)
-        self.tableWidget_3.resizeColumnToContents(4)
-        self.tableWidget_3.resizeColumnToContents(5)
-        self.tableWidget_3.resizeColumnToContents(6)
+            self.tableWidget_3.resizeColumnToContents(2)
+            self.tableWidget_3.resizeColumnToContents(3)
+            self.tableWidget_3.resizeColumnToContents(4)
+            self.tableWidget_3.resizeColumnToContents(5)
+            self.tableWidget_3.resizeColumnToContents(6)
 
-        self.stackedWidget_2.setCurrentWidget(self.page_6)
+            self.stackedWidget_2.setCurrentWidget(self.page_6)
 
     def pushButton_16_clicked(self):
-        search = self.lineEdit_6.text()
-        if search == '':
-            search = '.'
+            search = self.lineEdit_6.text()
+            if search == '':
+                    search = '.'
 
-        self.tableWidget_2.setColumnCount(8)
-        header_labels = ['BOOK ID', 'ISBN NO', 'BOOK NAME', 'EDITION', 'AUTHOR', 'PUBLISHER', 'DATE PUBLISHED',
-                         'BOOK TYPE']
-        self.tableWidget_2.setHorizontalHeaderLabels(header_labels)
-        self.tableWidget_2.verticalHeader().setVisible(False)
-        self.tableWidget_2.setRowCount(0)
+            self.tableWidget_2.setColumnCount(8)
+            header_labels = ['BOOK ID', 'ISBN NO', 'BOOK NAME', 'EDITION', 'AUTHOR', 'PUBLISHER', 'DATE PUBLISHED',
+                             'BOOK TYPE']
+            self.tableWidget_2.setHorizontalHeaderLabels(header_labels)
+            self.tableWidget_2.verticalHeader().setVisible(False)
+            self.tableWidget_2.setRowCount(0)
 
-        self.mycursor.execute(
-            'SELECT * FROM library.books WHERE ISBN_NO REGEXP %s or book_name REGEXP %s or author REGEXP %s'
-            ' or publisher REGEXP %s or book_type REGEXP %s;',
-            (search, search, search, search, search))
+            self.mycursor.execute(
+                    'SELECT * FROM library.books WHERE ISBN_NO REGEXP %s or book_name REGEXP %s or author REGEXP %s'
+                    ' or publisher REGEXP %s or book_type REGEXP %s;',
+                    (search, search, search, search, search))
 
-        for row_number, row_data in enumerate(self.mycursor):
-            self.tableWidget_2.insertRow(row_number)
-            for column_number, data in enumerate(row_data):
-                self.tableWidget_2.setItem(row_number, column_number,
-                                           QtWidgets.QTableWidgetItem(str(data)))
+            for row_number, row_data in enumerate(self.mycursor):
+                    self.tableWidget_2.insertRow(row_number)
+                    for column_number, data in enumerate(row_data):
+                            self.tableWidget_2.setItem(row_number, column_number,
+                                                       QtWidgets.QTableWidgetItem(str(data)))
 
-        self.tableWidget_2.resizeColumnToContents(2)
-        self.tableWidget_2.resizeColumnToContents(3)
-        self.tableWidget_2.resizeColumnToContents(4)
-        self.tableWidget_2.resizeColumnToContents(5)
-        self.tableWidget_2.resizeColumnToContents(6)
-        self.tableWidget_2.resizeColumnToContents(7)
+            self.tableWidget_2.resizeColumnToContents(2)
+            self.tableWidget_2.resizeColumnToContents(3)
+            self.tableWidget_2.resizeColumnToContents(4)
+            self.tableWidget_2.resizeColumnToContents(5)
+            self.tableWidget_2.resizeColumnToContents(6)
+            self.tableWidget_2.resizeColumnToContents(7)
 
-        self.stackedWidget_2.setCurrentWidget(self.page_5)
+            self.stackedWidget_2.setCurrentWidget(self.page_5)
 
     def pushButton_14_clicked(self):
-        id = self.lineEdit_5.text()
-        if id != '':
-            try:
-                self.mycursor.execute('DELETE FROM library.books WHERE book_id = %s', (id,))
-                self.db.commit()
+            id = self.lineEdit_5.text()
+            if id != '':
+                    try:
+                            self.mycursor.execute('DELETE FROM library.books WHERE book_id = %s', (id,))
+                            self.db.commit()
 
-                warning = QMessageBox()
-                warning.setWindowTitle("Success")
-                warning.setIcon(QMessageBox.Information)
-                warning.setText("Book deleted successfully")
-                x = warning.exec_()
-                self.pushButton_10_clicked()
-                self.lineEdit_5.clear()
-            except:
-                warning = QMessageBox()
-                warning.setWindowTitle("Success")
-                warning.setIcon(QMessageBox.Warning)
-                warning.setText("Incorrect book ID")
-                x = warning.exec_()
-        else:
-            warning = QMessageBox()
-            warning.setWindowTitle("Success")
-            warning.setIcon(QMessageBox.Warning)
-            warning.setText("Incorrect book ID")
-            x = warning.exec_()
+                            warning = QMessageBox()
+                            warning.setWindowTitle("Success")
+                            warning.setIcon(QMessageBox.Information)
+                            warning.setText("Book deleted successfully")
+                            x = warning.exec_()
+                            self.pushButton_10_clicked()
+                            self.lineEdit_5.clear()
+                    except:
+                            warning = QMessageBox()
+                            warning.setWindowTitle("Success")
+                            warning.setIcon(QMessageBox.Warning)
+                            warning.setText("Incorrect book ID")
+                            x = warning.exec_()
+            else:
+                    warning = QMessageBox()
+                    warning.setWindowTitle("Success")
+                    warning.setIcon(QMessageBox.Warning)
+                    warning.setText("Incorrect book ID")
+                    x = warning.exec_()
 
     def pushButton_10_clicked(self):
-        self.tableWidget_2.setColumnCount(8)
-        header_labels = ['BOOK ID', 'ISBN NO', 'BOOK NAME', 'EDITION', 'AUTHOR', 'PUBLISHER', 'DATE PUBLISHED',
-                         'BOOK TYPE']
-        self.tableWidget_2.setHorizontalHeaderLabels(header_labels)
-        self.tableWidget_2.verticalHeader().setVisible(False)
-        self.tableWidget_2.setRowCount(0)
+            self.tableWidget_2.setColumnCount(8)
+            header_labels = ['BOOK ID', 'ISBN NO', 'BOOK NAME', 'EDITION', 'AUTHOR', 'PUBLISHER', 'DATE PUBLISHED',
+                             'BOOK TYPE']
+            self.tableWidget_2.setHorizontalHeaderLabels(header_labels)
+            self.tableWidget_2.verticalHeader().setVisible(False)
+            self.tableWidget_2.setRowCount(0)
 
-        self.mycursor.execute('SELECT * FROM library.books;')
+            self.mycursor.execute('SELECT * FROM library.books;')
 
-        for row_number, row_data in enumerate(self.mycursor):
-            self.tableWidget_2.insertRow(row_number)
-            for column_number, data in enumerate(row_data):
-                self.tableWidget_2.setItem(row_number, column_number,
-                                           QtWidgets.QTableWidgetItem(str(data)))
+            for row_number, row_data in enumerate(self.mycursor):
+                    self.tableWidget_2.insertRow(row_number)
+                    for column_number, data in enumerate(row_data):
+                            self.tableWidget_2.setItem(row_number, column_number,
+                                                       QtWidgets.QTableWidgetItem(str(data)))
 
-        self.tableWidget_2.resizeColumnToContents(2)
-        self.tableWidget_2.resizeColumnToContents(3)
-        self.tableWidget_2.resizeColumnToContents(4)
-        self.tableWidget_2.resizeColumnToContents(5)
-        self.tableWidget_2.resizeColumnToContents(6)
-        self.tableWidget_2.resizeColumnToContents(7)
+            self.tableWidget_2.resizeColumnToContents(2)
+            self.tableWidget_2.resizeColumnToContents(3)
+            self.tableWidget_2.resizeColumnToContents(4)
+            self.tableWidget_2.resizeColumnToContents(5)
+            self.tableWidget_2.resizeColumnToContents(6)
+            self.tableWidget_2.resizeColumnToContents(7)
 
-        self.stackedWidget_2.setCurrentWidget(self.page_5)
+            self.stackedWidget_2.setCurrentWidget(self.page_5)
 
     def pushButton_13_clicked(self):
-        search = self.lineEdit_4.text()
-        if search == '':
-            search = '.'
+            search = self.lineEdit_4.text()
+            if search == '':
+                    search = '.'
 
-        self.tableWidget.setColumnCount(9)
-        header_labels = ['USER ID', 'FIRST NAME', 'LAST NAME', 'USER', 'DATE JOINED', 'PHONE NUMBER', 'EMAIL ADDRESS',
-                         'TOTAL BOOKS BORROWED', 'ON DATE RETURN PERCENTAGE']
-        self.tableWidget.setHorizontalHeaderLabels(header_labels)
-        self.tableWidget.verticalHeader().setVisible(False)
-        self.tableWidget.setRowCount(0)
+            self.tableWidget.setColumnCount(9)
+            header_labels = ['USER ID', 'FIRST NAME', 'LAST NAME', 'USER', 'DATE JOINED', 'PHONE NUMBER',
+                             'EMAIL ADDRESS',
+                             'TOTAL BOOKS BORROWED', 'ON DATE RETURN PERCENTAGE']
+            self.tableWidget.setHorizontalHeaderLabels(header_labels)
+            self.tableWidget.verticalHeader().setVisible(False)
+            self.tableWidget.setRowCount(0)
 
-        self.mycursor.execute('SELECT user_id, first_name, last_name, user_type, date_joined, phone_number, '
-                              'email_address, total_books_borrowed, on_date_return FROM library.users WHERE '
-                              'user_id REGEXP %s or first_name REGEXP %s or last_name REGEXP %s or user_type REGEXP %s '
-                              'or email_address REGEXP %s', (search, search, search, search, search))
+            self.mycursor.execute('SELECT user_id, first_name, last_name, user_type, date_joined, phone_number, '
+                                  'email_address, total_books_borrowed, on_date_return FROM library.users WHERE '
+                                  'user_id REGEXP %s or first_name REGEXP %s or last_name REGEXP %s or user_type REGEXP %s '
+                                  'or email_address REGEXP %s', (search, search, search, search, search))
 
-        for row_number, row_data in enumerate(self.mycursor):
-            self.tableWidget.insertRow(row_number)
-            for column_number, data in enumerate(row_data):
-                self.tableWidget.setItem(row_number, column_number,
-                                         QtWidgets.QTableWidgetItem(str(data)))
+            for row_number, row_data in enumerate(self.mycursor):
+                    self.tableWidget.insertRow(row_number)
+                    for column_number, data in enumerate(row_data):
+                            self.tableWidget.setItem(row_number, column_number,
+                                                     QtWidgets.QTableWidgetItem(str(data)))
 
-        self.tableWidget.resizeColumnToContents(6)
+            self.tableWidget.resizeColumnToContents(6)
 
-        self.stackedWidget_2.setCurrentWidget(self.page_4)
+            self.stackedWidget_2.setCurrentWidget(self.page_4)
 
     def pushButton_12_clicked(self):
-        id = self.lineEdit_3.text()
-        try:
-            self.mycursor.execute('DELETE FROM library.users where user_id = %s', (id,))
-            self.db.commit()
-            warning = QMessageBox()
-            warning.setWindowTitle("Success")
-            warning.setIcon(QMessageBox.Information)
-            warning.setText("User deleted successfully")
-            x = warning.exec_()
+            id = self.lineEdit_3.text()
+            try:
+                    self.mycursor.execute('DELETE FROM library.users where user_id = %s', (id,))
+                    self.db.commit()
+                    warning = QMessageBox()
+                    warning.setWindowTitle("Success")
+                    warning.setIcon(QMessageBox.Information)
+                    warning.setText("User deleted successfully")
+                    x = warning.exec_()
 
-            self.lineEdit_3.clear()
-            self.pushButton_7_clicked()
-        except:
+                    self.lineEdit_3.clear()
+                    self.pushButton_7_clicked()
+            except:
 
-            warning = QMessageBox()
-            warning.setWindowTitle("Success")
-            warning.setIcon(QMessageBox.Warning)
-            warning.setText("User deleted successfully")
-            x = warning.exec_()
+                    warning = QMessageBox()
+                    warning.setWindowTitle("Success")
+                    warning.setIcon(QMessageBox.Warning)
+                    warning.setText("User deleted successfully")
+                    x = warning.exec_()
 
     def pushButton_7_clicked(self):
-        self.tableWidget.setColumnCount(9)
-        header_labels = ['USER ID', 'FIRST NAME', 'LAST NAME', 'USER', 'DATE JOINED', 'PHONE NUMBER', 'EMAIL ADDRESS',
-                         'TOTAL BOOKS BORROWED', 'ON DATE RETURN PERCENTAGE']
-        self.tableWidget.setHorizontalHeaderLabels(header_labels)
-        self.tableWidget.verticalHeader().setVisible(False)
-        self.tableWidget.setRowCount(0)
+            self.tableWidget.setColumnCount(9)
+            header_labels = ['USER ID', 'FIRST NAME', 'LAST NAME', 'USER', 'DATE JOINED', 'PHONE NUMBER',
+                             'EMAIL ADDRESS',
+                             'TOTAL BOOKS BORROWED', 'ON DATE RETURN PERCENTAGE']
+            self.tableWidget.setHorizontalHeaderLabels(header_labels)
+            self.tableWidget.verticalHeader().setVisible(False)
+            self.tableWidget.setRowCount(0)
 
-        self.mycursor.execute('SELECT user_id, first_name, last_name, user_type, date_joined, phone_number, '
-                              'email_address, total_books_borrowed, on_date_return FROM library.users')
+            self.mycursor.execute('SELECT user_id, first_name, last_name, user_type, date_joined, phone_number, '
+                                  'email_address, total_books_borrowed, on_date_return FROM library.users')
 
-        for row_number, row_data in enumerate(self.mycursor):
-            self.tableWidget.insertRow(row_number)
-            for column_number, data in enumerate(row_data):
-                self.tableWidget.setItem(row_number, column_number,
-                                         QtWidgets.QTableWidgetItem(str(data)))
+            for row_number, row_data in enumerate(self.mycursor):
+                    self.tableWidget.insertRow(row_number)
+                    for column_number, data in enumerate(row_data):
+                            self.tableWidget.setItem(row_number, column_number,
+                                                     QtWidgets.QTableWidgetItem(str(data)))
 
-        self.tableWidget.resizeColumnToContents(6)
-        self.tableWidget.resizeColumnToContents(7)
-        self.tableWidget.resizeColumnToContents(8)
+            self.tableWidget.resizeColumnToContents(6)
+            self.tableWidget.resizeColumnToContents(7)
+            self.tableWidget.resizeColumnToContents(8)
 
-        self.stackedWidget_2.setCurrentWidget(self.page_4)
+            self.stackedWidget_2.setCurrentWidget(self.page_4)
 
     def pushButton_4_clicked(self):
-        self.update_librarian_labels(self.current_session_email)
-        self.stackedWidget_2.setCurrentWidget(self.page_3)
+            self.update_librarian_labels(self.current_session_email)
+            self.stackedWidget_2.setCurrentWidget(self.page_3)
 
     def pushButton_8_clicked(self):
-        self.stackedWidget.setCurrentWidget(self.page)
-        self.lineEdit_2.clear()
-        self.lineEdit.clear()
+            self.stackedWidget.setCurrentWidget(self.page)
+            self.lineEdit_2.clear()
+            self.lineEdit.clear()
 
     def update_librarian_labels(self, username):
-        self.mycursor.execute("SELECT COUNT(*) FROM library.users WHERE user_type = 'Student';")
-        students = [i for i in self.mycursor][0][0]
-        self.label_42.setText(f'{students}\n\nTotal \nlibrary \nstudents')
+            self.mycursor.execute("SELECT COUNT(*) FROM library.users WHERE user_type = 'Student';")
+            students = [i for i in self.mycursor][0][0]
+            self.label_42.setText(f'{students}\n\nTotal \nlibrary \nstudents')
 
-        self.mycursor.execute("SELECT COUNT(*) FROM library.users WHERE user_type = 'Lecturer';")
-        lecs = [i for i in self.mycursor][0][0]
-        self.label_40.setText(f'{lecs}\n\nTotal \nlibrary \nlecturers')
+            self.mycursor.execute("SELECT COUNT(*) FROM library.users WHERE user_type = 'Lecturer';")
+            lecs = [i for i in self.mycursor][0][0]
+            self.label_40.setText(f'{lecs}\n\nTotal \nlibrary \nlecturers')
 
-        self.mycursor.execute("SELECT COUNT(*) FROM library.books;")
-        books = [i for i in self.mycursor][0][0]
-        self.label_44.setText(f'{books}\n\nTotal \nlibrary \nbooks')
+            self.mycursor.execute("SELECT COUNT(*) FROM library.books;")
+            books = [i for i in self.mycursor][0][0]
+            self.label_44.setText(f'{books}\n\nTotal \nlibrary \nbooks')
 
-        self.mycursor.execute("SELECT COUNT(*) FROM library.issued_books;")
-        issued_books = [i for i in self.mycursor][0][0]
-        self.label_34.setText(f'{issued_books}\n\nTotal \nIssued \nbooks')
+            self.mycursor.execute("SELECT COUNT(*) FROM library.issued_books;")
+            issued_books = [i for i in self.mycursor][0][0]
+            self.label_34.setText(f'{issued_books}\n\nTotal \nIssued \nbooks')
 
-        self.mycursor.execute("SELECT COUNT(*) FROM library.issued_books WHERE returned = 'YES';")
-        returned_books = [i for i in self.mycursor][0][0]
-        self.label_38.setText(f'{returned_books}\n\nTotal \nReturned \nbooks')
+            self.mycursor.execute("SELECT COUNT(*) FROM library.issued_books WHERE returned = 'YES';")
+            returned_books = [i for i in self.mycursor][0][0]
+            self.label_38.setText(f'{returned_books}\n\nTotal \nReturned \nbooks')
 
-        self.mycursor.execute(
-            "SELECT COUNT(*) FROM library.issued_books WHERE returned = 'NO' AND issue_status = 'OVERDUE';")
-        overdue_books = [i for i in self.mycursor][0][0]
-        self.label_36.setText(f'{overdue_books}\n\nCurrently \nOverdue \nbooks')
+            self.mycursor.execute(
+                    "SELECT COUNT(*) FROM library.issued_books WHERE returned = 'NO' AND issue_status = 'OVERDUE';")
+            overdue_books = [i for i in self.mycursor][0][0]
+            self.label_36.setText(f'{overdue_books}\n\nCurrently \nOverdue \nbooks')
 
-        self.mycursor.execute('SELECT first_name FROM library.users WHERE email_address = %s OR phone_number = %s',
-                              (username, username))
-        user = [i for i in self.mycursor][0][0]
-        self.label_4.setText(f'Welcome \n{user}')
+            self.mycursor.execute('SELECT first_name FROM library.users WHERE email_address = %s OR phone_number = %s',
+                                  (username, username))
+            user = [i for i in self.mycursor][0][0]
+            self.label_4.setText(f'Welcome \n{user}')
 
     def update_student_homepage(self, username):
-        self.mycursor.execute('SELECT first_name FROM library.users WHERE email_address = %s OR phone_number = %s',
-                          (username, username))
-        user = [i for i in self.mycursor][0][0]
-        self.label_56.setText(f'Welcome \n{user}')
+            self.mycursor.execute('SELECT first_name FROM library.users WHERE email_address = %s OR phone_number = %s',
+                                  (username, username))
+            user = [i for i in self.mycursor][0][0]
+            self.label_56.setText(f'Welcome \n{user}')
 
-        self.mycursor.execute('SELECT COUNT(*) FROM library.issued_books WHERE issued_to_id = %s;', (username,))
-        num = [i for i in self.mycursor][0][0]
-        self.label_60.setText(f'{num}\n\nTotal\nBorrowed \nbooks')
+            self.mycursor.execute('SELECT COUNT(*) FROM library.issued_books WHERE issued_to_id = %s;', (username,))
+            num = [i for i in self.mycursor][0][0]
+            self.label_60.setText(f'{num}\n\nTotal\nBorrowed \nbooks')
 
+            self.mycursor.execute(
+                    'SELECT COUNT(*) FROM library.issued_books WHERE issued_to_id = %s and returned = "YES";',
+                    (username,))
+            ret = [i for i in self.mycursor][0][0]
+            self.label_62.setText(f'{ret}\n\nTotal \nReturned \nbooks')
 
-        self.mycursor.execute('SELECT COUNT(*) FROM library.issued_books WHERE issued_to_id = %s and returned = "YES";', (username,))
-        ret = [i for i in self.mycursor][0][0]
-        self.label_62.setText(f'{ret}\n\nTotal \nReturned \nbooks')
+            self.mycursor.execute('SELECT on_date_return FROM library.users WHERE email_address = %s;',
+                                  (username,))
+            percentage = [i for i in self.mycursor][0][0]
+            self.label_64.setText(f'{percentage}%\n\n On-Time\n Return \nPercetage')
 
-        self.mycursor.execute('SELECT on_date_return FROM library.users WHERE email_address = %s;',
-                              (username,))
-        percentage = [i for i in self.mycursor][0][0]
-        self.label_64.setText(f'{percentage}%\n\n On-Time\n Return \nPercetage')
+            self.mycursor.execute(
+                    'SELECT COUNT(*) FROM library.issued_books WHERE issued_to_id = %s and returned = "NO";',
+                    (username,))
+            possession = [i for i in self.mycursor][0][0]
+            self.label_72.setText(f'{possession}\n\nBooks \ncurrently\n on posesion')
 
-        self.mycursor.execute('SELECT COUNT(*) FROM library.issued_books WHERE issued_to_id = %s and returned = "NO";',
-                          (username,))
-        possession = [i for i in self.mycursor][0][0]
-        self.label_72.setText(f'{possession}\n\nBooks \ncurrently\n on posesion')
+            self.mycursor.execute(
+                    'SELECT COUNT(*) FROM library.issued_books WHERE issued_to_id = %s and returned = "NO" and issue_status = "OVERDUE";',
+                    (username,))
+            ovd = [i for i in self.mycursor][0][0]
+            self.label_74.setText(f'{ovd}\n\nCurrently \nOverdue\nbooks')
 
-        self.mycursor.execute('SELECT COUNT(*) FROM library.issued_books WHERE issued_to_id = %s and returned = "NO" and issue_status = "OVERDUE";',
-                              (username,))
-        ovd = [i for i in self.mycursor][0][0]
-        self.label_74.setText(f'{ovd}\n\nCurrently \nOverdue\nbooks')
+            self.mycursor.execute(
+                    'SELECT COUNT(*) FROM library.issued_books WHERE issued_to_id = %s and issue_status = "OVERDUE";',
+                    (username,))
+            total_overdue = [i for i in self.mycursor][0][0]
+            self.label_76.setText(f'{total_overdue}\n\nTotal \nOverdue \nbooks')
 
-        self.mycursor.execute(
-                'SELECT COUNT(*) FROM library.issued_books WHERE issued_to_id = %s and issue_status = "OVERDUE";',
-                (username,))
-        total_overdue = [i for i in self.mycursor][0][0]
-        self.label_76.setText(f'{total_overdue}\n\nTotal \nOverdue \nbooks')
+    def update_lecs_homepage(self, username):
+            self.mycursor.execute('SELECT first_name FROM library.users WHERE email_address = %s OR phone_number = %s',
+                                  (username, username))
+            user = [i for i in self.mycursor][0][0]
+            self.label_81.setText(f'Welcome \n{user}')
+
+            self.mycursor.execute('SELECT courses FROM library.lecturer_details WHERE email = %s;', (username,))
+            data = [i for i in self.mycursor][0][0]
+            data = data.split(',')
+
+            self.mycursor.execute('SELECT course FROM library.student_details;')
+            students = [i for i in self.mycursor]
+
+            student_number = 0
+            for student in students:
+                    if student[0] in data:
+                            student_number += 1
+
+            self.label_85.setText(f'{student_number}\n\nTotal\n Students \nlecturing')
+
+            self.label_87.setText(f'{len(data)}\n\nTotal \n Courses \nlecturing')
+
+            self.mycursor.execute('SELECT COUNT(*) FROM library.reading_list WHERE lecturer_email = %s;', (username,))
+            reccomended_books = [i for i in self.mycursor][0][0]
+            self.label_91.setText(f'{reccomended_books}\n\nBooks \nrecommended')
+
+            self.mycursor.execute('SELECT COUNT(*) FROM library.lec_reading_list_names WHERE lec_email = %s;',
+                                  (username,))
+            r_lists = [i for i in self.mycursor][0][0]
+            self.label_95.setText(f'{r_lists}\n\n Total\nReading\nlists')
 
     def pushButton_clicked(self):
-        username = self.lineEdit.text()
-        password = self.lineEdit_2.text()
-        try:
-            self.mycursor.execute('SELECT pass FROM library.login_details WHERE email = %s or phone_number = %s;',
-                                  (username, username))
-            actual_password = [i for i in self.mycursor][0][0]
-            if password == actual_password:
-                self.update_stats()
-                self.update_overdue()
-                self.update_penaty()
+            username = self.lineEdit.text()
+            password = self.lineEdit_2.text()
+            try:
+                    self.mycursor.execute(
+                            'SELECT pass FROM library.login_details WHERE email = %s or phone_number = %s;',
+                            (username, username))
+                    actual_password = [i for i in self.mycursor][0][0]
+                    if password == actual_password:
+                            self.update_stats()
+                            self.update_overdue()
+                            self.update_penaty()
 
-                self.mycursor.execute(
-                    'SELECT email_address, user_type FROM library.users WHERE email_address = %s or phone_number = %s;',
-                    (username, username))
-                V = [i for i in self.mycursor][0]
-                self.current_session_email = V[0]
-                user = V[1]
-                # Edit homepages here
+                            self.mycursor.execute(
+                                    'SELECT email_address, user_type FROM library.users WHERE email_address = %s or phone_number = %s;',
+                                    (username, username))
+                            V = [i for i in self.mycursor][0]
+                            self.current_session_email = V[0]
+                            user = V[1]
+                            # Edit homepages here
 
-                if user == 'Librarian':
+                            if user == 'Librarian':
 
-                        self.update_librarian_labels(username)
-                        self.stackedWidget.setCurrentWidget(self.page_2)
+                                    self.update_librarian_labels(username)
+                                    self.stackedWidget.setCurrentWidget(self.page_2)
+                                    self.pushButton_4_clicked()
 
-                elif user == 'Student':
-                        self.update_student_homepage(self.current_session_email)
-                        self.stackedWidget.setCurrentWidget(self.page_12)
+                            elif user == 'Student':
+                                    self.update_student_homepage(self.current_session_email)
+                                    self.stackedWidget.setCurrentWidget(self.page_12)
+                                    self.pushButton_11_clicked()
+
+                            elif user == 'Lecturer':
+                                    self.update_lecs_homepage(self.current_session_email)
+                                    self.stackedWidget.setCurrentWidget(self.page_22)
+                                    self.pushButton_49_clicked()
 
 
-            else:
-                warning = QMessageBox()
-                warning.setWindowTitle("Incorrect login credentials")
-                warning.setIcon(QMessageBox.Warning)
-                warning.setText("Incorrect username or password")
-                x = warning.exec_()
+                    else:
+                            warning = QMessageBox()
+                            warning.setWindowTitle("Incorrect login credentials")
+                            warning.setIcon(QMessageBox.Warning)
+                            warning.setText("Incorrect username or password")
+                            x = warning.exec_()
 
-        except:
-            warning = QMessageBox()
-            warning.setWindowTitle("Incorrect login credentials")
-            warning.setIcon(QMessageBox.Warning)
-            warning.setText("Incorrect username or password")
-            x = warning.exec_()
+            except:
+                    warning = QMessageBox()
+                    warning.setWindowTitle("Incorrect login credentials")
+                    warning.setIcon(QMessageBox.Warning)
+                    warning.setText("Incorrect username or password")
+                    x = warning.exec_()
 
+    def pushButton_49_clicked(self):
+            self.update_lecs_homepage(self.current_session_email)
+            self.stackedWidget_4.setCurrentWidget(self.page_23)
 
 import resources_rc
 import re
@@ -4306,6 +6191,8 @@ from datetime import datetime
 import warnings
 
 warnings.filterwarnings('ignore', 'pandas')
+
+
 
 if __name__ == "__main__":
     import sys

@@ -7,7 +7,6 @@ import warnings
 warnings.filterwarnings('ignore', 'pandas')
 
 
-
 db = mysql.connector.connect(
     user = 'root',
     host = 'localhost',
@@ -16,22 +15,26 @@ db = mysql.connector.connect(
 
 mycursor = db.cursor()
 
-mycursor.execute('SELECT * FROM library.issued_books WHERE issue_id = 3;')
-data = [i for i in mycursor][0]
-user = data[3]
-state = data[-2]
+querry1 = 'SELECT * FROM library.return_request WHERE return_id = %s;'
+querry2 = 'UPDATE  library.issued_books SET returned = "YES", actual_return_date = %s WHERE issue_id = %s'
+querry3 = 'DELETE FROM library.return_request WHERE return_id = %s;'
+now = datetime.now().date()
+id = 3
 
-issue_id = data[0]
-isbn = data[1]
-book_name = data[2]
-issue_date = data[5]
-return_date = data[6]
-status = data[-3]
-penalty = data[-1]
+mycursor.execute(querry1, (id,))
+request_details = [i for i in mycursor][0]
+issue_id = request_details[2]
+book = request_details[4]
+
+mycursor.execute(querry2, (now, issue_id))
+db.commit()
+mycursor.execute(querry3, (id,))
+db.commit()
+print(request_details)
 
 
-print(status)
 
+print(now)
 
 
 

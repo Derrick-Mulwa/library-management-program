@@ -182,10 +182,10 @@ email VARCHAR(100) PRIMARY KEY,
 courses VARCHAR(2000));
 
 INSERT INTO lecturer_details VALUES
-('philipmutinda@jkuat.ac.ke', 'BSc Industrial Chemistry,BSc Information Technology,BSc Leather Technology,Diploma in Information Technology,Diploma in Computer Science,Diploma in Food Science and Technology'),
+('agnesnjururi@jkuat.ac.ke', 'BSc Industrial Chemistry,BSc Mechatronics Engineering,BSc Information Technology,BSc Leather Technology,Diploma in Information Technology,Diploma in Computer Science,Diploma in Food Science and Technology'),
 ('muiru.pius@jkuat.ac.ke', 'BSc Information Technology, BSc Land Resource Planning and Management,BSc Landscape Architecture,Diploma in Information Technology,Diploma in Computer Science,Diploma in Food Science and Technology'),
 ('alex.simiyu@jkuat.ac.ke', 'BSc Manufacturing Engineering,BSc Marine Engineering,BSc Information Technology,BSc Mathematics,BSc Mechanical Engineering,Diploma in Information Technology,Diploma in Computer Science,Diploma in Food Science and Technology'),
-('margeretchebet@jkuat.ac.ke', 'BSc Information Technology,BSc Land Resource Planning and Management,Diploma in Information Technology,Diploma in Computer Science,Diploma in Food Science and Technology');
+('margeretchebet@jkuat.ac.ke', 'BSc Information Technology,BSc Land Resource Planning and Management,BSc Mechatronics Engineering,Diploma in Computer Science,Diploma in Food Science and Technology');
 
 CREATE TABLE borrow_request(
 borrow_id INT PRIMARY KEY AUTO_INCREMENT,
@@ -198,7 +198,7 @@ author VARCHAR(200),
 publisher VARCHAR(200),
 date_published DATE,
 book_type VARCHAR(100), 
-borrow_or_return VARCHAR(100));
+expected_return_date DATE);
 
 CREATE TABLE return_request(
 return_id INT PRIMARY KEY AUTO_INCREMENT,

@@ -6,6 +6,9 @@
     <file>images/login.jpg</file>
   </qresource>
   <qresource prefix="icons">
+    <file>icons/icons8-teacher-96.png</file>
+    <file>icons/icons8-check-book-100.png</file>
+    <file>icons/icons8-classroom-100.png</file>
     <file>icons/icons8-deadline-64.png</file>
     <file>icons/icons8-mine-96.png</file>
     <file>icons/icons8-stopwatch-96.png</file>
