@@ -11,7 +11,11 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Form</string>
+   <string>My Library</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resources.qrc">
+    <normaloff>:/icons/icons/icons8-books-100.png</normaloff>:/icons/icons/icons8-books-100.png</iconset>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <property name="spacing">
